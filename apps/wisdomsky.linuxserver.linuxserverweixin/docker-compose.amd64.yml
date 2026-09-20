@@ -1,7 +1,7 @@
 name: linuxserver-weixin
 services:
   app:
-    image: linuxserver/weixin:version-f1376de7@sha256:2c9714a9246a1b0e329e1849b563b928d9ed8d286ca71f8d298f031557e69e40
+    image: linuxserver/weixin:version-e017e911@sha256:8ab7e0261de92a4b7576f1f85a20da175de08acd33279c3af81663ea240f6ff4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: 微信（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'
-  version: version-f1376de7
+  version: version-e017e911

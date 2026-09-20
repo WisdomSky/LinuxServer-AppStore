@@ -1,7 +1,7 @@
 name: linuxserver-sealskin
 services:
   app:
-    image: linuxserver/sealskin:0.3.2@sha256:0b0a69cbc2336253090fd4dcf6f9d8af01380c3552ae4cde5270b08e4dfbc421
+    image: linuxserver/sealskin:0.3.2@sha256:9ba56daac8cec4ce2f23e2c9840d34243206a122d9a240ea92b87e6fe8b85dd9
     restart: unless-stopped
     environment:
       PUID: $PUID

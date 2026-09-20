@@ -1,7 +1,7 @@
 name: linuxserver-babybuddy
 services:
   app:
-    image: linuxserver/babybuddy:2.10.1@sha256:a527f5dd3cd6dbad154ebf64494b395298989c62326ed1c2d7cb7a7e1c808eac
+    image: linuxserver/babybuddy:2.11.0@sha256:e83018ecdbccdc3da19909afbf365564fafd02fa43846449ce23ec5decfef91a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -49,4 +49,4 @@ x-casaos:
     zh_TW: Babybuddy（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbabybuddy
   port_map: '8000'
-  version: 2.10.1
+  version: 2.11.0
