@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.21.0
+    image: linuxserver/flexget:3.21.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -141,4 +141,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'
-  version: 3.21.0
+  version: 3.21.1
