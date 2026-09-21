@@ -1,7 +1,7 @@
 name: linuxserver-wikijs
 services:
   app:
-    image: linuxserver/wikijs:2.5.314
+    image: linuxserver/wikijs:2.5.315
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -57,4 +57,4 @@ x-casaos:
     zh_TW: Wikijs（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverwikijs
   port_map: '3000'
-  version: 2.5.314
+  version: 2.5.315

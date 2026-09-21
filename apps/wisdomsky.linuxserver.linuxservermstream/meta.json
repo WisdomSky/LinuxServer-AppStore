@@ -12,13 +12,13 @@
   "title": "Mstream (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservermstream",
-  "version": "6.28.1",
+  "version": "6.29.0",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 394749885,
-    "arm64": 396383659
+    "amd64": 394780978,
+    "arm64": 396435744
   }
 }
