@@ -1,7 +1,7 @@
 name: linuxserver-bambustudio
 services:
   app:
-    image: linuxserver/bambustudio:02.08.03@sha256:efce15e81c4a3ae8ff09329bcb2c95bafdce32bebc20679ee21559a751a7e4f4
+    image: linuxserver/bambustudio:02.08.04@sha256:85790eb8db0d1815255d2569661beb5880328dfb9e4268f86773c8be14d54f77
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Bambustudio（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbambustudio
   port_map: '3000'
-  version: 02.08.03
+  version: 02.08.04

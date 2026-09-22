@@ -1,7 +1,7 @@
 name: linuxserver-apprise-api
 services:
   app:
-    image: linuxserver/apprise-api:1.5.4@sha256:d639addc3ffb7d0020cd2aa992ac9d7042f263505fef0baa559d199cbb5526ff
+    image: linuxserver/apprise-api:1.5.4@sha256:766737630dd60b861d7cd175f4f2e39449c0040a05b8e79247a0716b32b9e9da
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-kdenlive
 services:
   app:
-    image: linuxserver/kdenlive:26.08.1@sha256:cea4e05b0d53947cf560c8988d6f5ffbbc22a884327bc3d1ddb1de9727272547
+    image: linuxserver/kdenlive:26.08.1@sha256:ea418404659a808693c047f7a91ae1fa5d6b3b7b739977668e321e03865234a5
     restart: unless-stopped
     environment:
       PUID: $PUID

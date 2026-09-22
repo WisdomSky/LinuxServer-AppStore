@@ -11,12 +11,12 @@
   "title": "Webstation (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverwebstation",
-  "version": "0.8.5-romm",
+  "version": "0.9.0-romm",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 2750197244
+    "amd64": 2761295726
   }
 }

@@ -1,7 +1,7 @@
 name: linuxserver-pycharm
 services:
   app:
-    image: linuxserver/pycharm:2026.2.2
+    image: linuxserver/pycharm:2026.2.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Pycharm（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpycharm
   port_map: '3000'
-  version: 2026.2.2
+  version: 2026.2.3

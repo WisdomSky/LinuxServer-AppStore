@@ -1,7 +1,7 @@
 name: linuxserver-thelounge
 services:
   app:
-    image: linuxserver/thelounge:4.5.2@sha256:ec07e6589428704e8c6c115f0e8bc6524422c92329c7f0f99a195805188d5fbe
+    image: linuxserver/thelounge:4.5.2@sha256:062b79d7ec0c3cab6f3894934b31ae4bd6c438cdbd28e52a92837389cc7c953a
     restart: unless-stopped
     environment:
       PUID: $PUID

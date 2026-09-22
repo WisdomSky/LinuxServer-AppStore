@@ -1,7 +1,7 @@
 name: linuxserver-gzdoom
 services:
   app:
-    image: linuxserver/gzdoom:4.14.2@sha256:2a9824be7a2cdb95ae22d6a617aded69688d0d94b32674af139dfad49572b775
+    image: linuxserver/gzdoom:4.14.2@sha256:cb39f393343fee1a331c3b31c8320d1a4b266d500c93b259488bae5d0a9f7ced
     restart: unless-stopped
     environment:
       PUID: $PUID
