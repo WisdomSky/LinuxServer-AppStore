@@ -1,7 +1,7 @@
 name: linuxserver-lidarr
 services:
   app:
-    image: linuxserver/lidarr:3.1.0@sha256:0694409e2293c59fdd2665f55cb67d0a8a9adf31a879b45e1ccb299f65f2037c
+    image: linuxserver/lidarr:3.1.0@sha256:4d769f18f49b89f89f21dc06808305b2f9aea21175a932dc686f593a78493cff
     restart: unless-stopped
     environment:
       PUID: $PUID

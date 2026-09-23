@@ -1,7 +1,7 @@
 name: linuxserver-darktable
 services:
   app:
-    image: linuxserver/darktable:25.6.1@sha256:b127be6fe936cb28ad8b32ac3da3bc24ac39489b60556dcb2c4be5a0813cdb44
+    image: linuxserver/darktable:25.6.1@sha256:38bf971dcdff417be16e1abbe0e798fa5cd1c1d12f771080727d6417707bea63
     restart: unless-stopped
     environment:
       PUID: $PUID

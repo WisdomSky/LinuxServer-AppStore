@@ -1,7 +1,7 @@
 name: linuxserver-manyfold
 services:
   app:
-    image: linuxserver/manyfold:0.149.0@sha256:d9922cc80f28d48984f5151d65336427527e4ecef0308bde7a92bbcb29059581
+    image: linuxserver/manyfold:0.150.0@sha256:2df2f96bec7fe8a113ca33bc1b8618a5caf3ba684ae51b24a20c886aa2bfa6d9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Manyfold（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermanyfold
   port_map: '3214'
-  version: 0.149.0
+  version: 0.150.0
