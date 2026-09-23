@@ -1,7 +1,7 @@
 name: linuxserver-modrinth
 services:
   app:
-    image: linuxserver/modrinth:0.21.4
+    image: linuxserver/modrinth:0.21.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxservermodrinth
   port_map: '3000'
-  version: 0.21.4
+  version: 0.21.5
