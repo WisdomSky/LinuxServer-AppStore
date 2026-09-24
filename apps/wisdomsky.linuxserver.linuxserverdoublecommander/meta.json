@@ -12,13 +12,13 @@
   "title": "Doublecommander (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
-  "version": "version-8143f818",
+  "version": "version-45c06dd5",
   "categories": [
     "productivity"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1043236219,
-    "arm64": 1004749366
+    "amd64": 1042850852,
+    "arm64": 997876589
   }
 }

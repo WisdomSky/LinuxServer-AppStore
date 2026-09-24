@@ -1,7 +1,7 @@
 name: linuxserver-ppsspp
 services:
   app:
-    image: linuxserver/ppsspp:1.20.4@sha256:e3b128fb925e55471c170aa53acb66677c4f7360fd10d16bdfcfc22fd6885baa
+    image: linuxserver/ppsspp:1.20.4@sha256:68dd195e59048e2189c0b3593e2f8b83c1927e502b7d7e69c9f134ffe2222818
     restart: unless-stopped
     environment:
       PUID: $PUID

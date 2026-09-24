@@ -1,7 +1,7 @@
 name: linuxserver-azahar
 services:
   app:
-    image: linuxserver/azahar:12125.1.3@sha256:b111e066d6b7bf7c78392a221e2cea50640febafd06b32ec02d90406de424a35
+    image: linuxserver/azahar:12126.1.1@sha256:427f7a38df4da8cd471a8aba458374f8d7561fb1f406d423dc56a859b8dd10fd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Azahar（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverazahar
   port_map: '3000'
-  version: 12125.1.3
+  version: 12126.1.1

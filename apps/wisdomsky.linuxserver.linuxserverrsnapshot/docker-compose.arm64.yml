@@ -1,7 +1,7 @@
 name: linuxserver-rsnapshot
 services:
   app:
-    image: linuxserver/rsnapshot:1.4.5@sha256:c89f64640b44123d3eea6aee26f3c69760740662797b0c2826c371ff262a8314
+    image: linuxserver/rsnapshot:1.4.5@sha256:450174260c32bf6b79c0a28551eb24e5d921d3aca72cf8a3e639a77ceecf4dbe
     restart: unless-stopped
     environment:
       PUID: $PUID

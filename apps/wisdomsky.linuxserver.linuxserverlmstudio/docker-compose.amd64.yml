@@ -1,7 +1,7 @@
 name: linuxserver-lm-studio
 services:
   app:
-    image: linuxserver/lm-studio:version-2026-09-18@sha256:9c0829f43a59b1275cbfd7b17c9099a6f3333673a3b86375b8bc7a6a0dfcce5f
+    image: linuxserver/lm-studio:version-2026-09-18@sha256:f318de5b87b86b3a700a2581c8a26ec3b205ced622b5390663d47079ed3d4e0a
     restart: unless-stopped
     environment:
       PUID: $PUID

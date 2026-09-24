@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.9.0-romm@sha256:5c8f822f02aa1f0ad7e2a08e31fa1843553a892c21a35a3de5e8247028813b7b
+    image: linuxserver/webstation:version-1e69e696@sha256:2f11c0010d9c1dac89bd41048b42df2064641971112258f49fef886763ea8774
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Webstation（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'
-  version: 0.9.0-romm
+  version: version-1e69e696

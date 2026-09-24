@@ -1,7 +1,7 @@
 name: linuxserver-steam
 services:
   app:
-    image: linuxserver/steam:version-0779c5e2
+    image: linuxserver/steam:version-81d97649
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Steam（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversteam
   port_map: '3000'
-  version: version-0779c5e2
+  version: version-81d97649

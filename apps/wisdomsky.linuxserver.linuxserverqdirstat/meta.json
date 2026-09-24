@@ -12,13 +12,13 @@
   "title": "Qdirstat (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverqdirstat",
-  "version": "2.0.20260913",
+  "version": "2.0.20260924",
   "categories": [
     "productivity"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1007666581,
-    "arm64": 978853452
+    "amd64": 990732151,
+    "arm64": 953748644
   }
 }
