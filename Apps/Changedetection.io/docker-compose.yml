@@ -1,7 +1,7 @@
 name: linuxserver-changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io:0.60.6
+    image: linuxserver/changedetection.io:0.60.7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -130,4 +130,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverchangedetectionio
   port_map: '5000'
-  version: 0.60.6
+  version: 0.60.7
