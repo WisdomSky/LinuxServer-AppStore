@@ -1,7 +1,7 @@
 name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/rustdesk:1.4.9@sha256:58201de5f807e70ddc6d7a21255841570f5f780580f2fb9e3760941fb315cacd
+    image: linuxserver/rustdesk:1.4.9@sha256:5db31f9d28ec594be8e5ffb3a8bd2d7caaa7008a8137af27d9bbdc5339852b58
     restart: unless-stopped
     environment:
       PUID: $PUID

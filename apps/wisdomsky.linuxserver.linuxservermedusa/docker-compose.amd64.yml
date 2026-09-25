@@ -1,7 +1,7 @@
 name: linuxserver-medusa
 services:
   app:
-    image: linuxserver/medusa:1.0.26@sha256:d042adae0e18e8b8b45f75d2ae3a685701b52e465f7cafa11939b5229b6cca43
+    image: linuxserver/medusa:1.0.26@sha256:a5089ed42d6ca2a48c5cb42f0781c4591458f876f6a28338677b6e62f51ffa44
     restart: unless-stopped
     environment:
       PUID: $PUID

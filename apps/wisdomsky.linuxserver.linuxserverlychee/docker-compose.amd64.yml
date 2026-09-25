@@ -1,7 +1,7 @@
 name: linuxserver-lychee
 services:
   app:
-    image: linuxserver/lychee:7.8.5@sha256:d04e438129d5ca8ca3da2546095472b30c25af690aa8822de704a9ec89da3a3f
+    image: linuxserver/lychee:7.9.0@sha256:2d4abd5987cf80dec1d95cbe3782901142499c215dd9f5c0c2cbe65c9674cd37
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -60,4 +60,4 @@ x-casaos:
     zh_TW: Lychee（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlychee
   port_map: '80'
-  version: 7.8.5
+  version: 7.9.0

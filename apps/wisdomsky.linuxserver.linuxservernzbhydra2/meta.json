@@ -12,13 +12,13 @@
   "title": "Nzbhydra2 (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
-  "version": "9.0.4",
+  "version": "9.0.5",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 166965779,
-    "arm64": 164229587
+    "amd64": 167031292,
+    "arm64": 164303302
   }
 }

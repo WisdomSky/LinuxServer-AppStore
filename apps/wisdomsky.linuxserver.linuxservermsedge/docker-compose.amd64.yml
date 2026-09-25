@@ -1,7 +1,7 @@
 name: linuxserver-msedge
 services:
   app:
-    image: linuxserver/msedge:153.0.4234@sha256:d5d2dca91bec930409d26553a9b08a09a0862d507f9caa4f53e98dfdbb7cdaba
+    image: linuxserver/msedge:154.0.4258@sha256:49f9225ffc96c722b7795b21e914adcbacbd97686f7167db8f89a8c96d76a076
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Msedge（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermsedge
   port_map: '3000'
-  version: 153.0.4234
+  version: 154.0.4258

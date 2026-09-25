@@ -1,7 +1,7 @@
 name: linuxserver-nzbhydra2
 services:
   app:
-    image: linuxserver/nzbhydra2:9.0.4@sha256:dee72806c2610ed999d9fecda07e6e1d58bd32418bc0836a9a33767918f0bfea
+    image: linuxserver/nzbhydra2:9.0.5@sha256:85986e85db96fd75f490361ae6828c920806889eccbc500c246124654d9fdc3e
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Nzbhydra2（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernzbhydra2
   port_map: '5076'
-  version: 9.0.4
+  version: 9.0.5

@@ -1,7 +1,7 @@
 name: linuxserver-tautulli
 services:
   app:
-    image: linuxserver/tautulli:2.18.1@sha256:7fbf4fe86bf89532574902e168dedb504a59d0f6a22da5eb75736ed36fa54711
+    image: linuxserver/tautulli:2.18.1@sha256:2e428a3f200c9c321ab6d05a378b0d499ff80e4da92b015905f47638243b4ddf
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-mylar3
 services:
   app:
-    image: linuxserver/mylar3:0.11.0@sha256:57c98798d3cb418ee1b94f0175f30f84f3e1f7d4c22c1cdf936defc92ea0858c
+    image: linuxserver/mylar3:0.11.0@sha256:6e2b10b4ab75b55c1807ede745914431fc2d581c6742f8e089199f0faecae7aa
     restart: unless-stopped
     environment:
       PUID: $PUID
