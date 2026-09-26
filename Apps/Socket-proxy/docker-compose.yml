@@ -1,7 +1,7 @@
 name: linuxserver-socket-proxy
 services:
   app:
-    image: linuxserver/socket-proxy:3.4.4
+    image: linuxserver/socket-proxy:3.4.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -122,4 +122,4 @@ x-casaos:
   category: Developer
   id: wisdomsky.linuxserver.linuxserversocketproxy
   port_map: '80'
-  version: 3.4.4
+  version: 3.4.5
