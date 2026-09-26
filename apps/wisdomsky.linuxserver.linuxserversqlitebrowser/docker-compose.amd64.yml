@@ -1,7 +1,7 @@
 name: linuxserver-sqlitebrowser
 services:
   app:
-    image: linuxserver/sqlitebrowser:3.13.1@sha256:2ceb1ccde7afa9ea9068e587db4b534b875740c0c6129262ee1cf20bfdc029aa
+    image: linuxserver/sqlitebrowser:3.13.1@sha256:2a50658866149d7a8ca7500781763e307227e42152b7a4266f467c9e20b8efc1
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-syncthing
 services:
   app:
-    image: linuxserver/syncthing:2.1.5@sha256:fc46d69a06c282fac1934fe78d91985ca46d6a458f59da245e6b1d03d460ec12
+    image: linuxserver/syncthing:2.1.5@sha256:a65d9a53b97bfc12476713dec796128f63bd096b7f4527fe2094e50370b44914
     restart: unless-stopped
     environment:
       PUID: $PUID

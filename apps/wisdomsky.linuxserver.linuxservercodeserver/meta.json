@@ -12,13 +12,13 @@
   "title": "Code server (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservercodeserver",
-  "version": "4.138.0",
+  "version": "4.139.1",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 310265856,
-    "arm64": 307411492
+    "amd64": 299916779,
+    "arm64": 297066327
   }
 }

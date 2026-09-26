@@ -1,7 +1,7 @@
 name: linuxserver-ungoogled-chromium
 services:
   app:
-    image: linuxserver/ungoogled-chromium:153.0.8010@sha256:438ddb1f7fadfd439d92c3911c3c14ff3e09bf47cc3b2d8fbbcbee5c9c72f11f
+    image: linuxserver/ungoogled-chromium:154.0.8037@sha256:e73227c249bae07638acda2e1edda48f6422b0bc1e76e32974be406ad38a5c65
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Ungoogled chromium（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverungoogledchromium
   port_map: '3000'
-  version: 153.0.8010
+  version: 154.0.8037

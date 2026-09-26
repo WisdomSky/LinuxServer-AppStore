@@ -1,7 +1,7 @@
 name: linuxserver-bazarr
 services:
   app:
-    image: linuxserver/bazarr:1.6.1@sha256:67d8e13f2cd260ad32fe0f63fb4a883cb489bbde3e77e5c747350dbcb81e789f
+    image: linuxserver/bazarr:1.6.2@sha256:aefc283fd62f5a878074a13e87110c0ffb08719675c6e65c477ea57fd5871524
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Bazarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbazarr
   port_map: '6767'
-  version: 1.6.1
+  version: 1.6.2
