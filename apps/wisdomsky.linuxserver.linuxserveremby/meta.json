@@ -12,13 +12,13 @@
   "title": "Emby (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserveremby",
-  "version": "4.10.0",
+  "version": "4.10.1",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 435000982,
-    "arm64": 203334959
+    "amd64": 441111058,
+    "arm64": 209385706
   }
 }

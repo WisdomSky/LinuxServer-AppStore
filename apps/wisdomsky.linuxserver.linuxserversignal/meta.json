@@ -11,12 +11,12 @@
   "title": "Signal (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserversignal",
-  "version": "8.27.0",
+  "version": "8.28.0",
   "categories": [
     "social"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1548752593
+    "amd64": 1538448671
   }
 }

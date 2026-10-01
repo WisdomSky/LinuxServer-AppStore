@@ -1,7 +1,7 @@
 name: linuxserver-smokeping
 services:
   app:
-    image: linuxserver/smokeping:2.9.0@sha256:613b5cee1590aa106bdb8034eeeeef7129fbfcba90d1239c32baf17594ca1d67
+    image: linuxserver/smokeping:2.9.0@sha256:046aa10b8d05161feb2736f0aae9afda9d560d780da675307a777f0a0171b99a
     restart: unless-stopped
     environment:
       PUID: $PUID

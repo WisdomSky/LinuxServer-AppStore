@@ -1,7 +1,7 @@
 name: linuxserver-bookstack
 services:
   app:
-    image: linuxserver/bookstack:26.09.20260924@sha256:b6a9aff0adec3d93bbe6cc42b67e40767d40a64e692ff26c5cc88364ba71f8d4
+    image: linuxserver/bookstack:26.09.1@sha256:9b5cd22653b503a53a764671ed96e2e87ea3f62bc3fba6250de86a73d642c426
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -56,4 +56,4 @@ x-casaos:
     zh_TW: Bookstack（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbookstack
   port_map: '80'
-  version: 26.09.20260924
+  version: 26.09.1

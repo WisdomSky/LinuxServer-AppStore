@@ -1,7 +1,7 @@
 name: linuxserver-mediaelch
 services:
   app:
-    image: linuxserver/mediaelch:2.12.0@sha256:44f8fa57dfb43062a7e85ba32ac73e258e73e99fb194cea8eb1e70d81d7c87da
+    image: linuxserver/mediaelch:2.12.0@sha256:6d381c6e9f9b3328082dec9ca8fdf43838c5e5cd6a464f82c3409525a900be35
     restart: unless-stopped
     environment:
       PUID: $PUID

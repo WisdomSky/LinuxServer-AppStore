@@ -1,7 +1,7 @@
 name: linuxserver-scummvm
 services:
   app:
-    image: linuxserver/scummvm:2026.3.0@sha256:161481420237b3f20fefd8a7f6d85324f971cc1f0386ab01f616bf02473e5e89
+    image: linuxserver/scummvm:2026.3.0@sha256:ab874b52592e22df4b27b94f87c1df96b35e6e964585540e5e6a34d94726a244
     restart: unless-stopped
     environment:
       PUID: $PUID

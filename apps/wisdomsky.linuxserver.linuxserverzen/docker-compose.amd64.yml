@@ -1,7 +1,7 @@
 name: linuxserver-zen
 services:
   app:
-    image: linuxserver/zen:1.22.3@sha256:a89cb7e0b293e3bb4096e3a54412f3d706fd8245fa58b667af7d8bd3ebd98ec5
+    image: linuxserver/zen:1.22.3@sha256:7be2db7075e14f91820e9ce449c5b9835e963bc47fb5f163d4c6574d3714be0e
     restart: unless-stopped
     environment:
       PUID: $PUID

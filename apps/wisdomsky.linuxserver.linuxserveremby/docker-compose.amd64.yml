@@ -1,7 +1,7 @@
 name: linuxserver-emby
 services:
   app:
-    image: linuxserver/emby:4.10.0@sha256:802ddab7b2f6090bfe67d90d727392cb599e16eb1b703f08ff9b10c19c16d81f
+    image: linuxserver/emby:4.10.1@sha256:05a24b56077c87094a8aa657aa0589c37868e00d4b061a25c8b448e94429e796
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -59,4 +59,4 @@ x-casaos:
     zh_CN: Emby（LinuxServer.io）
     zh_TW: Emby（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveremby
-  version: 4.10.0
+  version: 4.10.1

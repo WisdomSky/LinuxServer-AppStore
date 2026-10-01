@@ -1,7 +1,7 @@
 name: linuxserver-orcaslicer
 services:
   app:
-    image: linuxserver/orcaslicer:2.4.2@sha256:454abe71fef0440678a5ce209559caca17bac74d38092d673fb27117fef1a841
+    image: linuxserver/orcaslicer:2.4.2@sha256:987707cc79aad2ad40aea784affd14be9a31eb114b829d9023893b13a3b3ae69
     restart: unless-stopped
     environment:
       PUID: $PUID

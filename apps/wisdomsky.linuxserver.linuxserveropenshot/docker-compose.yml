@@ -1,7 +1,7 @@
 name: linuxserver-openshot
 services:
   app:
-    image: linuxserver/openshot:4.0.0
+    image: linuxserver/openshot:4.0.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Openshot（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveropenshot
   port_map: '3000'
-  version: 4.0.0
+  version: 4.0.1

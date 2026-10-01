@@ -1,7 +1,7 @@
 name: linuxserver-socket-proxy
 services:
   app:
-    image: linuxserver/socket-proxy:3.4.5@sha256:2417778af2c39c44fb0811b124442ea4c919ead2ccb0ce21074fada4ada79a6f
+    image: linuxserver/socket-proxy:3.4.6@sha256:06bf5a07127bb2fcc31f52d6b461e6578eb0a3ece2b4e906002764216dd42b37
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Socket proxy（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversocketproxy
   port_map: '80'
-  version: 3.4.5
+  version: 3.4.6

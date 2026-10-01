@@ -12,13 +12,13 @@
   "title": "Qbittorrent (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 100483192,
-    "arm64": 99173974
+    "amd64": 100495135,
+    "arm64": 99197085
   }
 }

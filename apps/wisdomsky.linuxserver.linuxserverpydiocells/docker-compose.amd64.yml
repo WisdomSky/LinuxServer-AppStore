@@ -1,7 +1,7 @@
 name: linuxserver-pydio-cells
 services:
   app:
-    image: linuxserver/pydio-cells:5.0.3@sha256:0f541e5df7cb2a73d53b7c2dc3f2ed6b0892102dbe31940b3e7b15a82650b1f7
+    image: linuxserver/pydio-cells:5.1.0@sha256:87bdc0a26baed18e686c8f9bda8800a013bdf4f1957d4d0373542ba44c60e4bd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -50,4 +50,4 @@ x-casaos:
     zh_TW: Pydio cells（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpydiocells
   port_map: '8080'
-  version: 5.0.3
+  version: 5.1.0

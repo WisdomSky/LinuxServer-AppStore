@@ -1,7 +1,7 @@
 name: linuxserver-qbittorrent
 services:
   app:
-    image: linuxserver/qbittorrent:5.2.3@sha256:51ff2f432839e33b13d5d55063f450e519882c657e3d28ad84f0125ebef24c75
+    image: linuxserver/qbittorrent:5.2.4@sha256:5eb232b59a3c6c12d8d4c548a051934d4f14f689d112efa9c2624ab590b9c5fa
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -59,4 +59,4 @@ x-casaos:
     zh_TW: Qbittorrent（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverqbittorrent
   port_map: '8080'
-  version: 5.2.3
+  version: 5.2.4

@@ -1,7 +1,7 @@
 name: linuxserver-vscode
 services:
   app:
-    image: linuxserver/vscode:1.139.0@sha256:d55de0140f6f79ce9d6b76af39449a98d31a8d21c4946da0e839f9626c3d4592
+    image: linuxserver/vscode:1.139.1@sha256:64aa4274a842916c7097e88cbdb674bb61e967bae083242823bb82bedf717c34
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Vscode（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservervscode
   port_map: '3000'
-  version: 1.139.0
+  version: 1.139.1

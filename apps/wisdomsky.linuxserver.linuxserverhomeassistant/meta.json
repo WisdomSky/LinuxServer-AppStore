@@ -12,13 +12,13 @@
   "title": "Homeassistant (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
-  "version": "2026.9.3",
+  "version": "2026.9.4",
   "categories": [
     "home"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 723534138,
-    "arm64": 711233628
+    "amd64": 724373797,
+    "arm64": 712036193
   }
 }
