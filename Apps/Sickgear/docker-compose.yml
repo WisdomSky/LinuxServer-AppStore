@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.36.6
+    image: linuxserver/sickgear:3.36.8
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -128,4 +128,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'
-  version: 3.36.6
+  version: 3.36.8

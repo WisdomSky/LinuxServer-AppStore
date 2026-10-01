@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:version-1e69e696
+    image: linuxserver/webstation:0.13.0-romm
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'
-  version: version-1e69e696
+  version: 0.13.0-romm

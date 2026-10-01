@@ -1,7 +1,7 @@
 name: linuxserver-tautulli
 services:
   app:
-    image: linuxserver/tautulli:2.18.1
+    image: linuxserver/tautulli:2.18.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -122,4 +122,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxservertautulli
   port_map: '8181'
-  version: 2.18.1
+  version: 2.18.2

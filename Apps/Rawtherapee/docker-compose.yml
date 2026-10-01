@@ -1,7 +1,7 @@
 name: linuxserver-rawtherapee
 services:
   app:
-    image: linuxserver/rawtherapee:5.13.20260913
+    image: linuxserver/rawtherapee:5.13.20260927
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -125,4 +125,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverrawtherapee
   port_map: '3000'
-  version: 5.13.20260913
+  version: 5.13.20260927
