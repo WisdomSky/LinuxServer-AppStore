@@ -1,7 +1,7 @@
 name: linuxserver-mastodon
 services:
   app:
-    image: linuxserver/mastodon:4.7.2@sha256:6d11e7ab9e3183e4247017995539f9df4e6ce34598d81c951602e3f6ab8d4d5f
+    image: linuxserver/mastodon:4.7.3@sha256:ca8a919032bd1d9f4679df3a296e7c5d5f10eccc7f7a6f419912ae7bcf2ec9c9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -92,4 +92,4 @@ x-casaos:
     zh_TW: Mastodon（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermastodon
   port_map: '80'
-  version: 4.7.2
+  version: 4.7.3
