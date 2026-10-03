@@ -1,7 +1,7 @@
 name: linuxserver-shadps4
 services:
   app:
-    image: linuxserver/shadps4:version-shadPS4QtLauncher-2026-09-29-a976c6822c9e0659913cde1a141efb65dd477e40@sha256:b27a700eaea639f4b1add1ad29f9b065e496103ed1cc469291207cf5858b2e05
+    image: linuxserver/shadps4:version-shadPS4QtLauncher-2026-10-02-4c4e1090ea53dc1ec956fa9954acbf143d104b2e@sha256:974bdaed3771c20a5c6dddddea145eada63a0fec4aad43e50b0d33220ef2d2bb
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Shadps4（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservershadps4
   port_map: '3000'
-  version: version-shadPS4QtLauncher-2026-09-29-a976c6822c9e0659913cde1a141efb65dd477e40
+  version: version-shadPS4QtLauncher-2026-10-02-4c4e1090ea53dc1ec956fa9954acbf143d104b2e

@@ -1,7 +1,7 @@
 name: linuxserver-openshot
 services:
   app:
-    image: linuxserver/openshot:4.0.1@sha256:921984a46ac4b29d14717c00debcb8a2b884c212e5823e34861aab2c7bd644cf
+    image: linuxserver/openshot:4.0.1@sha256:2206f92f9021ca684ea1296335d013e9765f54076980de283e15d59c33d235e0
     restart: unless-stopped
     environment:
       PUID: $PUID
