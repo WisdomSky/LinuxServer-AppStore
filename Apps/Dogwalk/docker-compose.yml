@@ -1,7 +1,7 @@
 name: linuxserver-dogwalk
 services:
   app:
-    image: linuxserver/dogwalk:version-6fe917ff
+    image: linuxserver/dogwalk:version-4f101940
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxserverdogwalk
   port_map: '3000'
-  version: version-6fe917ff
+  version: version-4f101940
