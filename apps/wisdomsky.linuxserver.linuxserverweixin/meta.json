@@ -12,13 +12,13 @@
   "title": "Weixin (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverweixin",
-  "version": "version-ec13b48d",
+  "version": "version-09d360f5",
   "categories": [
     "social"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1541646144,
-    "arm64": 1495208277
+    "amd64": 1533161638,
+    "arm64": 1486594468
   }
 }

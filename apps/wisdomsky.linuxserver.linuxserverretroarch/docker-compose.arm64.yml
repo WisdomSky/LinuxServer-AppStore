@@ -1,7 +1,7 @@
 name: linuxserver-retroarch
 services:
   app:
-    image: linuxserver/retroarch:1.22.2@sha256:f9bc94c39b0807ad8520fa1dba386b83758e7ae6ef4120f5528ef16524fb20e0
+    image: linuxserver/retroarch:1.22.2@sha256:d8295a342d77c7adf0844919b11c9addb5494e109163f88062981a4d939b8e8e
     restart: unless-stopped
     environment:
       PUID: $PUID

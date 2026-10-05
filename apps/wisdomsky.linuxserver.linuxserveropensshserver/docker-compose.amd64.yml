@@ -1,7 +1,7 @@
 name: linuxserver-openssh-server
 services:
   app:
-    image: linuxserver/openssh-server:version-10.3_p1-r1@sha256:5609e7f5ee873ba3517ca612126337d6ffcbb3668b980fdc8ecd9d140b2d3a76
+    image: linuxserver/openssh-server:version-10.3_p1-r1@sha256:9d2b39c55f0b454345af2a8f825eb5955d80e845719ebb9bceaaf80fbdce33ab
     restart: unless-stopped
     environment:
       PUID: $PUID

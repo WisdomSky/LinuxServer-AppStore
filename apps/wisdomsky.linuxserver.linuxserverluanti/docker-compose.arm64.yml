@@ -1,7 +1,7 @@
 name: linuxserver-luanti
 services:
   app:
-    image: linuxserver/luanti:5.17.0@sha256:4a1f74fddcff6363cd2546a8832b8a46a4bd3f5fcd889d194b99142a1cf40b7d
+    image: linuxserver/luanti:5.17.0@sha256:846403972723cf16f524fc0684b830a94b08d66015d3c14ade69fc4d373c52d6
     restart: unless-stopped
     environment:
       PUID: $PUID
