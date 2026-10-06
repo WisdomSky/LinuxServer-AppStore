@@ -1,7 +1,7 @@
 name: linuxserver-freshrss
 services:
   app:
-    image: linuxserver/freshrss:1.30.0@sha256:d37b60409d2eba22a2a6c360041952a4203f86ad891dd8fda4c29074bcef76fa
+    image: linuxserver/freshrss:1.30.1@sha256:1a46ce0355094d6167a74f1c9887c6644d6ceea0e848297be89163a9d275c384
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Freshrss（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfreshrss
   port_map: '80'
-  version: 1.30.0
+  version: 1.30.1

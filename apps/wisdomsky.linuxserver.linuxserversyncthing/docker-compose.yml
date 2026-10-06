@@ -1,7 +1,7 @@
 name: linuxserver-syncthing
 services:
   app:
-    image: linuxserver/syncthing:2.1.5
+    image: linuxserver/syncthing:2.1.6
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -62,4 +62,4 @@ x-casaos:
     zh_CN: Syncthing（LinuxServer.io）
     zh_TW: Syncthing（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversyncthing
-  version: 2.1.5
+  version: 2.1.6

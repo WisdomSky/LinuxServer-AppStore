@@ -1,7 +1,7 @@
 name: linuxserver-audacity
 services:
   app:
-    image: linuxserver/audacity:4.0.1@sha256:491943a948cc22bdc287b60fd30bdc1186d08c335eb04acbd7a593773b669663
+    image: linuxserver/audacity:4.0.1@sha256:ab533efcffff7c0fd27dbd4c19e085cbd9ab405db5f72802a678c312a0c46ec6
     restart: unless-stopped
     environment:
       PUID: $PUID

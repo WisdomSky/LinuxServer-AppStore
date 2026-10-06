@@ -1,7 +1,7 @@
 name: linuxserver-digikam
 services:
   app:
-    image: linuxserver/digikam:9.1.0@sha256:ed52c707330cc8c21bfdee155b4a084f083814e6f25254375baf76bb1dda0dd0
+    image: linuxserver/digikam:9.1.0@sha256:860d59f12acd99ff2e43cef80afe3929c359ed06e6eeba03c1c9e5184297d3fb
     restart: unless-stopped
     environment:
       PUID: $PUID

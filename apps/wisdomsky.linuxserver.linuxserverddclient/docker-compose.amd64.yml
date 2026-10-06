@@ -1,7 +1,7 @@
 name: linuxserver-ddclient
 services:
   app:
-    image: linuxserver/ddclient:4.0.0@sha256:7927548a56e4043f2e98e6e145105238e96b9e92579fb1646796456ad84f0b13
+    image: linuxserver/ddclient:4.0.0@sha256:ccd5b99362f823722a8334b4eae4837f56fb1bf5c0abcce48e35f297599fcffd
     restart: unless-stopped
     environment:
       PUID: $PUID

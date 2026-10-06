@@ -12,13 +12,13 @@
   "title": "Freshrss (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverfreshrss",
-  "version": "1.30.0",
+  "version": "1.30.1",
   "categories": [
     "productivity"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 40765600,
-    "arm64": 41470392
+    "amd64": 40793974,
+    "arm64": 41494963
   }
 }
