@@ -1,7 +1,7 @@
 name: linuxserver-sabnzbd
 services:
   app:
-    image: linuxserver/sabnzbd:5.1.3@sha256:3234ea93e1372c443d2e190016ff89d44ac733a49fd54a663ff1e6fe50f6eb46
+    image: linuxserver/sabnzbd:5.2.0-unstable@sha256:f2a9489bcbcba271080e9cd4509fe7165f7f3f350920e9263374c09fc1deef74
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Sabnzbd（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversabnzbd
   port_map: '8080'
-  version: 5.1.3
+  version: 5.2.0-unstable

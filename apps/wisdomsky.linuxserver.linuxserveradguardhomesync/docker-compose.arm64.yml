@@ -1,7 +1,7 @@
 name: linuxserver-adguardhome-sync
 services:
   app:
-    image: linuxserver/adguardhome-sync:0.9.3@sha256:922950cf328482c827667eb14019b253a6234c56f9d43e2ab0f33786d782fa69
+    image: linuxserver/adguardhome-sync:0.9.3@sha256:e04824016d0df71598b276466da43b26eda8629c75407123c8f7f7420aac2d22
     restart: unless-stopped
     environment:
       PUID: $PUID
