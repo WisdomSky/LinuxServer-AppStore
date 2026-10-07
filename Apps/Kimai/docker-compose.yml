@@ -1,7 +1,7 @@
 name: linuxserver-kimai
 services:
   app:
-    image: linuxserver/kimai:2.68.0
+    image: linuxserver/kimai:2.69.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -141,4 +141,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverkimai
   port_map: '80'
-  version: 2.68.0
+  version: 2.69.0
