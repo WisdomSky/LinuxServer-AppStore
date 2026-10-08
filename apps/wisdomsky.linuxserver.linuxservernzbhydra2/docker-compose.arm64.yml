@@ -1,7 +1,7 @@
 name: linuxserver-nzbhydra2
 services:
   app:
-    image: linuxserver/nzbhydra2:9.1.1@sha256:ad6f8e464c06547c7b9cc2115182f89825be02b483a7242e88cf7bfd2c6dc4f4
+    image: linuxserver/nzbhydra2:9.1.1@sha256:9e1f67baf493ef58ea534dda55f114bffe6aada281d9fa24d897b3f844dc33a8
     restart: unless-stopped
     environment:
       PUID: $PUID

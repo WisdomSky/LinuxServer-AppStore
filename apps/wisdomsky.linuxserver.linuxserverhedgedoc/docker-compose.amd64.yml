@@ -1,7 +1,7 @@
 name: linuxserver-hedgedoc
 services:
   app:
-    image: linuxserver/hedgedoc:1.12.0@sha256:715183936b8f2f3bc9fa306f343216c352ff8d4679df6e6baf1cfa9ee8d97223
+    image: linuxserver/hedgedoc:1.12.0@sha256:aacca8939a307e6f76f9d84ab045148772b33ca00d6081ea78c33c2021718478
     restart: unless-stopped
     environment:
       PUID: $PUID

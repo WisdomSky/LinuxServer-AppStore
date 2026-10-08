@@ -1,7 +1,7 @@
 name: linuxserver-modrinth
 services:
   app:
-    image: linuxserver/modrinth:0.21.8@sha256:8609761df4634985a84ee5898b512e28d3c897294e091531f4eac2e2c9d5de1b
+    image: linuxserver/modrinth:0.21.9@sha256:30d83669414a0e6465e6771230dbfd8678e9211144e919f44c9bbbe88ac39ea6
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Modrinth（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermodrinth
   port_map: '3000'
-  version: 0.21.8
+  version: 0.21.9

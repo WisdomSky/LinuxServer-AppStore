@@ -1,7 +1,7 @@
 name: linuxserver-krita
 services:
   app:
-    image: linuxserver/krita:5.3.4@sha256:c4711ee5dce9df027ae809fe97d9ac97dd4dacca1a725783f9478709a18847f9
+    image: linuxserver/krita:5.3.4@sha256:d38ad92b8a84eb835f159908af46cab40fc7c86bc4851916132c2dff03e4c9de
     restart: unless-stopped
     environment:
       PUID: $PUID
