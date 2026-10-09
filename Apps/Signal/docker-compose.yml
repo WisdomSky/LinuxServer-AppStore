@@ -1,7 +1,7 @@
 name: linuxserver-signal
 services:
   app:
-    image: linuxserver/signal:8.29.0
+    image: linuxserver/signal:8.30.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Social
   id: wisdomsky.linuxserver.linuxserversignal
   port_map: '3000'
-  version: 8.29.0
+  version: 8.30.0
