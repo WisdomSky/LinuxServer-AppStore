@@ -1,7 +1,7 @@
 name: linuxserver-blade-of-agony
 services:
   app:
-    image: linuxserver/blade-of-agony:3.1.20261001@sha256:c9c4896d87569596f342dc0bf4fb1b5b321473100a716b883a2f06423bd3685d
+    image: linuxserver/blade-of-agony:3.1.20261008@sha256:a4fff0e69ae1427e11bc53d8778cf2a288a5a230acd725ffddca3c306de80c73
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Blade of-agony（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbladeofagony
   port_map: '3000'
-  version: 3.1.20261001
+  version: 3.1.20261008

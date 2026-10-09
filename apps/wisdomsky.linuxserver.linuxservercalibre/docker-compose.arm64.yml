@@ -1,7 +1,7 @@
 name: linuxserver-calibre
 services:
   app:
-    image: linuxserver/calibre:9.15.0@sha256:fb7a9061bcab2be426f5a1844d841d989936cfd85e5aad74c280fbb7f5d75723
+    image: linuxserver/calibre:9.16.0@sha256:88ee408b6bea375f5fcac920175a094eb932cb48a3a53b36cc3a4901e0ca1df3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -56,4 +56,4 @@ x-casaos:
     zh_TW: Calibre（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercalibre
   port_map: '8080'
-  version: 9.15.0
+  version: 9.16.0
