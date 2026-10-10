@@ -1,7 +1,7 @@
 name: linuxserver-dolphin
 services:
   app:
-    image: linuxserver/dolphin:version-2606a
+    image: linuxserver/dolphin:version-2609
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverdolphin
   port_map: '3000'
-  version: version-2606a
+  version: version-2609
