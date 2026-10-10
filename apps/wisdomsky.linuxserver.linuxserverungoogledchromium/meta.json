@@ -12,13 +12,13 @@
   "title": "Ungoogled chromium (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
-  "version": "154.0.8037",
+  "version": "155.0.8059",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1280950512,
-    "arm64": 1228113974
+    "amd64": 1281759566,
+    "arm64": 1227872782
   }
 }

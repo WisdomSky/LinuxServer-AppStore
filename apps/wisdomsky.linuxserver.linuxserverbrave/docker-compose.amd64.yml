@@ -1,7 +1,7 @@
 name: linuxserver-brave
 services:
   app:
-    image: linuxserver/brave:1.97.56@sha256:eb78c13dcd1d5a87d0faa2cfde69df29395748884f7ab2afff1bfa3ab54bab2c
+    image: linuxserver/brave:1.97.56@sha256:9b207f910f760da784a38e0a22c68a599564e87e34be30d157bba103bb742644
     restart: unless-stopped
     environment:
       PUID: $PUID

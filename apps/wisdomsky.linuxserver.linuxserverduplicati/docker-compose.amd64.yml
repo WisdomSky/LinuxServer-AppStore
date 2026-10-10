@@ -1,7 +1,7 @@
 name: linuxserver-duplicati
 services:
   app:
-    image: linuxserver/duplicati:2.4.0@sha256:4f682e9dd5413a1c3d3412d4be74b67a1ec2650b0bcafcf6df1fb4df8dbee938
+    image: linuxserver/duplicati:2.4.0@sha256:1dd0ff9c40cc399f8bf87dcb2eb882c5808f37c3b716fae5fc9d5b9daaa8b966
     restart: unless-stopped
     environment:
       PUID: $PUID

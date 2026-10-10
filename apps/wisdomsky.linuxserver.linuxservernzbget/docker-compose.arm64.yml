@@ -1,7 +1,7 @@
 name: linuxserver-nzbget
 services:
   app:
-    image: linuxserver/nzbget:26.3.20261002@sha256:a8bf939a9e7940f83e0b3a0d2788176a3eecb8b04dbba330129e963ea82ecb6b
+    image: linuxserver/nzbget:26.3.20261009@sha256:c576ef5ccbee8c4cfb65e963ae10dfdaba7f79007e5e757cf4a349cffc9120a1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Nzbget（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernzbget
   port_map: '6789'
-  version: 26.3.20261002
+  version: 26.3.20261009

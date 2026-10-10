@@ -1,7 +1,7 @@
 name: linuxserver-dolphin
 services:
   app:
-    image: linuxserver/dolphin:version-2606a@sha256:7f72b0587ab99dc0d7a112f31aa4241edba40506aec49b7bf22a636f1a39a624
+    image: linuxserver/dolphin:version-2609@sha256:0ed309984b532e2b0a97f9860f861fe037b4ca88d22f6297c24542fbce77ddc4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Dolphin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdolphin
   port_map: '3000'
-  version: version-2606a
+  version: version-2609

@@ -1,7 +1,7 @@
 name: linuxserver-adguardhome-sync
 services:
   app:
-    image: linuxserver/adguardhome-sync:0.9.3
+    image: linuxserver/adguardhome-sync:0.9.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -49,4 +49,4 @@ x-casaos:
     zh_TW: Adguardhome sync（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveradguardhomesync
   port_map: '8080'
-  version: 0.9.3
+  version: 0.9.4

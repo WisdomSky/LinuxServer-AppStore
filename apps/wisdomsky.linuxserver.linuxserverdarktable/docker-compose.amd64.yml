@@ -1,7 +1,7 @@
 name: linuxserver-darktable
 services:
   app:
-    image: linuxserver/darktable:25.6.1@sha256:c62c12762d12ca8677f4ad20406143e93fb845ef7cba89777b763b27b0f8e12e
+    image: linuxserver/darktable:25.6.2@sha256:7e3f1ea9ea8d44e26ddfeae658b117ad3064b5fe991a708e334a722dd75cd487
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Darktable（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdarktable
   port_map: '3000'
-  version: 25.6.1
+  version: 25.6.2
