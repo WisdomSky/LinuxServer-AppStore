@@ -1,7 +1,7 @@
 name: linuxserver-qbittorrent
 services:
   app:
-    image: linuxserver/qbittorrent:5.2.4@sha256:b111319eb7fb541edc2b1c1df9cf82e68cfffd694caa9ed5e8a0eb78a5112533
+    image: linuxserver/qbittorrent:5.2.4@sha256:07bf154bd7d0d2450d4c4f9c2e7ca1d61566a4963b7aeb44475497935dec14f3
     restart: unless-stopped
     environment:
       PUID: $PUID
