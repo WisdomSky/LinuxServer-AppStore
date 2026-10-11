@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.8.1
+    image: linuxserver/yaak:2026.9.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -125,4 +125,4 @@ x-casaos:
   category: Developer
   id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'
-  version: 2026.8.1
+  version: 2026.9.0
