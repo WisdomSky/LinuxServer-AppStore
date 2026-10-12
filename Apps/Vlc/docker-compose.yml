@@ -1,7 +1,7 @@
 name: linuxserver-vlc
 services:
   app:
-    image: linuxserver/vlc:3.0.23
+    image: linuxserver/vlc:3.0.24
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -129,4 +129,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxservervlc
   port_map: '3000'
-  version: 3.0.23
+  version: 3.0.24
