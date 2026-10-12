@@ -1,7 +1,7 @@
 name: linuxserver-minisatip
 services:
   app:
-    image: linuxserver/minisatip:2.0.141@sha256:28822604049b6c162b7020323b6009e93cc6a314a1e89de6f12570a8ec2913cc
+    image: linuxserver/minisatip:2.0.142@sha256:40d37dbc3cf8967f995b6b3409a6acf687ba0eb2fe343d547a5dab795cb4c1fa
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_CN: Minisatip（LinuxServer.io）
     zh_TW: Minisatip（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverminisatip
-  version: 2.0.141
+  version: 2.0.142

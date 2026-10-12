@@ -1,7 +1,7 @@
 name: linuxserver-vlc
 services:
   app:
-    image: linuxserver/vlc:3.0.23@sha256:8989a917db5b77c1d8e96abd5ea6aac9b9568fe696e3e05f1baeb409bad8a51a
+    image: linuxserver/vlc:3.0.24@sha256:1b100eabdded605fc4937f5c3deaefa513ccd147159b4b55b70488f700280d3d
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Vlc（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservervlc
   port_map: '3000'
-  version: 3.0.23
+  version: 3.0.24

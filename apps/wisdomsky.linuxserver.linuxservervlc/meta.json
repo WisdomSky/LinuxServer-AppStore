@@ -12,13 +12,13 @@
   "title": "Vlc (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservervlc",
-  "version": "3.0.23",
+  "version": "3.0.24",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1348564297,
-    "arm64": 1405834370
+    "amd64": 1356132782,
+    "arm64": 1414806932
   }
 }
