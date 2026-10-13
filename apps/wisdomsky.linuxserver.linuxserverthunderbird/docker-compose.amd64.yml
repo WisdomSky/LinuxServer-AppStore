@@ -1,7 +1,7 @@
 name: linuxserver-thunderbird
 services:
   app:
-    image: linuxserver/thunderbird:1140.16.0@sha256:5c423f9f74a78baec0a666c275d0e25e7da00d92b82f65622450882ede5d0389
+    image: linuxserver/thunderbird:1140.16.0@sha256:517ae57606a993aff69841daff6479907c4583e81a8fe76086f6ccc99a0f57a1
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-onlyoffice
 services:
   app:
-    image: linuxserver/onlyoffice:9.4.0@sha256:da6da583276f9d5ffacf71df0dee2e629d052a5ba7b9391f562c60b45b326fb6
+    image: linuxserver/onlyoffice:10.0.0@sha256:f9a4d875e13fdd03aaf4698cb2e52c0c33dcdb1a8e43b8e101d1c4aa05a0b61f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Onlyoffice（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveronlyoffice
   port_map: '3000'
-  version: 9.4.0
+  version: 10.0.0

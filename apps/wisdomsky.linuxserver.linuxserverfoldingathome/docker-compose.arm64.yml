@@ -1,7 +1,7 @@
 name: linuxserver-foldingathome
 services:
   app:
-    image: linuxserver/foldingathome:8.5.6@sha256:eabef26427006254e98708c0e48f362a6570cd92d1e1d3140ff2b37a33482eeb
+    image: linuxserver/foldingathome:8.5.6@sha256:c66838c4ecb8aa537ce762a2bc43b8c518728b3d588d9541cb5b16527e8c5438
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-sonarr
 services:
   app:
-    image: linuxserver/sonarr:4.0.20@sha256:d9551b7b6f52cb21ab160bfdf4e0f750fc5891d23d0d387c717c851ca6f9da7e
+    image: linuxserver/sonarr:4.0.20@sha256:a73768075d85c9d6dff3b301c50f7bfb854b7c899f15f8781097f648bb19f595
     restart: unless-stopped
     environment:
       PUID: $PUID

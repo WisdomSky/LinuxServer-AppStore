@@ -1,7 +1,7 @@
 name: linuxserver-socket-proxy
 services:
   app:
-    image: linuxserver/socket-proxy:3.4.6@sha256:5e16b943db4f50bb0bd28737d9ffb47bc46cfee0e881c087be679e68d9d26857
+    image: linuxserver/socket-proxy:3.4.6@sha256:b1ee78810957cc0569e44d29a21b1040bfefa462ac9ed9ce60af7f7e115a5ff7
     restart: unless-stopped
     environment:
       PUID: $PUID
