@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:4.7.2@sha256:aafa7b73f2b1c46e403e1f359fc4b55f6821df2adf10bfc2057251815d2e9d38
+    image: linuxserver/netbox:4.7.3@sha256:3f7a947147761c3a2bef7dacea21fb20492d483b542c5143cfc899d8a5a3d73a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -70,4 +70,4 @@ x-casaos:
     zh_TW: Netbox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernetbox
   port_map: '8000'
-  version: 4.7.2
+  version: 4.7.3

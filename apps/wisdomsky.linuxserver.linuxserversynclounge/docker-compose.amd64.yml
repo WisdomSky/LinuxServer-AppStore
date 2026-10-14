@@ -1,7 +1,7 @@
 name: linuxserver-synclounge
 services:
   app:
-    image: linuxserver/synclounge:5.2.35@sha256:0667cc7317ec42773ebc3c0bd129b10eef9d03ed6f20f03a9e32d1df86f77264
+    image: linuxserver/synclounge:5.2.35@sha256:66693fa25b427037e0c6d9182dae73c57e7e8c86f7c34f05eacd4e8e63044a02
     restart: unless-stopped
     environment:
       AUTH_LIST: ''

@@ -1,7 +1,7 @@
 name: linuxserver-mame
 services:
   app:
-    image: linuxserver/mame:version-0.289dfsg1-0@sha256:954557df64acaec4a464768fa5ec5f26035e65e927e6b1480526578bd43cc2c8
+    image: linuxserver/mame:version-0.289dfsg1-0@sha256:74b39f70eb941bf41ae62bf5cfef96c05a99d7d816d1ad6be54101605260bb5c
     restart: unless-stopped
     environment:
       PUID: $PUID
