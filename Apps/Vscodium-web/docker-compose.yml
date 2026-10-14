@@ -1,7 +1,7 @@
 name: linuxserver-vscodium-web
 services:
   app:
-    image: linuxserver/vscodium-web:1.135.06055
+    image: linuxserver/vscodium-web:1.140.06880
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -142,4 +142,4 @@ x-casaos:
   category: Developer
   id: wisdomsky.linuxserver.linuxservervscodiumweb
   port_map: '8000'
-  version: 1.135.06055
+  version: 1.140.06880
