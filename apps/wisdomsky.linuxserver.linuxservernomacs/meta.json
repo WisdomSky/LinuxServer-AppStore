@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.",
+  "tagline": "A free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernomacs/assets/nomacs-logo.webp",
+  "category": "Developer",
+  "title": "Nomacs (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservernomacs",
+  "version": "3.22.4",
+  "categories": [
+    "developer"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1026576560,
+    "arm64": 985048854
+  }
+}

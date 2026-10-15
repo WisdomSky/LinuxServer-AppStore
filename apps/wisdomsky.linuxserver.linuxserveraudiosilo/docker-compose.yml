@@ -1,0 +1,28 @@
+name: linuxserver-audiosilo
+services:
+  app:
+    image: linuxserver/audiosilo:2.3.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/audiosilo/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/audiosilo/audiobooks:ro
+        target: /audiobooks:ro
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveraudiosilo/assets/icon.png
+  title:
+    en_US: Audiosilo (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveraudiosilo
+  port_map: '8080'
+  version: 2.3.1

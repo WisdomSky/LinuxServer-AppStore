@@ -1,0 +1,28 @@
+name: linuxserver-craft-apps
+services:
+  app:
+    image: linuxserver/craft-apps:0.9.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/craft-apps/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercraftapps/assets/icon.png
+  title:
+    en_US: Craft apps (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservercraftapps
+  port_map: '3000'
+  version: 0.9.0

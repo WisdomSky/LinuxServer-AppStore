@@ -1,7 +1,7 @@
 name: linuxserver-scummvm
 services:
   app:
-    image: linuxserver/scummvm:2026.3.0
+    image: linuxserver/scummvm:2026.4.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Scummvm（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverscummvm
   port_map: '3000'
-  version: 2026.3.0
+  version: 2026.4.0

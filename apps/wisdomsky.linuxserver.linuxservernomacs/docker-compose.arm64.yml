@@ -1,0 +1,28 @@
+name: linuxserver-nomacs
+services:
+  app:
+    image: linuxserver/nomacs:3.22.4@sha256:aba2b688b1e34509a512af4877e2d01d1b60c5cb3f572e7fee4c120f473cab70
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nomacs/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernomacs/assets/icon.png
+  title:
+    en_US: Nomacs (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernomacs
+  port_map: '3000'
+  version: 3.22.4

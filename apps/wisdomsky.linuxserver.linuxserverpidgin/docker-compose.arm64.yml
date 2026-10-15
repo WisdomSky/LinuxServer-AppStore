@@ -1,7 +1,7 @@
 name: linuxserver-pidgin
 services:
   app:
-    image: linuxserver/pidgin:2.14.14@sha256:fab05e8b1388bec16f7865cf9d5c65fe265b21bbce8f245ea72664de7e0b6e68
+    image: linuxserver/pidgin:2.14.14@sha256:4483c81d75a714299b57f48e26e619bd879b0ed255c17981117c44223a2a8e29
     restart: unless-stopped
     environment:
       PUID: $PUID
