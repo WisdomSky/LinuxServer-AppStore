@@ -1,7 +1,7 @@
 name: linuxserver-signal
 services:
   app:
-    image: linuxserver/signal:8.30.0@sha256:587cf340e2a110a18fbb4748c5ef2762124e2cba41eea18ba255fd9585f26620
+    image: linuxserver/signal:8.31.0@sha256:e417f6666e43d824ba0c054a845afc4890e4971ed3167e280cb20abdb62046e5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Signal（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversignal
   port_map: '3000'
-  version: 8.30.0
+  version: 8.31.0

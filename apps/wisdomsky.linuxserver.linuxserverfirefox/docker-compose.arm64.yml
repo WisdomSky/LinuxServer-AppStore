@@ -1,7 +1,7 @@
 name: linuxserver-firefox
 services:
   app:
-    image: linuxserver/firefox:1.2404.1@sha256:3ce3380e8810d68ce93f540eff2b5c91dd01f69f3613accc4e712bcc5b8a6816
+    image: linuxserver/firefox:1.2404.1@sha256:62d5ad94f61aaaa4b51cfbdd8d1793edcd4b068bf766c5a1664784b48dd72a50
     restart: unless-stopped
     environment:
       PUID: $PUID

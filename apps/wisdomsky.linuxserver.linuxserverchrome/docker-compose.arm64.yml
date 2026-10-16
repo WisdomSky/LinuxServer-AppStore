@@ -1,7 +1,7 @@
 name: linuxserver-chrome
 services:
   app:
-    image: linuxserver/chrome:155.0.8059@sha256:d9351750daa45f21a4ca7e2d9860846049b9d00bc2cd1d6c4a671564e9192650
+    image: linuxserver/chrome:155.0.8059@sha256:eefcc6f580af2611c8ec59c644dcaf0ac83a0458afeed6e84156a223b55079c5
     restart: unless-stopped
     environment:
       PUID: $PUID

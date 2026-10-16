@@ -1,7 +1,7 @@
 name: linuxserver-radarr
 services:
   app:
-    image: linuxserver/radarr:6.4.4@sha256:67018147fdd388bca47e1eeeb06d89fd69ea90eebe81b7759d89ff60274ce9b9
+    image: linuxserver/radarr:6.4.4@sha256:dba14b0b140bd95134596d60079f72b9bca13eba33587ad65db4fec4bcb67f66
     restart: unless-stopped
     environment:
       PUID: $PUID

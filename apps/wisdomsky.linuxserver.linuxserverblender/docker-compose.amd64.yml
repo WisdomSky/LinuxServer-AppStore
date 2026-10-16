@@ -1,7 +1,7 @@
 name: linuxserver-blender
 services:
   app:
-    image: linuxserver/blender:5.2.2@sha256:fdae0a7e4a2a0a6d867199770a2f75dd7e371e9c7952631becaffb350f21943c
+    image: linuxserver/blender:5.2.2@sha256:1e2476f025b614133d00006de80b87aeb72cf59bb4a702cc61ff85651a2aa766
     restart: unless-stopped
     environment:
       PUID: $PUID

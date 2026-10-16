@@ -1,7 +1,7 @@
 name: linuxserver-qemu-static
 services:
   app:
-    image: linuxserver/qemu-static:10.0.2@sha256:ff476ccd2d378b43cefa899c328f001b98eaa969cffe6bcb405792b662c73546
+    image: linuxserver/qemu-static:10.0.2@sha256:2998d8f11a48d6f52ec7240970ae5e1d9cb0699df1f012a9b5543adc2bf16d92
     restart: unless-stopped
     environment:
       PUID: $PUID
