@@ -1,7 +1,7 @@
 name: linuxserver-signal
 services:
   app:
-    image: linuxserver/signal:8.31.0@sha256:e417f6666e43d824ba0c054a845afc4890e4971ed3167e280cb20abdb62046e5
+    image: linuxserver/signal:8.31.0@sha256:fbfa3e11b56baa6e0030ff2097c6fca40aa6e2b4907b940c018d9fc05b089eaf
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-msedge
 services:
   app:
-    image: linuxserver/msedge:155.0.4283@sha256:b41cf463dedeb8d1b446846eb73d302f72f08ca7fab38c50fb957d84d4e2c327
+    image: linuxserver/msedge:155.0.4283@sha256:b758aa6b7a1fe8592ea2aba8ab8c7006b1dba047a5d627486fb9eb7ee6e5cf44
     restart: unless-stopped
     environment:
       PUID: $PUID

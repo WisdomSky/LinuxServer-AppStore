@@ -1,7 +1,7 @@
 name: linuxserver-vscodium-web
 services:
   app:
-    image: linuxserver/vscodium-web:1.140.06880@sha256:2b4caa463ea7c34f0d7829ed669f22896ffb8e7abb5cc497d7725354775233fb
+    image: linuxserver/vscodium-web:1.140.06880@sha256:d8be8c6b180559072809aec8b739124e484036045d2c44ee56349c99a3729d2b
     restart: unless-stopped
     environment:
       PUID: $PUID

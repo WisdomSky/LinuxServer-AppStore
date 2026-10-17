@@ -1,7 +1,7 @@
 name: linuxserver-habridge
 services:
   app:
-    image: linuxserver/habridge:5.4.1@sha256:905ef73339dabd7b77384cc7e59d11f3b7e53a7e3fc6ff5a362d299f7ebdc621
+    image: linuxserver/habridge:5.4.1@sha256:c24bbd1a49aeb97bdf058f1669d072817adb9d05c0675706d75479aa19680890
     restart: unless-stopped
     environment:
       PUID: $PUID

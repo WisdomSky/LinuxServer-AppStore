@@ -1,7 +1,7 @@
 name: linuxserver-swag
 services:
   app:
-    image: linuxserver/swag:5.8.0@sha256:4fc7bdd1438ae56641c62ae8d37dd5351a8129daa752a0b386358811092ab2e8
+    image: linuxserver/swag:5.8.0@sha256:4bc38c3a1d29ec18499a1846c151ae743659dc7942155d656a31a7a94e41a24f
     restart: unless-stopped
     environment:
       PUID: $PUID
