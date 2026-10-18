@@ -1,7 +1,7 @@
 name: linuxserver-limnoria
 services:
   app:
-    image: linuxserver/limnoria:2026.5.8
+    image: linuxserver/limnoria:2026.10.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -122,4 +122,4 @@ x-casaos:
   category: Social
   id: wisdomsky.linuxserver.linuxserverlimnoria
   port_map: '8080'
-  version: 2026.5.8
+  version: 2026.10.4

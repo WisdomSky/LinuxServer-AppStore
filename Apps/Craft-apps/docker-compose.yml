@@ -1,7 +1,7 @@
 name: linuxserver-craft-apps
 services:
   app:
-    image: linuxserver/craft-apps:0.9.0
+    image: linuxserver/craft-apps:0.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -47,4 +47,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxservercraftapps
   port_map: '3000'
-  version: 0.9.0
+  version: 0.10.0

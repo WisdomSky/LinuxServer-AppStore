@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-b5a7566d
+    image: linuxserver/modmanager:version-7b93ff34
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -122,4 +122,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxservermodmanager
   port_map: '80'
-  version: version-b5a7566d
+  version: version-7b93ff34
