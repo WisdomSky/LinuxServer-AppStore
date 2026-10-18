@@ -1,7 +1,7 @@
 name: linuxserver-luanti
 services:
   app:
-    image: linuxserver/luanti:5.17.0@sha256:d57d75ee00607e4c8b3cbc65c8b53ac47bb428b6dfc0c90bdf1bd1fa2fc4f522
+    image: linuxserver/luanti:5.18.0@sha256:9cce9656276ba534745aacfc1d288a41cbeb2783a24c20612f10095c7b0ab628
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -49,4 +49,4 @@ x-casaos:
     zh_TW: Luanti（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverluanti
   port_map: '30000'
-  version: 5.17.0
+  version: 5.18.0

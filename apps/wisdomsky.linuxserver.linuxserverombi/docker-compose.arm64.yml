@@ -1,7 +1,7 @@
 name: linuxserver-ombi
 services:
   app:
-    image: linuxserver/ombi:4.53.10@sha256:11fcb481e64e67f62b60ddc8ffe0e78753f06961683ba8a688da4cc9f70bbe7b
+    image: linuxserver/ombi:4.53.10@sha256:a1c00afaa5ae7833ac510117351fac195bab5667acb842f93ed2a5dc6cc06fa1
     restart: unless-stopped
     environment:
       PUID: $PUID

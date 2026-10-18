@@ -12,13 +12,13 @@
   "title": "Tvheadend (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservertvheadend",
-  "version": "version-a87be591",
+  "version": "version-8837853a",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 301426549,
-    "arm64": 285701001
+    "amd64": 301772558,
+    "arm64": 286040577
   }
 }

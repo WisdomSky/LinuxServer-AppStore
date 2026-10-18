@@ -1,7 +1,7 @@
 name: linuxserver-limnoria
 services:
   app:
-    image: linuxserver/limnoria:2026.5.8@sha256:9072ed890c52bf2170ef8ada083878934b7a9b4fc19ddef0c0e7af5d5ba2e2de
+    image: linuxserver/limnoria:2026.10.4@sha256:256956f2657a783898ba2e18b17d4fe0cb150ec78735381f94e9bd7cb7025235
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Limnoria（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlimnoria
   port_map: '8080'
-  version: 2026.5.8
+  version: 2026.10.4

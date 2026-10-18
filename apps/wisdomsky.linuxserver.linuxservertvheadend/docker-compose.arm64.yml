@@ -1,7 +1,7 @@
 name: linuxserver-tvheadend
 services:
   app:
-    image: linuxserver/tvheadend:version-a87be591@sha256:3e247158c78bcad099321ecd26e5bc044ce5fb003d96bc88ac1f032bf3ba4d8b
+    image: linuxserver/tvheadend:version-8837853a@sha256:5609d71448c5e13e273dda1b1f1c28764e514e0ba2b9eb22ca052e1d21a12ed3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -57,4 +57,4 @@ x-casaos:
     zh_CN: Tvheadend（LinuxServer.io）
     zh_TW: Tvheadend（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservertvheadend
-  version: version-a87be591
+  version: version-8837853a

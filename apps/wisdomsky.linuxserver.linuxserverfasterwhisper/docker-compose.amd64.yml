@@ -1,7 +1,7 @@
 name: linuxserver-faster-whisper
 services:
   app:
-    image: linuxserver/faster-whisper:3.8.1@sha256:5748f01e6ea474f413a782b5eec38ed0ad34cc037fd25daf22b6c9350efdefed
+    image: linuxserver/faster-whisper:3.8.1@sha256:102b7b1acd9c79fdf803c9da852a1ac634178671fbd948ab413336a4d29a4d4a
     restart: unless-stopped
     environment:
       PUID: $PUID

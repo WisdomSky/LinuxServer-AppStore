@@ -1,7 +1,7 @@
 name: linuxserver-nomacs
 services:
   app:
-    image: linuxserver/nomacs:3.22.4@sha256:5adc4a15ff25b7c54c2a43c59e2b86f74cdec65d0e6fcde7e21e094c6458fef3
+    image: linuxserver/nomacs:3.22.4@sha256:1579f76cd219cd0f1c2f9f796a5787597f8e0881056bc9c46cc962d3af3f2e1b
     restart: unless-stopped
     environment:
       PUID: $PUID

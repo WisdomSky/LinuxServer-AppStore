@@ -1,7 +1,7 @@
 name: linuxserver-rawtherapee
 services:
   app:
-    image: linuxserver/rawtherapee:5.13.20261011@sha256:a0c55fbc950239831a057ec75eaa6f7b482a427f97d27d77ac3fac03968cab89
+    image: linuxserver/rawtherapee:5.13.20261018@sha256:91e8665c43a474a8e70d420dd46dc9ad33802491d76712ce38d63cd1e3f8b9ba
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Rawtherapee（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverrawtherapee
   port_map: '3000'
-  version: 5.13.20261011
+  version: 5.13.20261018
