@@ -1,7 +1,7 @@
 name: linuxserver-audiosilo
 services:
   app:
-    image: linuxserver/audiosilo:2.3.1@sha256:e7dbe112ebcb3afbdee26f8bd036803c41fc88ee9ddc584e3b518ab77a01498c
+    image: linuxserver/audiosilo:2.3.1@sha256:9654173657f6c31d3e66d80d7ea1d837da6fe099e0f20e98a32a8d8a53187a73
     restart: unless-stopped
     environment:
       PUID: $PUID

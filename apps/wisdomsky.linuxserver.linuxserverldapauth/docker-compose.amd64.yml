@@ -1,7 +1,7 @@
 name: linuxserver-ldap-auth
 services:
   app:
-    image: linuxserver/ldap-auth:3.4.8@sha256:3549c97756e27e6750ea618813f85e4563f128a927fc3654eab6d819d7e999ed
+    image: linuxserver/ldap-auth:3.4.8@sha256:8b6e63ac387c5ec985428d4be128f04404ccf0291a1d1e50cf9fd59fad188f00
     restart: unless-stopped
     environment:
       PUID: $PUID

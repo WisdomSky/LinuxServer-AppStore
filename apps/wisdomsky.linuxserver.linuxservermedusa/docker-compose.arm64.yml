@@ -1,7 +1,7 @@
 name: linuxserver-medusa
 services:
   app:
-    image: linuxserver/medusa:1.0.26@sha256:b9ec29415364927503296be9e844ac44ec64f3d031a86768a2c35ce75e7d5764
+    image: linuxserver/medusa:1.0.27@sha256:3fd31095603a5177df9765b8060957fe02a9fcf5a57468e5fc940b1fe9cf9cbb
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Medusa（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermedusa
   port_map: '8081'
-  version: 1.0.26
+  version: 1.0.27
