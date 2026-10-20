@@ -12,13 +12,13 @@
   "title": "Rpcs3 (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverrpcs3",
-  "version": "version-build-1b1b7dea308e8385a636ddf208c77498b01bc061",
+  "version": "version-build-3284e84abaac91516b180413136373ff6af58b5b",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1105967402,
-    "arm64": 1040464693
+    "amd64": 1105981026,
+    "arm64": 1040470901
   }
 }

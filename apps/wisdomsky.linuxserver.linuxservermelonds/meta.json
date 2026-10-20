@@ -12,13 +12,13 @@
   "title": "Melonds (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservermelonds",
-  "version": "1.1.20261013",
+  "version": "1.1.20261019",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1009443689,
-    "arm64": 972371297
+    "amd64": 1007851573,
+    "arm64": 970466333
   }
 }

@@ -1,7 +1,7 @@
 name: linuxserver-thunderbird
 services:
   app:
-    image: linuxserver/thunderbird:1140.16.0
+    image: linuxserver/thunderbird:1140.17.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Thunderbird（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverthunderbird
   port_map: '3000'
-  version: 1140.16.0
+  version: 1140.17.0

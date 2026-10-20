@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.9.0@sha256:d2bd150935e31babbd3843f2bef03d664ab59280276cc0e5119be9c7d6a6388f
+    image: linuxserver/yaak:2026.9.0@sha256:a4a37522db08459bc86a75e650387d12d72266115f49798c1d1e520c5caf818d
     restart: unless-stopped
     environment:
       PUID: $PUID

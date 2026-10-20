@@ -1,7 +1,7 @@
 name: linuxserver-melonds
 services:
   app:
-    image: linuxserver/melonds:1.1.20261013@sha256:0f167f2521061356888c6f60433fd3f348b340d74614ee04e648e8ca99f49ef9
+    image: linuxserver/melonds:1.1.20261019@sha256:b3749aa47cded6a6875aaabd6c247123a3cf0b36c93951fe6905f8a0c8c5ee7f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Melonds（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermelonds
   port_map: '3000'
-  version: 1.1.20261013
+  version: 1.1.20261019

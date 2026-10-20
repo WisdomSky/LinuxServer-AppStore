@@ -12,13 +12,13 @@
   "title": "Flexget (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverflexget",
-  "version": "3.22.5",
+  "version": "3.22.6",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 231713567,
-    "arm64": 227602056
+    "amd64": 231714834,
+    "arm64": 227613412
   }
 }

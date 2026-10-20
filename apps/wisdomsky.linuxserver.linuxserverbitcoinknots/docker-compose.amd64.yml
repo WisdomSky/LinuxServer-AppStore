@@ -1,7 +1,7 @@
 name: linuxserver-bitcoin-knots
 services:
   app:
-    image: linuxserver/bitcoin-knots:version-29.4.knots20260508.2-resolute1@sha256:5ed64ab60b3b442225c40c8fe503cffdd21d2bd64f4094876c2f21fcd34c4902
+    image: linuxserver/bitcoin-knots:version-29.4.knots20260508.2-resolute1@sha256:6a1f9b60fbce3da95a83bae75d45e226f52de55891701b9aa213cba1350e00fd
     restart: unless-stopped
     environment:
       PUID: $PUID
