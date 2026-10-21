@@ -12,13 +12,13 @@
   "title": "Librewolf (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
-  "version": "157.0.1",
+  "version": "158.0.1",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1132299697,
-    "arm64": 1083096495
+    "amd64": 1134525272,
+    "arm64": 1085147073
   }
 }

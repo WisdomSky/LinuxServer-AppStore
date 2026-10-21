@@ -12,13 +12,13 @@
   "title": "Chrome (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverchrome",
-  "version": "155.0.8059",
+  "version": "156.0.8078",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1188772594,
-    "arm64": 1146003629
+    "amd64": 1190485312,
+    "arm64": 1146264776
   }
 }

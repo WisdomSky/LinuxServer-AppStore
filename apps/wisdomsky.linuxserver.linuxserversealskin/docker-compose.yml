@@ -1,7 +1,7 @@
 name: linuxserver-sealskin
 services:
   app:
-    image: linuxserver/sealskin:0.3.2
+    image: linuxserver/sealskin:0.4.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -14,6 +14,9 @@ services:
         protocol: tcp
       - target: 8000
         published: 8000
+        protocol: tcp
+      - target: 8444
+        published: 8444
         protocol: tcp
     volumes:
       - type: bind
@@ -58,4 +61,4 @@ x-casaos:
     zh_TW: Sealskin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversealskin
   port_map: '8000'
-  version: 0.3.2
+  version: 0.4.0

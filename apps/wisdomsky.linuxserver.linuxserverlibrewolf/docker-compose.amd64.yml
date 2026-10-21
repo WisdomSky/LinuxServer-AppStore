@@ -1,7 +1,7 @@
 name: linuxserver-librewolf
 services:
   app:
-    image: linuxserver/librewolf:157.0.1@sha256:1e07666c99cad3ba960d3271578ae3359e478df02b0d2810ac01e12c487b23e6
+    image: linuxserver/librewolf:158.0.1@sha256:9f82ac25a07cbaa77b193a922556b3d1b5b06f4a9bc8fc9af6b3f4f03df015c9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Librewolf（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlibrewolf
   port_map: '3000'
-  version: 157.0.1
+  version: 158.0.1

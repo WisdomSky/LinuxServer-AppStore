@@ -1,7 +1,7 @@
 name: linuxserver-joplin
 services:
   app:
-    image: linuxserver/joplin:3.7.21@sha256:aecf8bb47fbd48afb6ac16750f72fcd6ae7264f6818fb790e1f7741b15bb024e
+    image: linuxserver/joplin:3.7.21@sha256:9c83c6cce2cda76e49647e5d1f9cfc045a6117c6bb7b58f23ec0758e59a7ae38
     restart: unless-stopped
     environment:
       PUID: $PUID

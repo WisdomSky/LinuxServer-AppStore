@@ -1,7 +1,7 @@
 name: linuxserver-bazarr
 services:
   app:
-    image: linuxserver/bazarr:1.6.2@sha256:e3313a245b92d7c055e2a8e370b54bc1aeb4b3b4c36420ce18809a6e87c687b2
+    image: linuxserver/bazarr:1.6.2@sha256:7f086a154470936463db52ad1fb9ea77cbcd2ee962ab08f08dad13540dde41e1
     restart: unless-stopped
     environment:
       PUID: $PUID

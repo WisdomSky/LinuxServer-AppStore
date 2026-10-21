@@ -1,7 +1,7 @@
 name: linuxserver-kasm
 services:
   app:
-    image: linuxserver/kasm:1.19.0@sha256:b9379e8197937573d599f21279886b0b37e5a85b679e49a54c4a3502d77d2277
+    image: linuxserver/kasm:1.19.0@sha256:dc76b11fbdd3ccc79bec66c8dcd7af271676734885984e76855fe6a9b40253e4
     restart: unless-stopped
     environment:
       KASM_PORT: ''

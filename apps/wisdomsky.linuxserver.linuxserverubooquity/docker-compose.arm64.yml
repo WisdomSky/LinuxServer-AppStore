@@ -1,7 +1,7 @@
 name: linuxserver-ubooquity
 services:
   app:
-    image: linuxserver/ubooquity:3.1.0@sha256:61e9b8e4dad0dc77fa23b8be05db46238dacbc3e14eb94dba6b20af6d33d10f4
+    image: linuxserver/ubooquity:3.1.0@sha256:d867a03b0dea798820a0df9fbfb3f664fec1180fc0a6d938da29b517e03cf486
     restart: unless-stopped
     environment:
       PUID: $PUID
