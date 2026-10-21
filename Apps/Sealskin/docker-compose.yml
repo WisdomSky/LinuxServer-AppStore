@@ -1,7 +1,7 @@
 name: linuxserver-sealskin
 services:
   app:
-    image: linuxserver/sealskin:0.3.2
+    image: linuxserver/sealskin:0.4.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,6 +29,9 @@ services:
       - target: 8000
         published: 8000
         protocol: tcp
+      - target: 8444
+        published: 8444
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/sealskin/config
@@ -45,7 +48,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_US: Sealskin is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+    en_US: Sealskin is a self-hosted browser isolation and remote application streaming platform. It runs desktop applications in isolated containers on a server you control and streams them to any browser or phone. Clients include a browser extension, mobile apps, and a web app served by the server itself. Each turns links, files, downloads, and text selections into something you open remotely instead of locally, so nothing from the web runs on the device in front of you.
     ca_ES: Sealskin és una plataforma client-servidor autoallotjada que permet als usuaris executar aplicacions d'escriptori potents i en contenidors que es transmeten directament a un navegador web. Utilitza una extensió del navegador per interceptar les accions de l'usuari, com ara fer clic en un enllaç o descarregar un fitxer, i redirigeix els usuaris a un entorn d'aplicacions segur i aïllat que s'executa en un servidor remot.
     cs_CZ: Sealskin je samostatně hostovaná platforma typu klient-server, která umožňuje uživatelům spouštět výkonné kontejnerizované desktopové aplikace streamované přímo do webového prohlížeče. Používá rozšíření prohlížeče k zachycení akcí uživatelů – jako je kliknutí na odkaz nebo stahování souboru – a přesměrování do zabezpečeného, izolovaného aplikačního prostředí běžícího na vzdáleném serveru.
     da_DK: Sealskin er en selvhostet klient-server-platform, der gør det muligt for brugere at køre kraftfulde, containeriserede desktopapplikationer, der streames direkte til en webbrowser. Den bruger en browserudvidelse til at opfange brugerhandlinger – såsom at klikke på et link eller downloade en fil – og omdirigerer dem til et sikkert, isoleret applikationsmiljø, der kører på en fjernserver.
@@ -73,7 +76,7 @@ x-casaos:
     zh_CN: Sealskin 是可自行托管的客户端与服务器平台，让用户直接通过浏览器串流运行强大的容器化桌面应用。它利用浏览器扩展拦截点击链接、下载文件等操作，并将其重定向到远程服务器上安全、隔离的应用环境。
     zh_TW: Sealskin 是可自行託管的客戶端與伺服器平臺，讓使用者直接透過瀏覽器串流執行強大的容器化桌面應用。它利用瀏覽器擴充套件攔截點選連結、下載檔案等操作，並將其重定向到遠端伺服器上安全、隔離的應用環境。
   tagline:
-    en_US: A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+    en_US: A self-hosted browser isolation and remote application streaming platform. It runs desktop applications in isolated containers on a server you control and streams them to any browser or phone. Clients include a browser extension, mobile apps, and a web app served by the server itself. Each turns links, files, downloads, and text selections into something you open remotely instead of locally, so nothing from the web runs on the device in front of you.
     ca_ES: Una plataforma client-servidor autoallotjada que permet als usuaris executar aplicacions d'escriptori potents i en contenidors que es transmeten directament a un navegador web. Utilitza una extensió del navegador per interceptar les accions de l'usuari, com ara fer clic en un enllaç o descarregar un fitxer, i els redirigeix a un entorn d'aplicacions segur i aïllat que s'executa en un servidor remot.
     cs_CZ: Samostatně hostovaná platforma typu klient-server, která umožňuje uživatelům spouštět výkonné kontejnerizované desktopové aplikace streamované přímo do webového prohlížeče. Používá rozšíření prohlížeče k zachycení akcí uživatelů – jako je kliknutí na odkaz nebo stahování souboru – a přesměruje je do zabezpečeného, izolovaného aplikačního prostředí běžícího na vzdáleném serveru.
     da_DK: En selvhostet klient-server-platform, der gør det muligt for brugere at køre effektive, containeriserede desktopapplikationer, der streames direkte til en webbrowser. Den bruger en browserudvidelse til at opfange brugerhandlinger – såsom at klikke på et link eller downloade en fil – og omdirigerer dem til et sikkert, isoleret applikationsmiljø, der kører på en fjernserver.
@@ -102,8 +105,8 @@ x-casaos:
     zh_TW: 透過瀏覽器使用遠端容器化桌面應用。
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sealskin-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sealskin-logo.png
   title:
     en_US: Sealskin (LinuxServer.io)
     ca_ES: Sealskin (LinuxServer.io)
@@ -135,4 +138,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxserversealskin
   port_map: '8000'
-  version: 0.3.2
+  version: 0.4.0
