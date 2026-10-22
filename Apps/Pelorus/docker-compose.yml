@@ -1,7 +1,7 @@
 name: linuxserver-pelorus
 services:
   app:
-    image: linuxserver/pelorus:0.2.3
+    image: linuxserver/pelorus:0.2.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -121,4 +121,4 @@ x-casaos:
   category: AI
   id: wisdomsky.linuxserver.linuxserverpelorus
   port_map: '3001'
-  version: 0.2.3
+  version: 0.2.4

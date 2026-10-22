@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-e1c1040d
+    image: linuxserver/lazylibrarian:arm64v8-version-312bab80
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -38,7 +38,6 @@ services:
         target: /books
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
@@ -132,4 +131,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-e1c1040d
+  version: arm64v8-version-312bab80
