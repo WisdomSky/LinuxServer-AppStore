@@ -1,7 +1,7 @@
 name: linuxserver-firefox
 services:
   app:
-    image: linuxserver/firefox:1.2404.1@sha256:2f5bb077c10704f86957a4dedeebcf63a6f51cc80eba546a03c356bdd25bd70c
+    image: linuxserver/firefox:1158.0.1@sha256:55133af073f73c5d0df98d37866cd5808f3709beeb3a7f8886e2e35fa8068b88
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Firefox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfirefox
   port_map: '3000'
-  version: 1.2404.1
+  version: 1158.0.1

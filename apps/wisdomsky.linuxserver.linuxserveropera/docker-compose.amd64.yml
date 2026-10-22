@@ -1,7 +1,7 @@
 name: linuxserver-opera
 services:
   app:
-    image: linuxserver/opera:138.0.6044@sha256:709eb977823887b948ae46f71fac23be7dc57e9d064698d8f3f29d101bd52cbe
+    image: linuxserver/opera:138.0.6044@sha256:20f582132519e470f9532b22cb4de77dee3bb07e0b5547ac5ef03a6a97e613c7
     restart: unless-stopped
     environment:
       PUID: $PUID

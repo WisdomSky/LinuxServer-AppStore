@@ -1,7 +1,7 @@
 name: linuxserver-speedtest-tracker
 services:
   app:
-    image: linuxserver/speedtest-tracker:1.15.0@sha256:ce6d0182ebb62c929811344d1a26b4d37451bb608888d15324683038d1e90063
+    image: linuxserver/speedtest-tracker:1.15.1@sha256:4c70a0ad459a629ca93e2ba70a55757cbed5016f8e7cf53751dbfd22bb76c2c5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -60,4 +60,4 @@ x-casaos:
     zh_TW: Speedtest tracker（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverspeedtesttracker
   port_map: '80'
-  version: 1.15.0
+  version: 1.15.1

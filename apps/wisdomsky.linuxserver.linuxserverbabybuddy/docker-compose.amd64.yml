@@ -1,7 +1,7 @@
 name: linuxserver-babybuddy
 services:
   app:
-    image: linuxserver/babybuddy:2.11.0@sha256:c6197cc985a6aec5fa0523d8553cb81a4c6620a6201f8c551284bf16ce0357a5
+    image: linuxserver/babybuddy:2.11.0@sha256:16790208f7e768efaee11c3de8c720130ea66fc6fae7954818fbe65c00b36a29
     restart: unless-stopped
     environment:
       PUID: $PUID

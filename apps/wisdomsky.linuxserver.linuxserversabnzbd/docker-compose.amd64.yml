@@ -1,7 +1,7 @@
 name: linuxserver-sabnzbd
 services:
   app:
-    image: linuxserver/sabnzbd:5.1.3@sha256:b9b52882ba82ad3c580174ccdb26855eb495452493bc07868a582b4caed4979d
+    image: linuxserver/sabnzbd:5.1.3@sha256:93e23ba7dd20c4a00da1bdeb9adf9d622890a11caed4f5468892f48eef7b0c0c
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-cops
 services:
   app:
-    image: linuxserver/cops:4.5.4@sha256:79d42e3c3b5a5948cb075eae28bf4777164a97ec31c658c8e0a11fb7fabb2feb
+    image: linuxserver/cops:4.5.4@sha256:b294e0735b7c22471e60c27f8863ab1646644b56eff6d4912b2ea87f1497c34b
     restart: unless-stopped
     environment:
       PUID: $PUID

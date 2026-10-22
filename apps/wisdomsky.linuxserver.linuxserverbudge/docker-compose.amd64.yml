@@ -1,7 +1,7 @@
 name: linuxserver-budge
 services:
   app:
-    image: linuxserver/budge:0.0.9@sha256:adee7a7e6dcb368193c9a7aae8efba2af5684472facc5cf6f164a2ca585bafea
+    image: linuxserver/budge:0.0.9@sha256:6d7f65aaba30d676213b3c696cb690b6c1b4911cc995d557de30026c12915525
     restart: unless-stopped
     environment:
       PUID: $PUID

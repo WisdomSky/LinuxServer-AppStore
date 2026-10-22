@@ -1,7 +1,7 @@
 name: linuxserver-pelorus
 services:
   app:
-    image: linuxserver/pelorus:0.2.3@sha256:804d5a302151b84c31d421251ccb0941880df104875dfc091ba0b5dbb71523c0
+    image: linuxserver/pelorus:0.2.4@sha256:cc1a74799c25f607e288f32736582a16899d80f16d04501b0362f49e79992f05
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Pelorus（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpelorus
   port_map: '3001'
-  version: 0.2.3
+  version: 0.2.4

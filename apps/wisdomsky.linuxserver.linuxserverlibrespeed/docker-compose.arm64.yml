@@ -1,7 +1,7 @@
 name: linuxserver-librespeed
 services:
   app:
-    image: linuxserver/librespeed:6.3.0@sha256:ab9b31aea51e06d56aa45174ba3283578c8ba21b66197c66071797e609e38f12
+    image: linuxserver/librespeed:6.3.1@sha256:56d33a78fb5c28db4b19d6c55c4ef6310ba7dfcf5a1ca80b33e57b283d666451
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -57,4 +57,4 @@ x-casaos:
     zh_TW: Librespeed（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlibrespeed
   port_map: '80'
-  version: 6.3.0
+  version: 6.3.1

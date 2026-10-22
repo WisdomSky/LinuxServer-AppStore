@@ -1,7 +1,7 @@
 name: linuxserver-dokuwiki
 services:
   app:
-    image: linuxserver/dokuwiki:version-2026-07-14c@sha256:0a6cc3c623bb2cc9ae389b4f585509aaec8424e8329fc52527feeb897841ecb9
+    image: linuxserver/dokuwiki:version-2026-07-14c@sha256:dc1b4bbc74fbc6922105b8c1969bfb44c52bf6eba044a894a2dfd7d612b53eef
     restart: unless-stopped
     environment:
       PUID: $PUID

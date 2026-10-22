@@ -1,7 +1,7 @@
 name: linuxserver-remmina
 services:
   app:
-    image: linuxserver/remmina:1.4.43@sha256:914ed3f782aa2378700e05ff7b3cd4029793241c762db1f49e412facefc63bd8
+    image: linuxserver/remmina:1.4.43@sha256:183713e5c957feef1b9af1be090b0a4e51defbd770304b013640751d7a509cc6
     restart: unless-stopped
     environment:
       PUID: $PUID
