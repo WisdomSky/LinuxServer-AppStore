@@ -1,7 +1,7 @@
 name: linuxserver-webtop
 services:
   app:
-    image: linuxserver/webtop:arch-kde-version-2025-07-12@sha256:2981f35242417c4cf11eb6e1d278282553966a8a359d0f100bb8677015363222
+    image: linuxserver/webtop:arch-kde-version-2025-07-12@sha256:6966ffe06cedf34798be6e1b963292679b3d553aea9d2e039a8bec6a98aeb356
     restart: unless-stopped
     environment:
       PUID: $PUID

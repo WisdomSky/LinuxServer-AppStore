@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:2.2.1@sha256:c9c8814252f43f791d91009a5352821ad0f5d3db6d66266bfd169d79c3d6197b
+    image: linuxserver/planka:2.2.1@sha256:5ca3a6efe48841f3e4640a1a039126cc620ef3dc02b7f5c1e3b800d5d545f018
     restart: unless-stopped
     environment:
       PUID: $PUID

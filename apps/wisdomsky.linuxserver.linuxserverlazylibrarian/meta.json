@@ -1,5 +1,6 @@
 {
   "architectures": [
+    "amd64",
     "arm64"
   ],
   "description": "Lazylibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.",
@@ -11,12 +12,13 @@
   "title": "Lazylibrarian (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
-  "version": "arm64v8-version-312bab80",
+  "version": "version-81368287",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "arm64": 182568407
+    "amd64": 187159645,
+    "arm64": 182874320
   }
 }

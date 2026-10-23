@@ -12,13 +12,13 @@
   "title": "Jellyfin (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverjellyfin",
-  "version": "12.2ubu2604-ls55",
+  "version": "12.3ubu2604-ls56",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 341523222,
-    "arm64": 305020471
+    "amd64": 342404157,
+    "arm64": 305870142
   }
 }

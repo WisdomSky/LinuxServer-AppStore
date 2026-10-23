@@ -1,7 +1,7 @@
 name: linuxserver-ffmpeg
 services:
   app:
-    image: linuxserver/ffmpeg:9.0.2@sha256:1f9755c920d41b30c4630eb6d54ac4d9badc4f5b0ca3e7f495a98d00e8020c3a
+    image: linuxserver/ffmpeg:9.0.2@sha256:ef0dbd13a827937c1a4c1053802b0fc786ea8260c74bbdfe28c7ba447a9f7109
     restart: unless-stopped
     environment:
       PUID: $PUID

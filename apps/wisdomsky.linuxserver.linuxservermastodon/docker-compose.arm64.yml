@@ -1,7 +1,7 @@
 name: linuxserver-mastodon
 services:
   app:
-    image: linuxserver/mastodon:4.7.3@sha256:3cb9b6be296d7827417dedf1edb6a62bfdf5caf34a64cca9707f37b53a1d17ab
+    image: linuxserver/mastodon:4.7.3@sha256:23d60e81668ccee6c205f5e261418f3c17d3d121445685bd8170aecda7b65515
     restart: unless-stopped
     environment:
       PUID: $PUID

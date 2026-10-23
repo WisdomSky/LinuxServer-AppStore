@@ -1,7 +1,7 @@
 name: linuxserver-blender
 services:
   app:
-    image: linuxserver/blender:5.2.2@sha256:f58feedbd270ba6a1dfcfb97271d4bedb7af2ae110dd2e6c42733bc8210613df
+    image: linuxserver/blender:5.2.3@sha256:a8464bb7c4a11be75d78e8bba25fa35b029b19954ddee6c3139308a391070736
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Blender（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverblender
   port_map: '3000'
-  version: 5.2.2
+  version: 5.2.3

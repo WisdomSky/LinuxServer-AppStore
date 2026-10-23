@@ -1,7 +1,7 @@
 name: linuxserver-onlyoffice
 services:
   app:
-    image: linuxserver/onlyoffice:10.0.0@sha256:d43622da71faae4f3ef75e9afb8516fe1e80dac4f9d11c2390644baa70d7ae84
+    image: linuxserver/onlyoffice:10.0.0@sha256:bc07a600d27e31fe05f88380ee5b8811dc0a1bc210c3842a45fa1d51cf96a5c7
     restart: unless-stopped
     environment:
       PUID: $PUID

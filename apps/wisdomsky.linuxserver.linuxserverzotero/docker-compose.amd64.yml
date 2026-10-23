@@ -1,7 +1,7 @@
 name: linuxserver-zotero
 services:
   app:
-    image: linuxserver/zotero:10.0.6@sha256:1487ed6a9a8875fca47705ab0756475f52a9ffd77238111fbbf18d6f5084b153
+    image: linuxserver/zotero:10.0.6@sha256:dad3faad4379364a987a2f41a1db003ce68bcd5562737576e422a0b605847603
     restart: unless-stopped
     environment:
       PUID: $PUID
