@@ -12,13 +12,13 @@
   "title": "Wikijs (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverwikijs",
-  "version": "2.5.316",
+  "version": "2.5.317",
   "categories": [
     "productivity"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 144287614,
-    "arm64": 144631085
+    "amd64": 143419708,
+    "arm64": 143747170
   }
 }

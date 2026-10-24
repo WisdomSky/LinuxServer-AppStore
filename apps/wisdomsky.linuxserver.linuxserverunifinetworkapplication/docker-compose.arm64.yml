@@ -1,7 +1,7 @@
 name: linuxserver-unifi-network-application
 services:
   app:
-    image: linuxserver/unifi-network-application:10.6.106@sha256:8a88497dc31d01731027170e82c62b66288c1f1c9cfc8d8dead0533b67d30b00
+    image: linuxserver/unifi-network-application:10.6.109@sha256:3ba563000d3e553b482d393e699e631bfdaaad8d6a836a514917ce15aa8509dd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -81,4 +81,4 @@ x-casaos:
     zh_TW: Unifi network-application（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverunifinetworkapplication
   port_map: '8080'
-  version: 10.6.106
+  version: 10.6.109

@@ -1,7 +1,7 @@
 name: linuxserver-pydio-cells
 services:
   app:
-    image: linuxserver/pydio-cells:5.1.0@sha256:eedc54c7bdfc1277bb95c37fdbe3802a96c03ab98415ef1e8cc83d9a857cfc3a
+    image: linuxserver/pydio-cells:5.1.0@sha256:916b619d0c507f34b3ac89fca9046fffb9971524e64b5f19b0a8da15480e9103
     restart: unless-stopped
     environment:
       PUID: $PUID

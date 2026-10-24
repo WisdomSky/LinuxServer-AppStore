@@ -1,7 +1,7 @@
 name: linuxserver-kimai
 services:
   app:
-    image: linuxserver/kimai:2.70.2@sha256:ce89969b7b61ba7bfaf41530a005d7a8f2b9b70486ab191b37a46af82020f8e5
+    image: linuxserver/kimai:2.70.2@sha256:1e0e5093ab9116091c9f3879a1ba60adee8ca111b5e5367cca7446d239f3cc70
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-qemu-static
 services:
   app:
-    image: linuxserver/qemu-static:10.0.2@sha256:711c4b8c3dc8a15f6b927a67ad413200dfc2ba2c8eb751bf4ea910d3c6fb88a6
+    image: linuxserver/qemu-static:10.0.13@sha256:ea9534bb391132dfc85ba4bc3f106d526ef8f54883c1f42df4d9c0e946482267
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Qemu static（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverqemustatic
   port_map: '80'
-  version: 10.0.2
+  version: 10.0.13

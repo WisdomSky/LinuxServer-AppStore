@@ -12,13 +12,13 @@
   "title": "Audiosilo (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserveraudiosilo",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 75028504,
-    "arm64": 72481427
+    "amd64": 75799698,
+    "arm64": 73194697
   }
 }

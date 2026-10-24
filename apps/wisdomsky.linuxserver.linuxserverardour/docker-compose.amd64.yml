@@ -1,7 +1,7 @@
 name: linuxserver-ardour
 services:
   app:
-    image: linuxserver/ardour:version-2026-10-19@sha256:9b183ee672446eda1fc158eb3a1399f454f5392f92726f8354dbce67aaa2bd48
+    image: linuxserver/ardour:version-2026-10-23@sha256:4bce343af4ba65ec439a69a2e537166d382fee5076805270f599e03ec5e8aa76
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Ardour（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverardour
   port_map: '3000'
-  version: version-2026-10-19
+  version: version-2026-10-23
