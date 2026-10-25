@@ -1,7 +1,7 @@
 name: linuxserver-obsidian
 services:
   app:
-    image: linuxserver/obsidian:1.14.4@sha256:ea7ac5b750ecd1211c60f8b5aa24258de91ca90adf5fed317c78dc245b1c7caa
+    image: linuxserver/obsidian:1.14.5@sha256:f4a3daaf93cc9d44513a3b5b376615980dd67426083200ff360d41f2dce5d724
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Obsidian（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverobsidian
   port_map: '3000'
-  version: 1.14.4
+  version: 1.14.5

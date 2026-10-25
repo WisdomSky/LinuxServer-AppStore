@@ -1,7 +1,7 @@
 name: linuxserver-piwigo
 services:
   app:
-    image: linuxserver/piwigo:16.4.0@sha256:19dbb7c8c38098cd1a467278af1aaf1386314d6517dfeee43eac0a87c608e002
+    image: linuxserver/piwigo:16.4.0@sha256:14681f345e6601fb11832b8a2fe615e697d015d09956f8086b9e77df43c3eb4b
     restart: unless-stopped
     environment:
       PUID: $PUID

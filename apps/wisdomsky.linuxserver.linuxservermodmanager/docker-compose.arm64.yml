@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-7b93ff34@sha256:6d4e10533f35375c4498b982dcec2a37dbef736645f1d722ae9125f958532b2c
+    image: linuxserver/modmanager:version-e04542ce@sha256:15c08d69ba43f892e84fdef9edf6fffcdf280f8ad80c3e56d5bee5ef82008022
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Modmanager（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermodmanager
   port_map: '80'
-  version: version-7b93ff34
+  version: version-e04542ce

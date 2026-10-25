@@ -1,7 +1,7 @@
 name: linuxserver-grocy
 services:
   app:
-    image: linuxserver/grocy:4.7.1@sha256:04b76def84197b214369d3c373df25b012477e25ac656a1b94d5d254d3597b6c
+    image: linuxserver/grocy:4.7.1@sha256:cb02c63fdc2dd9536ca9614d74f0a130b318c5813f76963570db1f782968c574
     restart: unless-stopped
     environment:
       PUID: $PUID
