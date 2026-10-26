@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:5.0.1@sha256:c59f91dece0773377e17e804a4017b7891d6d72e2bec853fb214cd3e15c967d1
+    image: linuxserver/healthchecks:5.0.2@sha256:2cfe8969b1f55e229a0c17916e634a0f9c9de91992079142d9b932f6f563e100
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -70,4 +70,4 @@ x-casaos:
     zh_TW: Healthchecks（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverhealthchecks
   port_map: '8000'
-  version: 5.0.1
+  version: 5.0.2

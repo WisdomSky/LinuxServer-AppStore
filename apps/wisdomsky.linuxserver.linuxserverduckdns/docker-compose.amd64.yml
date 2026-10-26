@@ -1,7 +1,7 @@
 name: linuxserver-duckdns
 services:
   app:
-    image: linuxserver/duckdns:version-8d8f7eba@sha256:8583b9394920c0b7a2fa9798ebac49e5ddca94b6a8a20fbb1216c6a61bcbc156
+    image: linuxserver/duckdns:version-8aabc87c@sha256:062fd8490b81a43e23ca0fafdd75027744575c448fb855969fa8b827d0033d51
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Duckdns（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverduckdns
   port_map: '80'
-  version: version-8d8f7eba
+  version: version-8aabc87c

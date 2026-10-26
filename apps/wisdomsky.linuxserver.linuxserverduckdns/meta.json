@@ -12,13 +12,13 @@
   "title": "Duckdns (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverduckdns",
-  "version": "version-8d8f7eba",
+  "version": "version-8aabc87c",
   "categories": [
     "networking"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 15724388,
-    "arm64": 16839258
+    "amd64": 15719174,
+    "arm64": 16834195
   }
 }

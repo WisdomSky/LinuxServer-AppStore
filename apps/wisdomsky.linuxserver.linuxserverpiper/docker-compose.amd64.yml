@@ -1,7 +1,7 @@
 name: linuxserver-piper
 services:
   app:
-    image: linuxserver/piper:2.5.2@sha256:d30b0d7e0583f2104727f27c2c4fad34e0ab8724cea71e014e9a7306b60eb631
+    image: linuxserver/piper:2.5.2@sha256:5cdc585049020bec2d0c64f1a6789544d38b201d8d65baa4ef63bde3b554adf2
     restart: unless-stopped
     environment:
       PUID: $PUID

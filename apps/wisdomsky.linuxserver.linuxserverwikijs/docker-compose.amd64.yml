@@ -1,7 +1,7 @@
 name: linuxserver-wikijs
 services:
   app:
-    image: linuxserver/wikijs:2.5.317@sha256:d8b4089bf7ee3262edb6a4cbe9372563a959a7d7736907a5db080f277b42a973
+    image: linuxserver/wikijs:2.5.317@sha256:104bed3992ee8860142e042f9e7090f48a0a64cc2a6f40f2afa6460175cb1cd4
     restart: unless-stopped
     environment:
       PUID: $PUID

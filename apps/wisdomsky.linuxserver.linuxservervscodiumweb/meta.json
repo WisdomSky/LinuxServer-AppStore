@@ -12,13 +12,13 @@
   "title": "Vscodium web (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
-  "version": "1.140.06880",
+  "version": "1.143.17183",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 176422957,
-    "arm64": 174221035
+    "amd64": 178066189,
+    "arm64": 175842660
   }
 }

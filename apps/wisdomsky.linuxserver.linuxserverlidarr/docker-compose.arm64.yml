@@ -1,7 +1,7 @@
 name: linuxserver-lidarr
 services:
   app:
-    image: linuxserver/lidarr:3.1.0@sha256:49ce30ad7c88aa07eeb0185f11947c8d527c123b47ddebeb2b3eec1638e91457
+    image: linuxserver/lidarr:3.1.6@sha256:be3915e7b1755d82e2452aae0b693a13418e1224a33548271fdb2dcf21b38a4a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Lidarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlidarr
   port_map: '8686'
-  version: 3.1.0
+  version: 3.1.6
