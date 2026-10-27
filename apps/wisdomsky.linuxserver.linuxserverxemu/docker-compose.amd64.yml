@@ -1,7 +1,7 @@
 name: linuxserver-xemu
 services:
   app:
-    image: linuxserver/xemu:0.8.134@sha256:ed626bb130eebcd127dc7c8d349ced505755a925cef425dd47a4d2bb131b0912
+    image: linuxserver/xemu:0.8.134@sha256:6430e67501d33ec5e33ef29989ef7eea6eda80f05cb2548b6ae24145b4351b65
     restart: unless-stopped
     environment:
       PUID: $PUID

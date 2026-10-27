@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.22.7@sha256:e069a272b96f525ce91ecdbe195eb251456c12070397823c25fd087c90f5d101
+    image: linuxserver/flexget:3.22.8@sha256:3f860dd05f597d1eb93ffbc90a193f2af779531fd1f27f795762135d8e256a5a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Flexget（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'
-  version: 3.22.7
+  version: 3.22.8

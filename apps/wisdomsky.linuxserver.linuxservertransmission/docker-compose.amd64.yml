@@ -1,7 +1,7 @@
 name: linuxserver-transmission
 services:
   app:
-    image: linuxserver/transmission:4.1.3@sha256:8aa2c2e5961ef509748bc94b271ba00c6e912c0c359ae371ec9328334fd51e11
+    image: linuxserver/transmission:4.1.3@sha256:5483bf13c33be98fe1df144e6281f13cd48ee77aa68b4ef46e7cf02c02998f54
     restart: unless-stopped
     environment:
       PUID: $PUID

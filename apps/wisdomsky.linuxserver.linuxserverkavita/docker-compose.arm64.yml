@@ -1,7 +1,7 @@
 name: linuxserver-kavita
 services:
   app:
-    image: linuxserver/kavita:0.9.1@sha256:01cedd9aea226da8c837da1a9ba9a30bc87b0b90e9f5b21390c112219b28b731
+    image: linuxserver/kavita:0.9.1@sha256:5a19052343cc9b1adb1eaa06cd03bfc038bb44ff126d0107cbe737baa5b8c1aa
     restart: unless-stopped
     environment:
       PUID: $PUID

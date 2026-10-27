@@ -1,7 +1,7 @@
 name: linuxserver-cops
 services:
   app:
-    image: linuxserver/cops:4.5.4@sha256:472422f174b00445d382bb8b817a3c3efbf36916084551e556666772c33778f7
+    image: linuxserver/cops:4.6.1@sha256:7a2f30b8a8fbd4fadc7d22ee96f69156556b86762c5c74a216076229f01c29fa
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Cops（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercops
   port_map: '80'
-  version: 4.5.4
+  version: 4.6.1

@@ -1,7 +1,7 @@
 name: linuxserver-wireshark
 services:
   app:
-    image: linuxserver/wireshark:4.6.6@sha256:32eacb8751202da341a4d958bd36c25c9dd205e6add2018702f46960e69205ea
+    image: linuxserver/wireshark:4.6.6@sha256:74fecf62b47990cbb9bbce4bcd64a13341c26602a0acf12f6a227e2317aabc28
     restart: unless-stopped
     environment:
       PUID: $PUID
