@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:5.0.2
+    image: linuxserver/healthchecks:5.0.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -201,4 +201,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverhealthchecks
   port_map: '8000'
-  version: 5.0.2
+  version: 5.0.3
