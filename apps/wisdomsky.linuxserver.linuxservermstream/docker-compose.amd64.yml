@@ -1,7 +1,7 @@
 name: linuxserver-mstream
 services:
   app:
-    image: linuxserver/mstream:6.32.0@sha256:f0e5493688d84c36a49c575e06aeebb2e85a769e331253d33117e2c2830cf117
+    image: linuxserver/mstream:6.32.0@sha256:8cece50a347d2d1022c73a1c7247be08af8f73890f92b7d2bc268009566ae5b5
     restart: unless-stopped
     environment:
       PUID: $PUID

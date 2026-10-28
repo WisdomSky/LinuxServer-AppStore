@@ -1,7 +1,7 @@
 name: linuxserver-vscodium-web
 services:
   app:
-    image: linuxserver/vscodium-web:1.143.17183@sha256:124c333428d2be95f280f053c0859decfb771cc7a0284dfa3b04db0fc9bf3233
+    image: linuxserver/vscodium-web:1.143.17232@sha256:b163768d288ccd83241c640ddbd844b249e226312a581ad03fa2bb8d5a8f3e9f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Vscodium web（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservervscodiumweb
   port_map: '8000'
-  version: 1.143.17183
+  version: 1.143.17232

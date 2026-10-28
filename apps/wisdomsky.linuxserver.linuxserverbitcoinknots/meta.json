@@ -12,13 +12,13 @@
   "title": "Bitcoin knots (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
-  "version": "version-29.4.knots20260508.2-resolute1",
+  "version": "version-29.4.knots20260508.3-resolute1",
   "categories": [
     "finance"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1018347555,
-    "arm64": 980207513
+    "amd64": 1018472745,
+    "arm64": 980321385
   }
 }

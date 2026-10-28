@@ -1,7 +1,7 @@
 name: linuxserver-homeassistant
 services:
   app:
-    image: linuxserver/homeassistant:2026.10.4@sha256:9af90770f1a515ecf33e5dd5d77ed38ef12a89e9f31e3386ff7086d386908158
+    image: linuxserver/homeassistant:2026.10.4@sha256:2948d11d708d1525e41ffb15a8a1ca6cc64626fc2e07479d3653c7e8246398be
     restart: unless-stopped
     environment:
       PUID: $PUID
