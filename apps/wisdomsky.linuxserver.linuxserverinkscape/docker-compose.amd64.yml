@@ -1,7 +1,7 @@
 name: linuxserver-inkscape
 services:
   app:
-    image: linuxserver/inkscape:1.4.2@sha256:d63e65b879c3b90f691867a68b055ea3b5698922c664452e6b7f2fdf70732502
+    image: linuxserver/inkscape:1.4.2@sha256:866cbcdeff0aa7aec7f2ecc1e5dfb69ac221bf3524f2a472e9649912804bf862
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-joplin
 services:
   app:
-    image: linuxserver/joplin:3.7.21@sha256:16af1a8d7a72eb71a7b3bbd19fa8028f5fef55e62b6bbee7b0cfc15bf22f4478
+    image: linuxserver/joplin:3.7.22@sha256:108ff95ce14a893ce2cb213802eff68ae8688cc60259226478b19100dfac12cd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Joplin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverjoplin
   port_map: '3000'
-  version: 3.7.21
+  version: 3.7.22

@@ -11,12 +11,12 @@
   "title": "Steam (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserversteam",
-  "version": "version-95181c2e",
+  "version": "version-663eb9df",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1212813790
+    "amd64": 1216533641
   }
 }

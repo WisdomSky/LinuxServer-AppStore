@@ -1,7 +1,7 @@
 name: linuxserver-chromium
 services:
   app:
-    image: linuxserver/chromium:version-2dba585f@sha256:fed85c580396b6b82b138137fbaed5de424e3e58c320f7b152b651488ad345f0
+    image: linuxserver/chromium:version-1aca5d17@sha256:d38df47f459f808cf808d681e234bc611cdc2a7a1458266e68176cb39165ed77
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Chromium（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverchromium
   port_map: '3000'
-  version: version-2dba585f
+  version: version-1aca5d17

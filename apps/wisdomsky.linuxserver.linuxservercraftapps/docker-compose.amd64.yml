@@ -1,7 +1,7 @@
 name: linuxserver-craft-apps
 services:
   app:
-    image: linuxserver/craft-apps:0.16.0@sha256:e04ec958f826059583bcd8f33f72660c149bac854ca16f4cd6e57fc444fbf2dd
+    image: linuxserver/craft-apps:0.17.0@sha256:7e65c4852b49559a20dd5ac7ba409c72bdb8f253caa3338d31e19f5e4c6c41eb
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -25,4 +25,4 @@ x-casaos:
     en_US: Craft apps (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxservercraftapps
   port_map: '3000'
-  version: 0.16.0
+  version: 0.17.0
