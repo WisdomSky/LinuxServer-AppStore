@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-94a19f35
+    image: linuxserver/doublecommander:version-bb4442e7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -128,4 +128,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverdoublecommander
   port_map: '3000'
-  version: version-94a19f35
+  version: version-bb4442e7
