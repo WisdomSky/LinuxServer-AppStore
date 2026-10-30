@@ -1,7 +1,7 @@
 name: linuxserver-heimdall
 services:
   app:
-    image: linuxserver/heimdall:2.8.3@sha256:bf91021080a3d29967c2d0d5ab2eba6e7aa8ff6621903ae019415c648213dd63
+    image: linuxserver/heimdall:2.8.4@sha256:5f612216d3d9a4f985ccee4fc10b76dc74454f0296aa0bc46ebb378a46e4300a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Heimdall（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverheimdall
   port_map: '80'
-  version: 2.8.3
+  version: 2.8.4

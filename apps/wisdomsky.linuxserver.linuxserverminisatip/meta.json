@@ -12,13 +12,13 @@
   "title": "Minisatip (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverminisatip",
-  "version": "2.0.180",
+  "version": "2.0.183",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 51306552,
-    "arm64": 51091667
+    "amd64": 51309206,
+    "arm64": 51093665
   }
 }

@@ -1,7 +1,7 @@
 name: linuxserver-calligra
 services:
   app:
-    image: linuxserver/calligra:3.2.1@sha256:b0a762d12cee915f58ed99032bbcbb27a80bab0189ae412cac5fdf590f979882
+    image: linuxserver/calligra:3.2.1@sha256:b02609a724e1e4f0159f9464e6197682e732cbe580e84762567a81bf0ccb6b16
     restart: unless-stopped
     environment:
       PUID: $PUID

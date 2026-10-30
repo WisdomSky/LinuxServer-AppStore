@@ -1,7 +1,7 @@
 name: linuxserver-duplicati
 services:
   app:
-    image: linuxserver/duplicati:2.4.0@sha256:524ccccc7dd3de678d5caa970b3070e0f1bf71c1cc56e2f714231af3d5d4d125
+    image: linuxserver/duplicati:2.4.1@sha256:c00f70cb90945afbbe41a2159ebf210781da0fe87837fdcf4dcc26700387f75c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -57,4 +57,4 @@ x-casaos:
     zh_TW: Duplicati（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverduplicati
   port_map: '8200'
-  version: 2.4.0
+  version: 2.4.1

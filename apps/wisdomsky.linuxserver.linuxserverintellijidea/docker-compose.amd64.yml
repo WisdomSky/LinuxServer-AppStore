@@ -1,7 +1,7 @@
 name: linuxserver-intellij-idea
 services:
   app:
-    image: linuxserver/intellij-idea:42026.2.3@sha256:7fb966ca323b03b803e57464bfb3aa1732a2ae7d8ecfdc9660a821982db733f5
+    image: linuxserver/intellij-idea:2026.2.3@sha256:1e86ce2eb63cf5d7c84468d81cf15dacee011f94eaef6408fe976f0d332a1ab4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Intellij idea（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverintellijidea
   port_map: '3000'
-  version: 42026.2.3
+  version: 2026.2.3

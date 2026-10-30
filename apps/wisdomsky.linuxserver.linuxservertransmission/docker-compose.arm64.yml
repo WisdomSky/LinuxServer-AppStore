@@ -1,7 +1,7 @@
 name: linuxserver-transmission
 services:
   app:
-    image: linuxserver/transmission:4.1.3@sha256:088a31a221465e5cf5841ddc40a8ae8aff3169bdcba8957bc63ef15f15f0e0e2
+    image: linuxserver/transmission:4.1.4@sha256:48ef9dd6e3d7e48de55d43cc1e16fd6e9ea269a2f06c0593a3ecbd74755fd387
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -65,4 +65,4 @@ x-casaos:
     zh_CN: Transmission（LinuxServer.io）
     zh_TW: Transmission（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservertransmission
-  version: 4.1.3
+  version: 4.1.4
