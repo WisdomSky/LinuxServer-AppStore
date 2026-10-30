@@ -1,7 +1,7 @@
 name: linuxserver-swag
 services:
   app:
-    image: linuxserver/swag:5.8.0
+    image: linuxserver/swag:5.9.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -184,4 +184,4 @@ x-casaos:
   category: Networking
   id: wisdomsky.linuxserver.linuxserverswag
   port_map: '80'
-  version: 5.8.0
+  version: 5.9.0
