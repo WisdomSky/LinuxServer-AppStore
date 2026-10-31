@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-8c70ea4d@sha256:d868978b415d8ef16c092e17d7fb2982ee57e9332304f8f79a7650f7f8c984e8
+    image: linuxserver/lazylibrarian:version-85edbb10@sha256:71ae9be1ba3b6266f99102081a5bb8fab2637e48b8d4976a1d4daf3408e4bd1c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Lazylibrarian（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-8c70ea4d
+  version: version-85edbb10

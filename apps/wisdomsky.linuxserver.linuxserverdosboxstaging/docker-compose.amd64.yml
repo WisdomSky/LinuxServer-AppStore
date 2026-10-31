@@ -1,7 +1,7 @@
 name: linuxserver-dosbox-staging
 services:
   app:
-    image: linuxserver/dosbox-staging:0.83.0@sha256:643004f701900019610518286a57a7fa2c7972f6bc46e519725735baaf68a76b
+    image: linuxserver/dosbox-staging:0.83.0@sha256:3f8d8e3655b57ee44497227a53e79efff4e6649897788e876b04212a116066d0
     restart: unless-stopped
     environment:
       PUID: $PUID

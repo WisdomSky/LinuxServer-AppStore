@@ -1,7 +1,7 @@
 name: linuxserver-phpmyadmin
 services:
   app:
-    image: linuxserver/phpmyadmin:5.2.3@sha256:2b996d909724520205f67c366cbf9bcc435edc5b68dbfbd84ad583917d8b65e0
+    image: linuxserver/phpmyadmin:5.2.3@sha256:ba49d6ca06ab624d7b2a4081339d9b47db001ad223bb7b7656a0b21c195c4cb8
     restart: unless-stopped
     environment:
       PUID: $PUID

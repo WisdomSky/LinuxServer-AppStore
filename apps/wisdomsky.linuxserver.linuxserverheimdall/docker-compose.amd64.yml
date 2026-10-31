@@ -1,7 +1,7 @@
 name: linuxserver-heimdall
 services:
   app:
-    image: linuxserver/heimdall:2.8.4@sha256:5f612216d3d9a4f985ccee4fc10b76dc74454f0296aa0bc46ebb378a46e4300a
+    image: linuxserver/heimdall:2.8.4@sha256:2d7521b2d4111e3a06475f19e2f54ddb7ce6bc73d5e772253fa2436ddb300a27
     restart: unless-stopped
     environment:
       PUID: $PUID

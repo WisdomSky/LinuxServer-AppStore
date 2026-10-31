@@ -1,7 +1,7 @@
 name: linuxserver-spotube
 services:
   app:
-    image: linuxserver/spotube:5.1.2@sha256:5ed117e5cfe922c66cb33f7facb59cbd136e283fac943b9c63205569d4c8c821
+    image: linuxserver/spotube:6.0.0@sha256:2724ae7fcb14688b8f4c617a6fc9a866ca5afa308ed083ddd1bf4b17a3667e67
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Spotube（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverspotube
   port_map: '3000'
-  version: 5.1.2
+  version: 6.0.0
