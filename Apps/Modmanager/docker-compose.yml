@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-e04542ce
+    image: linuxserver/modmanager:arm64v8-version-53dba8d3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,7 +28,6 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
@@ -122,4 +121,4 @@ x-casaos:
   category: Others
   id: wisdomsky.linuxserver.linuxservermodmanager
   port_map: '80'
-  version: version-e04542ce
+  version: arm64v8-version-53dba8d3
