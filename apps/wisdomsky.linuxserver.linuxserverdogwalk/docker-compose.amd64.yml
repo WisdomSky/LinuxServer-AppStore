@@ -1,7 +1,7 @@
 name: linuxserver-dogwalk
 services:
   app:
-    image: linuxserver/dogwalk:version-d51b58c0@sha256:b326e8c2f523f6dd099d03b53cd479a16ebd4ede3a7ebc8f43eff8daef7d2efa
+    image: linuxserver/dogwalk:version-769e9ddc@sha256:49fed318e813019d5471a42a54af76978288c146e54f72e50e644440be7a67ed
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Dogwalk（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdogwalk
   port_map: '3000'
-  version: version-d51b58c0
+  version: version-769e9ddc
