@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.9.0@sha256:4014053aa15276bbce6acb5ed86598d44f40d3f909b5ef59f5f850b5564d944a
+    image: linuxserver/yaak:2026.9.1@sha256:6f93f8b4c88b7df444dca92d29eb821053894ff2714689119a4493ba85a36dba
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Yaak（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'
-  version: 2026.9.0
+  version: 2026.9.1

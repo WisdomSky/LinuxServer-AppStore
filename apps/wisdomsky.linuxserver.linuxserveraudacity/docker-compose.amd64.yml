@@ -1,7 +1,7 @@
 name: linuxserver-audacity
 services:
   app:
-    image: linuxserver/audacity:4.0.1@sha256:32871bc6d4da2330bac842b9f3d911d6a69172096c96f624f6faff22e6a2f09d
+    image: linuxserver/audacity:4.0.2@sha256:d54ade1004ec01d90c6f63f4d645be30212675eb4db4e8fd9ad3d5bee2bba739
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Audacity（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveraudacity
   port_map: '3000'
-  version: 4.0.1
+  version: 4.0.2

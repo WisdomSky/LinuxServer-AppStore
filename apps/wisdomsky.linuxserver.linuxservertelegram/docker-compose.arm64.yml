@@ -1,7 +1,7 @@
 name: linuxserver-telegram
 services:
   app:
-    image: linuxserver/telegram:7.3.3@sha256:ab070d56973ac7d37dc0cb5f2085ec57696f02b6219009608b949248dc1b8f14
+    image: linuxserver/telegram:7.3.3@sha256:4c5aa65c29dcfa78c7a2edde0a05541b5d94bd5ee96084b4c6e699c51436c592
     restart: unless-stopped
     environment:
       PUID: $PUID
