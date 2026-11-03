@@ -12,13 +12,13 @@
   "title": "Lychee (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlychee",
-  "version": "7.12.0",
+  "version": "7.12.1",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 141217700,
-    "arm64": 138328656
+    "amd64": 141424735,
+    "arm64": 138553883
   }
 }

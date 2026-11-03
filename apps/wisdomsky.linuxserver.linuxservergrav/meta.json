@@ -12,13 +12,13 @@
   "title": "Grav (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservergrav",
-  "version": "2.2.21",
+  "version": "2.2.22",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 61934118,
-    "arm64": 62534974
+    "amd64": 61933601,
+    "arm64": 62534494
   }
 }
