@@ -1,7 +1,7 @@
 name: linuxserver-prowlarr
 services:
   app:
-    image: linuxserver/prowlarr:2.7.0@sha256:31cb2def3155509d3e1720a59afbe83ea2f3dbe96121d5b3ef24892385bd11c6
+    image: linuxserver/prowlarr:2.7.0@sha256:171f9b04f0ac0754d4edea819355fa1ccf4021df5ab230e06e1df1c050f85af1
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-craft-apps
 services:
   app:
-    image: linuxserver/craft-apps:0.20.1@sha256:b569697c8c0284b6bb0de438f009f758b002f7508d3542313d804a41f52f18c2
+    image: linuxserver/craft-apps:0.20.1@sha256:25a4072c6443bb909800728924b8fc434cdc432ecd50d5b6606d4368022f08b5
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-kicad
 services:
   app:
-    image: linuxserver/kicad:10.0.3@sha256:bfb6034f4e42e7721cf9b50bd76e27ccffa7f461928d5bf88a68789f6e147b56
+    image: linuxserver/kicad:10.0.3@sha256:549fb41712fa4400309888a31efbee1151e01483a2ff6d9270b1539747a2fa0c
     restart: unless-stopped
     environment:
       PUID: $PUID

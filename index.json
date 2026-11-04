@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03T16:08:26Z",
+  "updated_at": "2026-11-04T16:08:44Z",
   "app_count": 249,
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "apps": [
@@ -22,7 +22,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/assets/adguardhomesync-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/meta.json",
-      "content_hash": "a48b9b7a",
+      "content_hash": "19538762",
       "version": "0.9.6"
     },
     {
@@ -43,7 +43,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/assets/airsonic-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/meta.json",
-      "content_hash": "1583251a",
+      "content_hash": "75f8fed4",
       "version": "11.1.4"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveraltus/assets/altus-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveraltus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveraltus/meta.json",
-      "content_hash": "30f2fd3a",
+      "content_hash": "ecc5673f",
       "version": "5.8.1"
     },
     {
@@ -85,7 +85,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/assets/logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/meta.json",
-      "content_hash": "c5181457",
+      "content_hash": "a3b66233",
       "version": "2.0.2"
     },
     {
@@ -106,7 +106,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverardour/assets/ardour-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverardour/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverardour/meta.json",
-      "content_hash": "de78a669"
+      "content_hash": "98c24926"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveraudacity",
@@ -125,7 +125,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveraudacity/assets/audacity-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveraudacity/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveraudacity/meta.json",
-      "content_hash": "3d7a4686",
+      "content_hash": "b0da04cf",
       "version": "4.0.2"
     },
     {
@@ -166,7 +166,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverazahar/assets/azahar-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverazahar/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverazahar/meta.json",
-      "content_hash": "a3fb8415",
+      "content_hash": "c438122b",
       "version": "12126.1.2"
     },
     {
@@ -187,7 +187,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/assets/babybuddy-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/meta.json",
-      "content_hash": "4d474591",
+      "content_hash": "f6d0a9c4",
       "version": "2.11.0"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/assets/bambustudio-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/meta.json",
-      "content_hash": "1ef8b630"
+      "content_hash": "a8027e97"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbazarr",
@@ -227,7 +227,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbazarr/assets/bazarr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbazarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbazarr/meta.json",
-      "content_hash": "d8de78eb",
+      "content_hash": "d7697a8e",
       "version": "1.6.2"
     },
     {
@@ -248,7 +248,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbeets/assets/beets-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbeets/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbeets/meta.json",
-      "content_hash": "159d82cf",
+      "content_hash": "a8a8b487",
       "version": "2.14.1"
     },
     {
@@ -269,7 +269,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/assets/bitcoin-knots-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/meta.json",
-      "content_hash": "d6da8c90"
+      "content_hash": "0fba1bc2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
@@ -288,7 +288,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/assets/boa-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/meta.json",
-      "content_hash": "b6eb2041",
+      "content_hash": "cc9a072a",
       "version": "3.1.20261029"
     },
     {
@@ -309,7 +309,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverblender/assets/blender-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverblender/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverblender/meta.json",
-      "content_hash": "74b857a5",
+      "content_hash": "8cfb22e8",
       "version": "5.2.3"
     },
     {
@@ -330,7 +330,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverboinc/assets/boinc_logo_black.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverboinc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverboinc/meta.json",
-      "content_hash": "26c79025",
+      "content_hash": "33b38080",
       "version": "8.2.8"
     },
     {
@@ -351,7 +351,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/booksonic-air.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/meta.json",
-      "content_hash": "3f839597",
+      "content_hash": "5d5be55d",
       "version": "2201.1.0"
     },
     {
@@ -372,7 +372,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbookstack/assets/bookstack-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbookstack/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbookstack/meta.json",
-      "content_hash": "6e51f725"
+      "content_hash": "edd81889"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbrave",
@@ -392,7 +392,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbrave/assets/brave-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbrave/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbrave/meta.json",
-      "content_hash": "6b8e8892",
+      "content_hash": "3b7cf45e",
       "version": "1.98.63"
     },
     {
@@ -413,7 +413,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbudge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbudge/meta.json",
-      "content_hash": "18d777c5",
+      "content_hash": "6a3d1a02",
       "version": "0.0.9"
     },
     {
@@ -434,7 +434,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbuildagent/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbuildagent/meta.json",
-      "content_hash": "97fbaa01"
+      "content_hash": "27b95365"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalibre",
@@ -454,7 +454,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalibre/assets/calibre-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalibre/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalibre/meta.json",
-      "content_hash": "7b25df81",
+      "content_hash": "b820045d",
       "version": "9.17.0"
     },
     {
@@ -475,7 +475,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/assets/calibre-web-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/meta.json",
-      "content_hash": "10d33056",
+      "content_hash": "c36c75a4",
       "version": "0.6.27"
     },
     {
@@ -496,7 +496,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalligra/assets/calligra-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalligra/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalligra/meta.json",
-      "content_hash": "1924c605",
+      "content_hash": "8853008c",
       "version": "3.2.1"
     },
     {
@@ -517,7 +517,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/assets/changedetection-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/meta.json",
-      "content_hash": "682ad644",
+      "content_hash": "76cd898b",
       "version": "0.60.10"
     },
     {
@@ -538,8 +538,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchrome/assets/chrome-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchrome/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchrome/meta.json",
-      "content_hash": "c4f689a6",
-      "version": "156.0.8078"
+      "content_hash": "fed49712",
+      "version": "157.0.8103"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchromium",
@@ -559,7 +559,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchromium/assets/chromium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchromium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchromium/meta.json",
-      "content_hash": "8ec71324"
+      "content_hash": "ed0a9f01"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverci",
@@ -578,7 +578,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverci/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverci/meta.json",
-      "content_hash": "460563bd"
+      "content_hash": "fe234080"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercidebug",
@@ -597,7 +597,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercidebug/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercidebug/meta.json",
-      "content_hash": "3eba8ab6"
+      "content_hash": "e6e11a0a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercitron",
@@ -616,7 +616,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercitron/assets/citron-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercitron/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercitron/meta.json",
-      "content_hash": "6fc906c5"
+      "content_hash": "093ea229"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercodeserver",
@@ -636,7 +636,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercodeserver/assets/code-server-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercodeserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercodeserver/meta.json",
-      "content_hash": "0f105782",
+      "content_hash": "2d16266e",
       "version": "4.144.0"
     },
     {
@@ -657,7 +657,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercops/assets/cops-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercops/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercops/meta.json",
-      "content_hash": "60208bb6",
+      "content_hash": "375db755",
       "version": "4.6.1"
     },
     {
@@ -678,7 +678,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercraftapps/assets/artcraft-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercraftapps/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercraftapps/meta.json",
-      "content_hash": "c9c07c85",
+      "content_hash": "b30052b4",
       "version": "0.20.1"
     },
     {
@@ -698,7 +698,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercura/assets/cura-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercura/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercura/meta.json",
-      "content_hash": "5415279c",
+      "content_hash": "f51685fa",
       "version": "5.13.0"
     },
     {
@@ -719,7 +719,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverd2builder/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverd2builder/meta.json",
-      "content_hash": "c7d0372e",
+      "content_hash": "9e852ab6",
       "version": "0.6.8"
     },
     {
@@ -740,7 +740,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdaapd/assets/daapd-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdaapd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdaapd/meta.json",
-      "content_hash": "cd14d1d9",
+      "content_hash": "f0f8f77f",
       "version": "28.10.20250108"
     },
     {
@@ -761,7 +761,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdarktable/assets/darktable-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdarktable/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdarktable/meta.json",
-      "content_hash": "19147089",
+      "content_hash": "444a077d",
       "version": "25.6.2"
     },
     {
@@ -782,7 +782,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdavos/assets/list.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdavos/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdavos/meta.json",
-      "content_hash": "c9291c0d",
+      "content_hash": "7da7196f",
       "version": "2.2.2"
     },
     {
@@ -803,7 +803,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverddclient/assets/ddclient-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverddclient/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverddclient/meta.json",
-      "content_hash": "5324dc6b",
+      "content_hash": "0b8882ba",
       "version": "4.0.0"
     },
     {
@@ -824,7 +824,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdeluge/assets/deluge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdeluge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdeluge/meta.json",
-      "content_hash": "db12de4c",
+      "content_hash": "aa440cc7",
       "version": "2.2.0"
     },
     {
@@ -844,7 +844,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdigikam/assets/digikam.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdigikam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdigikam/meta.json",
-      "content_hash": "c215486a",
+      "content_hash": "e155b5e5",
       "version": "9.1.0"
     },
     {
@@ -865,7 +865,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdillinger/assets/dillinger.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdillinger/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdillinger/meta.json",
-      "content_hash": "c3cb653b",
+      "content_hash": "5c070e44",
       "version": "3.39.1"
     },
     {
@@ -886,7 +886,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdiskover/assets/diskover.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdiskover/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdiskover/meta.json",
-      "content_hash": "c2b982d7",
+      "content_hash": "6a957ddd",
       "version": "2.3.5"
     },
     {
@@ -906,7 +906,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/assets/dogwalk-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/meta.json",
-      "content_hash": "0d35d2e7"
+      "content_hash": "21ebcda8"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
@@ -926,7 +926,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/assets/dokuwiki-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/meta.json",
-      "content_hash": "5301a9b5"
+      "content_hash": "0ac73d97"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdolphin",
@@ -945,7 +945,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdolphin/assets/dolphin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdolphin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdolphin/meta.json",
-      "content_hash": "0e86d397"
+      "content_hash": "b5d4bd22"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdomoticz",
@@ -965,7 +965,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/assets/logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/meta.json",
-      "content_hash": "5a47aae3",
+      "content_hash": "1e0d6619",
       "version": "2023.2.20231129"
     },
     {
@@ -986,7 +986,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/assets/doplarr-logo_title.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/meta.json",
-      "content_hash": "475c632b",
+      "content_hash": "35650c3b",
       "version": "3.8.0"
     },
     {
@@ -1007,7 +1007,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/assets/doplarr_rs-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/meta.json",
-      "content_hash": "928dfe47",
+      "content_hash": "fa9ea1c8",
       "version": "4.6.0"
     },
     {
@@ -1027,7 +1027,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/assets/dosbox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/meta.json",
-      "content_hash": "667673d7",
+      "content_hash": "89b90c97",
       "version": "0.83.0"
     },
     {
@@ -1048,7 +1048,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/assets/doublecommander-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/meta.json",
-      "content_hash": "cd33c8fb"
+      "content_hash": "21cca84c"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckdns",
@@ -1068,7 +1068,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckdns/assets/duckdns.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduckdns/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduckdns/meta.json",
-      "content_hash": "52009fd5"
+      "content_hash": "38a14dcd"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckstation",
@@ -1088,7 +1088,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckstation/assets/duckstation-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduckstation/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduckstation/meta.json",
-      "content_hash": "efa2439b"
+      "content_hash": "296f5972"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduplicati",
@@ -1108,7 +1108,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduplicati/assets/duplicati-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduplicati/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduplicati/meta.json",
-      "content_hash": "b5715cbf",
+      "content_hash": "90b26f86",
       "version": "2.4.1"
     },
     {
@@ -1128,7 +1128,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservereden/assets/eden-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservereden/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservereden/meta.json",
-      "content_hash": "5c5527c7",
+      "content_hash": "a29a3ec2",
       "version": "0.2.1"
     },
     {
@@ -1149,7 +1149,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveremby/assets/emby-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveremby/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveremby/meta.json",
-      "content_hash": "b867ac77",
+      "content_hash": "791818b7",
       "version": "4.10.2"
     },
     {
@@ -1170,7 +1170,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverembystat/assets/embystat-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverembystat/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverembystat/meta.json",
-      "content_hash": "1ecbde9c",
+      "content_hash": "8f2d2f35",
       "version": "0.2.0"
     },
     {
@@ -1191,7 +1191,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/assets/emulatorjs-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/meta.json",
-      "content_hash": "55c3d462",
+      "content_hash": "7f32797e",
       "version": "1.9.2"
     },
     {
@@ -1212,7 +1212,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverendlessh/assets/openssh-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverendlessh/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverendlessh/meta.json",
-      "content_hash": "5a774d7c"
+      "content_hash": "038a4ad9"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfail2ban",
@@ -1232,7 +1232,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/fail2ban-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/meta.json",
-      "content_hash": "cac77f44",
+      "content_hash": "24e2cdf6",
       "version": "1.1.0"
     },
     {
@@ -1253,7 +1253,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/meta.json",
-      "content_hash": "2594f92e",
+      "content_hash": "302b88d7",
       "version": "3.8.1"
     },
     {
@@ -1274,7 +1274,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/meta.json",
-      "content_hash": "cf972b03",
+      "content_hash": "bce8d724",
       "version": "0.17.20250110"
     },
     {
@@ -1295,7 +1295,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverferdium/assets/ferdium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverferdium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverferdium/meta.json",
-      "content_hash": "1e106ed3",
+      "content_hash": "4ddb3bfa",
       "version": "7.2.3"
     },
     {
@@ -1316,7 +1316,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/assets/ffmpeg.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/meta.json",
-      "content_hash": "4cc1463a",
+      "content_hash": "f2ae2bdb",
       "version": "9.0.2"
     },
     {
@@ -1337,7 +1337,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/assets/filezilla-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/meta.json",
-      "content_hash": "3d869002",
+      "content_hash": "e9f99155",
       "version": "3.69.6"
     },
     {
@@ -1358,7 +1358,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfirefox/assets/firefox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfirefox/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfirefox/meta.json",
-      "content_hash": "87f31b4d",
+      "content_hash": "d30fd27e",
       "version": "1.2404.1"
     },
     {
@@ -1379,7 +1379,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfleet/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfleet/meta.json",
-      "content_hash": "799ec678",
+      "content_hash": "522f181b",
       "version": "2.3.3"
     },
     {
@@ -1400,7 +1400,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverflexget/assets/flexget-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverflexget/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverflexget/meta.json",
-      "content_hash": "37b2a08b",
+      "content_hash": "afba0e60",
       "version": "3.22.10"
     },
     {
@@ -1420,7 +1420,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverflycast/assets/flycast-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverflycast/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverflycast/meta.json",
-      "content_hash": "a1e4c13c",
+      "content_hash": "1121bbfb",
       "version": "2.7.20261101"
     },
     {
@@ -1441,7 +1441,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/assets/foldingathome-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/meta.json",
-      "content_hash": "f0a00aaa",
+      "content_hash": "23e649c5",
       "version": "8.5.6"
     },
     {
@@ -1462,7 +1462,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreecad/assets/freecad-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreecad/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreecad/meta.json",
-      "content_hash": "24e3fea4",
+      "content_hash": "71ac46b8",
       "version": "1.1.4"
     },
     {
@@ -1483,7 +1483,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreetube/assets/freetube-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreetube/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreetube/meta.json",
-      "content_hash": "4d4bbb1e"
+      "content_hash": "8c41319a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreshrss",
@@ -1503,7 +1503,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/assets/freshrss-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/meta.json",
-      "content_hash": "8fce73e3",
+      "content_hash": "cdeacf9e",
       "version": "1.30.4"
     },
     {
@@ -1524,7 +1524,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergimp/assets/gimp-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergimp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergimp/meta.json",
-      "content_hash": "ed78ee3b"
+      "content_hash": "2169c915"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
@@ -1544,7 +1544,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/assets/github-desktop-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/meta.json",
-      "content_hash": "83c5310e",
+      "content_hash": "666f1c93",
       "version": "3.4.13"
     },
     {
@@ -1565,7 +1565,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergitqlient/assets/gitqlient-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergitqlient/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergitqlient/meta.json",
-      "content_hash": "ea807ca0",
+      "content_hash": "e88aac9b",
       "version": "1.6.3"
     },
     {
@@ -1586,8 +1586,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrav/assets/grav-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergrav/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergrav/meta.json",
-      "content_hash": "9aaab609",
-      "version": "2.2.22"
+      "content_hash": "2ebff07c",
+      "version": "2.2.23"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergrocy",
@@ -1607,7 +1607,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrocy/assets/grocy-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergrocy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergrocy/meta.json",
-      "content_hash": "c568548f",
+      "content_hash": "15b956d6",
       "version": "4.7.1"
     },
     {
@@ -1628,7 +1628,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergzdoom/assets/gzdoom-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergzdoom/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergzdoom/meta.json",
-      "content_hash": "b15b18e1",
+      "content_hash": "ebfa6cab",
       "version": "4.14.2"
     },
     {
@@ -1649,7 +1649,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhabridge/assets/habridge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhabridge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhabridge/meta.json",
-      "content_hash": "7804f6a3",
+      "content_hash": "337d3cdb",
       "version": "5.4.1"
     },
     {
@@ -1669,7 +1669,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/assets/handbrake-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/meta.json",
-      "content_hash": "5f67f168",
+      "content_hash": "b09b058f",
       "version": "1.11.2"
     },
     {
@@ -1690,7 +1690,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverheadphones/assets/headphones-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverheadphones/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverheadphones/meta.json",
-      "content_hash": "9ae8d98b"
+      "content_hash": "a7dc6443"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
@@ -1710,7 +1710,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/assets/healthchecks-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/meta.json",
-      "content_hash": "191e4c25",
+      "content_hash": "40a11024",
       "version": "5.0.3"
     },
     {
@@ -1731,7 +1731,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/assets/hedgedoc-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/meta.json",
-      "content_hash": "456da4d7",
+      "content_hash": "06ed4052",
       "version": "1.12.0"
     },
     {
@@ -1752,7 +1752,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverheimdall/assets/heimdall-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverheimdall/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverheimdall/meta.json",
-      "content_hash": "6aa31241",
+      "content_hash": "a10fff71",
       "version": "2.8.4"
     },
     {
@@ -1773,7 +1773,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhelium/assets/helium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhelium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhelium/meta.json",
-      "content_hash": "8c20ce76",
+      "content_hash": "884fc3a9",
       "version": "0.20.3"
     },
     {
@@ -1794,7 +1794,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/assets/hishtory-server-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/meta.json",
-      "content_hash": "a5b84fd1",
+      "content_hash": "848bddee",
       "version": "0.335.20261030"
     },
     {
@@ -1815,7 +1815,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/assets/favicon-192x192-full.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/meta.json",
-      "content_hash": "fc7bd15a",
+      "content_hash": "4b093db5",
       "version": "2026.10.4"
     },
     {
@@ -1836,7 +1836,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/assets/htpcmanager-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/meta.json",
-      "content_hash": "965c2f71"
+      "content_hash": "ec4f3336"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverinkscape",
@@ -1856,7 +1856,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverinkscape/assets/inkscape-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverinkscape/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverinkscape/meta.json",
-      "content_hash": "605d06d9",
+      "content_hash": "374cadc5",
       "version": "1.4.2"
     },
     {
@@ -1876,7 +1876,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/assets/intellij-idea-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/meta.json",
-      "content_hash": "364e9954",
+      "content_hash": "0af433e3",
       "version": "2026.2.3"
     },
     {
@@ -1897,8 +1897,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjackett/assets/jackett-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjackett/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjackett/meta.json",
-      "content_hash": "3d18d570",
-      "version": "0.24.3003"
+      "content_hash": "86c46a06",
+      "version": "0.24.3009"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjellyfin",
@@ -1918,7 +1918,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/assets/jellyfin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/meta.json",
-      "content_hash": "5734281a"
+      "content_hash": "9a83fa46"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
@@ -1938,7 +1938,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjenkinsbuilder/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjenkinsbuilder/meta.json",
-      "content_hash": "88b4f062"
+      "content_hash": "04f9fb50"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjoplin",
@@ -1957,7 +1957,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjoplin/assets/joplin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjoplin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjoplin/meta.json",
-      "content_hash": "1d2836ca",
+      "content_hash": "7cc6af4c",
       "version": "3.7.22"
     },
     {
@@ -1978,7 +1978,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/assets/kali-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/meta.json",
-      "content_hash": "d81c68ba"
+      "content_hash": "44692839"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkasm",
@@ -1998,7 +1998,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkasm/assets/kasm_wide.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkasm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkasm/meta.json",
-      "content_hash": "ab1c2da5",
+      "content_hash": "83d3fc40",
       "version": "1.19.0"
     },
     {
@@ -2019,7 +2019,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkavita/assets/kavita-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkavita/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkavita/meta.json",
-      "content_hash": "53c7ca5b",
+      "content_hash": "705698d5",
       "version": "0.9.1"
     },
     {
@@ -2040,7 +2040,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/assets/kdenlive-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/meta.json",
-      "content_hash": "9f3237ed"
+      "content_hash": "39080b16"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
@@ -2060,7 +2060,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/assets/keepassxc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/meta.json",
-      "content_hash": "30728671",
+      "content_hash": "fd8e1cb0",
       "version": "2.7.12"
     },
     {
@@ -2081,7 +2081,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkicad/assets/kicad-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkicad/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkicad/meta.json",
-      "content_hash": "32087a7e",
+      "content_hash": "e41f4f05",
       "version": "10.0.3"
     },
     {
@@ -2102,7 +2102,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkimai/assets/kimai-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkimai/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkimai/meta.json",
-      "content_hash": "f48d4277",
+      "content_hash": "ee51eda2",
       "version": "2.71.0"
     },
     {
@@ -2123,7 +2123,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkometa/assets/kometa-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkometa/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkometa/meta.json",
-      "content_hash": "5c30bd45",
+      "content_hash": "df64b1a1",
       "version": "2.5.4"
     },
     {
@@ -2143,7 +2143,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkrita/assets/krita-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkrita/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkrita/meta.json",
-      "content_hash": "707a633c",
+      "content_hash": "ae4bb1e5",
       "version": "5.3.4"
     },
     {
@@ -2164,7 +2164,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/assets/lazylibrarian-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/meta.json",
-      "content_hash": "77999f56"
+      "content_hash": "d99a85db"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverldapauth",
@@ -2184,7 +2184,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverldapauth/assets/ldap-auth-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverldapauth/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverldapauth/meta.json",
-      "content_hash": "611b7823",
+      "content_hash": "bbceb346",
       "version": "3.4.8"
     },
     {
@@ -2205,7 +2205,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/assets/libreoffice-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/meta.json",
-      "content_hash": "b94de78c",
+      "content_hash": "3a41f0f5",
       "version": "25.8.7"
     },
     {
@@ -2226,7 +2226,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/assets/logo3.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/meta.json",
-      "content_hash": "6cc64109",
+      "content_hash": "1c248f02",
       "version": "6.3.1"
     },
     {
@@ -2247,8 +2247,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/assets/librewolf-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/meta.json",
-      "content_hash": "b3a33f01",
-      "version": "158.0.1"
+      "content_hash": "b7668a35",
+      "version": "159.0.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlidarr",
@@ -2268,7 +2268,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlidarr/assets/400.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlidarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlidarr/meta.json",
-      "content_hash": "8042157a",
+      "content_hash": "2984253b",
       "version": "3.1.6"
     },
     {
@@ -2289,7 +2289,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/assets/limnoria-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/meta.json",
-      "content_hash": "d20550f6",
+      "content_hash": "31a4ba4b",
       "version": "2026.10.4"
     },
     {
@@ -2309,7 +2309,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/assets/lmstudio-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/meta.json",
-      "content_hash": "9505ba71"
+      "content_hash": "4ebcb91f"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlollypop",
@@ -2329,7 +2329,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlollypop/assets/lollypop-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlollypop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlollypop/meta.json",
-      "content_hash": "2d3829bb",
+      "content_hash": "f171ff7f",
       "version": "1.4.45"
     },
     {
@@ -2349,7 +2349,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlsioapi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlsioapi/meta.json",
-      "content_hash": "6eea876e"
+      "content_hash": "2bd5a437"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverluanti",
@@ -2369,7 +2369,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverluanti/assets/minetest-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverluanti/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverluanti/meta.json",
-      "content_hash": "b88ffd6a",
+      "content_hash": "9965afcb",
       "version": "5.18.0"
     },
     {
@@ -2390,7 +2390,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlychee/assets/lychee-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlychee/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlychee/meta.json",
-      "content_hash": "a0bb53e5",
+      "content_hash": "591c91ca",
       "version": "7.12.1"
     },
     {
@@ -2411,7 +2411,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermame/assets/mame-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermame/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermame/meta.json",
-      "content_hash": "c0fd65e1"
+      "content_hash": "802ca7c1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermanyfold",
@@ -2431,7 +2431,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermanyfold/assets/manyfold-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermanyfold/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermanyfold/meta.json",
-      "content_hash": "6775fc6c",
+      "content_hash": "51118c66",
       "version": "0.150.0"
     },
     {
@@ -2452,7 +2452,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermariadb/assets/mariadb-git.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermariadb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermariadb/meta.json",
-      "content_hash": "2a485438",
+      "content_hash": "7cde2a11",
       "version": "11.8.9"
     },
     {
@@ -2473,8 +2473,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermastodon/assets/mastodon-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermastodon/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermastodon/meta.json",
-      "content_hash": "e2df7dc6",
-      "version": "4.7.4"
+      "content_hash": "7b005448",
+      "version": "4.7.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermediaelch",
@@ -2493,7 +2493,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermediaelch/assets/mediaelch-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermediaelch/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermediaelch/meta.json",
-      "content_hash": "2877b35e",
+      "content_hash": "12d3f403",
       "version": "2.12.0"
     },
     {
@@ -2514,7 +2514,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermedusa/assets/medusa-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermedusa/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermedusa/meta.json",
-      "content_hash": "fb60f789",
+      "content_hash": "f6c23584",
       "version": "1.0.27"
     },
     {
@@ -2535,7 +2535,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermelonds/assets/melonds-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermelonds/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermelonds/meta.json",
-      "content_hash": "feb7deec",
+      "content_hash": "a785e88a",
       "version": "1.1.20261103"
     },
     {
@@ -2556,7 +2556,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverminetest/assets/minetest-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverminetest/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverminetest/meta.json",
-      "content_hash": "0759f4f6",
+      "content_hash": "e0b8edf4",
       "version": "5.10.0"
     },
     {
@@ -2577,8 +2577,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverminisatip/assets/minisatip-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverminisatip/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverminisatip/meta.json",
-      "content_hash": "f031d3bd",
-      "version": "2.0.187"
+      "content_hash": "818dbf90",
+      "version": "2.0.188"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodmanager",
@@ -2598,7 +2598,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermodmanager/assets/linuxserver-ls-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermodmanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermodmanager/meta.json",
-      "content_hash": "5404b925"
+      "content_hash": "53dd8eaa"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodrinth",
@@ -2617,8 +2617,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermodrinth/assets/modrinth-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermodrinth/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermodrinth/meta.json",
-      "content_hash": "261f3931",
-      "version": "0.22.1"
+      "content_hash": "bf917d24",
+      "version": "0.23.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermonica",
@@ -2638,7 +2638,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermonica/assets/monica-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermonica/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermonica/meta.json",
-      "content_hash": "4768176d",
+      "content_hash": "7dcd9a5b",
       "version": "4.1.2"
     },
     {
@@ -2658,7 +2658,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermsedge/assets/edge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermsedge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermsedge/meta.json",
-      "content_hash": "3827b76b",
+      "content_hash": "47ac62e7",
       "version": "156.0.4314"
     },
     {
@@ -2679,7 +2679,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermstream/assets/mstream-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermstream/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermstream/meta.json",
-      "content_hash": "212e81f3",
+      "content_hash": "a09b1fc8",
       "version": "6.32.3"
     },
     {
@@ -2699,7 +2699,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/assets/mullvad-browser-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/meta.json",
-      "content_hash": "91ad173a",
+      "content_hash": "9f4ad950",
       "version": "16.0.20261102"
     },
     {
@@ -2720,7 +2720,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermylar3/assets/mylar-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermylar3/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermylar3/meta.json",
-      "content_hash": "e04c049f",
+      "content_hash": "3209ec96",
       "version": "0.11.0"
     },
     {
@@ -2740,7 +2740,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/assets/mysql-workbench-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/meta.json",
-      "content_hash": "a468402d",
+      "content_hash": "bd391111",
       "version": "8.0.47"
     },
     {
@@ -2762,7 +2762,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernano/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernano/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernano/meta.json",
-      "content_hash": "35acbb01",
+      "content_hash": "680124c3",
       "version": "21.2.20220522"
     },
     {
@@ -2784,7 +2784,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernanowallet/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernanowallet/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernanowallet/meta.json",
-      "content_hash": "44392d91",
+      "content_hash": "12aeee7e",
       "version": "1.3.2"
     },
     {
@@ -2805,7 +2805,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/assets/netboot.xyz.gif",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/meta.json",
-      "content_hash": "0785bfc8",
+      "content_hash": "6f4840a3",
       "version": "0.7.3"
     },
     {
@@ -2826,7 +2826,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernetbox/assets/netbox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernetbox/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernetbox/meta.json",
-      "content_hash": "2357e62a",
+      "content_hash": "95ee70b9",
       "version": "4.7.4"
     },
     {
@@ -2847,7 +2847,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernextcloud/assets/nextcloud-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernextcloud/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernextcloud/meta.json",
-      "content_hash": "bbda31aa",
+      "content_hash": "75b0d273",
       "version": "35.0.2"
     },
     {
@@ -2868,7 +2868,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernginx/assets/nginx-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernginx/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernginx/meta.json",
-      "content_hash": "6e37afe5",
+      "content_hash": "a030ef03",
       "version": "1.30.6"
     },
     {
@@ -2889,7 +2889,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverngircd/assets/ngircd-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverngircd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverngircd/meta.json",
-      "content_hash": "d47fd16b"
+      "content_hash": "e9187159"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
@@ -2909,7 +2909,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/assets/nntp2nntp.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/meta.json",
-      "content_hash": "8d3bfba9",
+      "content_hash": "a73ea0b2",
       "version": "0.3.20230704"
     },
     {
@@ -2951,7 +2951,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernzbget/assets/nzbget-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernzbget/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernzbget/meta.json",
-      "content_hash": "6f7eddcf",
+      "content_hash": "151856e4",
       "version": "26.3.20261030"
     },
     {
@@ -2972,7 +2972,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/assets/hydra-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/meta.json",
-      "content_hash": "2ac94d61",
+      "content_hash": "bed89568",
       "version": "9.2.0"
     },
     {
@@ -2993,7 +2993,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverobsidian/assets/obsidian-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverobsidian/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverobsidian/meta.json",
-      "content_hash": "6ac1cd7a",
+      "content_hash": "02545075",
       "version": "1.14.5"
     },
     {
@@ -3014,7 +3014,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverombi/assets/ombi.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverombi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverombi/meta.json",
-      "content_hash": "e0caa2c6",
+      "content_hash": "8471711e",
       "version": "4.53.10"
     },
     {
@@ -3034,7 +3034,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/assets/onlyoffice-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/meta.json",
-      "content_hash": "46f13af3",
+      "content_hash": "90692e36",
       "version": "10.0.0"
     },
     {
@@ -3054,7 +3054,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropenshot/assets/openshot-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropenshot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropenshot/meta.json",
-      "content_hash": "3f745b5f",
+      "content_hash": "372a990c",
       "version": "4.1.1"
     },
     {
@@ -3075,7 +3075,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/assets/openssh-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/meta.json",
-      "content_hash": "9a59023d"
+      "content_hash": "53be8d29"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
@@ -3095,7 +3095,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/assets/openvscode-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/meta.json",
-      "content_hash": "8393101e",
+      "content_hash": "0ce2c7f4",
       "version": "1.109.5"
     },
     {
@@ -3115,7 +3115,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropera/assets/opera-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropera/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropera/meta.json",
-      "content_hash": "72c77c59",
+      "content_hash": "d85262ee",
       "version": "139.0.6053"
     },
     {
@@ -3136,7 +3136,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/assets/orcaslicer-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/meta.json",
-      "content_hash": "b071a6e9",
+      "content_hash": "b4bbd934",
       "version": "2.4.2"
     },
     {
@@ -3157,7 +3157,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveroscam/assets/oscam-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveroscam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveroscam/meta.json",
-      "content_hash": "c7e2732c"
+      "content_hash": "ef61b85d"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveroverseerr",
@@ -3177,7 +3177,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/assets/overseerr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/meta.json",
-      "content_hash": "e716e93f",
+      "content_hash": "246a5e2f",
       "version": "1.33.2"
     },
     {
@@ -3198,7 +3198,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/assets/android-chrome-512x512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/meta.json",
-      "content_hash": "92a75998",
+      "content_hash": "21aaf182",
       "version": "1.11.2"
     },
     {
@@ -3218,7 +3218,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/assets/pcsx2-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/meta.json",
-      "content_hash": "d50450c0",
+      "content_hash": "01171d45",
       "version": "2.8.2"
     },
     {
@@ -3238,7 +3238,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpelorus/assets/pelorus-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpelorus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpelorus/meta.json",
-      "content_hash": "d53321ea",
+      "content_hash": "114628af",
       "version": "0.2.4"
     },
     {
@@ -3259,7 +3259,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/assets/phpmyadmin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/meta.json",
-      "content_hash": "4e7355fb",
+      "content_hash": "5006ef11",
       "version": "5.2.3"
     },
     {
@@ -3280,7 +3280,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpidgin/assets/pidgin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpidgin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpidgin/meta.json",
-      "content_hash": "2b4e46a0",
+      "content_hash": "d5124ec4",
       "version": "2.14.14"
     },
     {
@@ -3301,7 +3301,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpiper/assets/piper-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpiper/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpiper/meta.json",
-      "content_hash": "ed3c2097",
+      "content_hash": "ac795b5b",
       "version": "2.5.2"
     },
     {
@@ -3322,7 +3322,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/assets/piwigo-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/meta.json",
-      "content_hash": "2bdc98b6",
+      "content_hash": "1c11a98f",
       "version": "16.4.0"
     },
     {
@@ -3343,7 +3343,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplanka/assets/planka-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplanka/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplanka/meta.json",
-      "content_hash": "b45a21c6",
+      "content_hash": "be438d7d",
       "version": "2.2.1"
     },
     {
@@ -3364,7 +3364,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplex/assets/plex-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplex/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplex/meta.json",
-      "content_hash": "d27511d6",
+      "content_hash": "90c8de60",
       "version": "1.43.5"
     },
     {
@@ -3385,7 +3385,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/assets/plex-meta-manager-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/meta.json",
-      "content_hash": "cbffef74",
+      "content_hash": "f5821084",
       "version": "1.21.1"
     },
     {
@@ -3405,7 +3405,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverppsspp/assets/ppsspp-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverppsspp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverppsspp/meta.json",
-      "content_hash": "427881d3",
+      "content_hash": "2417375d",
       "version": "1.20.4"
     },
     {
@@ -3426,7 +3426,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/assets/projectsend-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/meta.json",
-      "content_hash": "389c01c6"
+      "content_hash": "ff693529"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverprowlarr",
@@ -3446,7 +3446,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/assets/prowlarr-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/meta.json",
-      "content_hash": "098aa48f",
+      "content_hash": "b54b41e2",
       "version": "2.7.0"
     },
     {
@@ -3467,7 +3467,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/assets/pwndrop-logo-512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/meta.json",
-      "content_hash": "fa2e2693",
+      "content_hash": "933616bc",
       "version": "1.0.1"
     },
     {
@@ -3487,7 +3487,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpycharm/assets/pycharm-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpycharm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpycharm/meta.json",
-      "content_hash": "3c9f4da0",
+      "content_hash": "c9b81b03",
       "version": "2026.2.3"
     },
     {
@@ -3508,7 +3508,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/assets/pydio-cells-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/meta.json",
-      "content_hash": "176c9437",
+      "content_hash": "fb4cb4bc",
       "version": "5.1.1"
     },
     {
@@ -3529,7 +3529,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/assets/pyload-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/meta.json",
-      "content_hash": "6f26d239",
+      "content_hash": "7e75e015",
       "version": "0.5.0"
     },
     {
@@ -3550,7 +3550,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpylon/assets/screenshot02.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpylon/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpylon/meta.json",
-      "content_hash": "af3d3c67",
+      "content_hash": "6ee5a41f",
       "version": "2.10.0"
     },
     {
@@ -3571,7 +3571,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpython/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpython/meta.json",
-      "content_hash": "8222bc51",
+      "content_hash": "6d35a6cf",
       "version": "3.13.1"
     },
     {
@@ -3592,7 +3592,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/assets/qbittorrent-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/meta.json",
-      "content_hash": "8ad7b8b7",
+      "content_hash": "80c467b1",
       "version": "5.3.0"
     },
     {
@@ -3613,7 +3613,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/assets/qdirstat-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/meta.json",
-      "content_hash": "595f6f10",
+      "content_hash": "f47b1499",
       "version": "2.0.20261101"
     },
     {
@@ -3634,7 +3634,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/assets/qemu-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/meta.json",
-      "content_hash": "1ba9d938",
+      "content_hash": "55887efc",
       "version": "10.0.13"
     },
     {
@@ -3655,7 +3655,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/assets/Apps-quassel-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/meta.json",
-      "content_hash": "aa527071",
+      "content_hash": "d6aa0bf5",
       "version": "0.14.0"
     },
     {
@@ -3676,7 +3676,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/assets/quassel-web-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/meta.json",
-      "content_hash": "92911951"
+      "content_hash": "9138094f"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverradarr",
@@ -3696,7 +3696,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverradarr/assets/radarr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverradarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverradarr/meta.json",
-      "content_hash": "05b196b9",
+      "content_hash": "a4d24dba",
       "version": "6.4.4"
     },
     {
@@ -3717,7 +3717,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverraneto/assets/raneto-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverraneto/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverraneto/meta.json",
-      "content_hash": "ea00e3f7",
+      "content_hash": "1efc381e",
       "version": "0.18.1"
     },
     {
@@ -3738,7 +3738,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/assets/rawtherapee-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/meta.json",
-      "content_hash": "737bce82",
+      "content_hash": "6e575250",
       "version": "5.13.20261101"
     },
     {
@@ -3759,7 +3759,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/assets/rdesktop.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/meta.json",
-      "content_hash": "99904dfd"
+      "content_hash": "780dbaea"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverreadmesync",
@@ -3779,7 +3779,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverreadmesync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverreadmesync/meta.json",
-      "content_hash": "1dc47f20"
+      "content_hash": "c4c0f635"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverremmina",
@@ -3799,7 +3799,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverremmina/assets/remmina-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverremmina/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverremmina/meta.json",
-      "content_hash": "91c0e089",
+      "content_hash": "4448a87e",
       "version": "1.4.43"
     },
     {
@@ -3821,7 +3821,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/assets/requestrr_discord_Icon_512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/meta.json",
-      "content_hash": "662e56d0",
+      "content_hash": "8b7e6d54",
       "version": "2.1.2"
     },
     {
@@ -3842,7 +3842,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/assets/resilio-sync-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/meta.json",
-      "content_hash": "ad0b83b8",
+      "content_hash": "16ce420b",
       "version": "3.1.2"
     },
     {
@@ -3863,7 +3863,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverretroarch/assets/retroarch-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverretroarch/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverretroarch/meta.json",
-      "content_hash": "4e80015a",
+      "content_hash": "88967112",
       "version": "1.22.2"
     },
     {
@@ -3884,7 +3884,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/assets/rpcs3-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/meta.json",
-      "content_hash": "5b04b24d"
+      "content_hash": "135e4b3c"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
@@ -3904,7 +3904,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/assets/rsnapshot.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/meta.json",
-      "content_hash": "bc7bd555",
+      "content_hash": "df8932ab",
       "version": "1.4.5"
     },
     {
@@ -3925,7 +3925,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/assets/rustdesk-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/meta.json",
-      "content_hash": "b3dc4ea2",
+      "content_hash": "79ad6a84",
       "version": "1.5.1"
     },
     {
@@ -3946,7 +3946,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/assets/sabnzbd-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/meta.json",
-      "content_hash": "e5384a39",
+      "content_hash": "bf4ae28f",
       "version": "5.1.3"
     },
     {
@@ -3966,7 +3966,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverscummvm/assets/scummvm-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverscummvm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverscummvm/meta.json",
-      "content_hash": "2dc0559d",
+      "content_hash": "8f6647de",
       "version": "2026.4.0"
     },
     {
@@ -3987,7 +3987,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversealskin/assets/sealskin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversealskin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversealskin/meta.json",
-      "content_hash": "7b568506",
+      "content_hash": "ceabe76e",
       "version": "0.4.1"
     },
     {
@@ -4008,7 +4008,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/assets/series-troxide-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/meta.json",
-      "content_hash": "1e162159",
+      "content_hash": "7a71348e",
       "version": "0.5.1"
     },
     {
@@ -4028,7 +4028,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershadps4/assets/shadps4-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservershadps4/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservershadps4/meta.json",
-      "content_hash": "e8bc8de7"
+      "content_hash": "ffbc1e26"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservershotcut",
@@ -4047,7 +4047,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershotcut/assets/shotcut-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservershotcut/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservershotcut/meta.json",
-      "content_hash": "3e4b0bc3",
+      "content_hash": "492d975e",
       "version": "26.9.27"
     },
     {
@@ -4068,7 +4068,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversickchill/assets/sickchill-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversickchill/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversickchill/meta.json",
-      "content_hash": "699659c7",
+      "content_hash": "0a71110a",
       "version": "2024.3.1"
     },
     {
@@ -4089,7 +4089,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversickgear/assets/sickgear-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversickgear/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversickgear/meta.json",
-      "content_hash": "8eac2f20",
+      "content_hash": "48e8d424",
       "version": "3.36.8"
     },
     {
@@ -4109,7 +4109,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversignal/assets/signal-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversignal/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversignal/meta.json",
-      "content_hash": "428569a5",
+      "content_hash": "95e940fc",
       "version": "8.33.0"
     },
     {
@@ -4130,7 +4130,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversmokeping/assets/smokeping-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversmokeping/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversmokeping/meta.json",
-      "content_hash": "28348bd2",
+      "content_hash": "2297052a",
       "version": "2.9.0"
     },
     {
@@ -4151,7 +4151,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/assets/logo_transparent_512x512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/meta.json",
-      "content_hash": "8374c133"
+      "content_hash": "5b310736"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversnipeit",
@@ -4171,7 +4171,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnipeit/assets/snipe-it-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversnipeit/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversnipeit/meta.json",
-      "content_hash": "7556bd18",
+      "content_hash": "bf54ca30",
       "version": "7.1.15"
     },
     {
@@ -4192,7 +4192,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/assets/docker-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/meta.json",
-      "content_hash": "7a568d50",
+      "content_hash": "8ab8fe67",
       "version": "3.4.7"
     },
     {
@@ -4213,7 +4213,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversonarr/assets/sonarr-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversonarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversonarr/meta.json",
-      "content_hash": "ecfe2a78",
+      "content_hash": "c12c0a26",
       "version": "4.0.20"
     },
     {
@@ -4234,7 +4234,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/assets/speedtest-tracker-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/meta.json",
-      "content_hash": "b13ca298",
+      "content_hash": "1dedf143",
       "version": "1.15.1"
     },
     {
@@ -4255,7 +4255,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspotube/assets/spotube-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverspotube/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverspotube/meta.json",
-      "content_hash": "ef6291c6",
+      "content_hash": "c54a140f",
       "version": "6.0.0"
     },
     {
@@ -4276,7 +4276,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/assets/sqlitebrowser-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/meta.json",
-      "content_hash": "e3bb818c",
+      "content_hash": "e8792232",
       "version": "3.13.1"
     },
     {
@@ -4296,7 +4296,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversteam/assets/steam-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversteam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversteam/meta.json",
-      "content_hash": "8df32fdc"
+      "content_hash": "ffefb7af"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversteamos",
@@ -4315,7 +4315,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversteamos/assets/steamos-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversteamos/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversteamos/meta.json",
-      "content_hash": "0e038869"
+      "content_hash": "1e5cd6a2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverswag",
@@ -4335,7 +4335,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverswag/assets/swag.gif",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverswag/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverswag/meta.json",
-      "content_hash": "b73c1338",
+      "content_hash": "bf5da746",
       "version": "5.9.0"
     },
     {
@@ -4356,7 +4356,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversynclounge/assets/synclounge-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversynclounge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversynclounge/meta.json",
-      "content_hash": "226b5de2",
+      "content_hash": "981c5127",
       "version": "5.2.35"
     },
     {
@@ -4377,7 +4377,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversyncthing/assets/syncthing-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversyncthing/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversyncthing/meta.json",
-      "content_hash": "34843ed1",
+      "content_hash": "89bc195d",
       "version": "2.1.7"
     },
     {
@@ -4398,7 +4398,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversyslogng/assets/syslog-ng-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversyslogng/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversyslogng/meta.json",
-      "content_hash": "2b966fb3",
+      "content_hash": "28d6a6d1",
       "version": "4.11.0"
     },
     {
@@ -4419,7 +4419,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertautulli/assets/tautulli-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertautulli/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertautulli/meta.json",
-      "content_hash": "056ce327",
+      "content_hash": "bfb25087",
       "version": "2.18.2"
     },
     {
@@ -4440,7 +4440,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertelegram/assets/telegram-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertelegram/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertelegram/meta.json",
-      "content_hash": "87783e71",
+      "content_hash": "d2d87817",
       "version": "7.3.3"
     },
     {
@@ -4460,7 +4460,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertester/assets/12324908.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertester/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertester/meta.json",
-      "content_hash": "36a08d5c"
+      "content_hash": "ca209f96"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverthelounge",
@@ -4480,7 +4480,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthelounge/assets/logo-vertical-transparent-bg.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverthelounge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverthelounge/meta.json",
-      "content_hash": "d691b333",
+      "content_hash": "903a08cb",
       "version": "4.5.2"
     },
     {
@@ -4501,7 +4501,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/assets/thunderbird-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/meta.json",
-      "content_hash": "c52322a1",
+      "content_hash": "36047f4f",
       "version": "1140.17.0"
     },
     {
@@ -4522,7 +4522,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertransmission/assets/transmission.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertransmission/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertransmission/meta.json",
-      "content_hash": "fc4f0c7f",
+      "content_hash": "9e479909",
       "version": "4.1.4"
     },
     {
@@ -4543,7 +4543,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertvheadend/assets/tvheadend-big.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertvheadend/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertvheadend/meta.json",
-      "content_hash": "04f2cf51"
+      "content_hash": "aeea8ffb"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverubooquity",
@@ -4563,7 +4563,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverubooquity/assets/ubooquity-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverubooquity/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverubooquity/meta.json",
-      "content_hash": "ea884b39",
+      "content_hash": "34069e9b",
       "version": "3.1.0"
     },
     {
@@ -4584,7 +4584,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/assets/ungoogled-chromium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/meta.json",
-      "content_hash": "5d50267d",
+      "content_hash": "c1204652",
       "version": "156.0.8078"
     },
     {
@@ -4605,7 +4605,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/assets/unifi-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/meta.json",
-      "content_hash": "50159a60",
+      "content_hash": "7a7c2cb0",
       "version": "8.0.24"
     },
     {
@@ -4626,7 +4626,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/assets/unifi-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/meta.json",
-      "content_hash": "8a0529c8",
+      "content_hash": "3fbcee9f",
       "version": "10.6.109"
     },
     {
@@ -4647,7 +4647,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunrar/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunrar/meta.json",
-      "content_hash": "db8763b6",
+      "content_hash": "38118cd4",
       "version": "7.0.9"
     },
     {
@@ -4668,7 +4668,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervivaldi/assets/vivaldi-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervivaldi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervivaldi/meta.json",
-      "content_hash": "5ce16ccb",
+      "content_hash": "cde8a9ba",
       "version": "8.2.4133"
     },
     {
@@ -4689,7 +4689,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervlc/assets/vlc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervlc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervlc/meta.json",
-      "content_hash": "31bd64f4",
+      "content_hash": "7e0d8180",
       "version": "3.0.24"
     },
     {
@@ -4710,8 +4710,8 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscode/assets/vscode-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscode/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscode/meta.json",
-      "content_hash": "c6622ba3",
-      "version": "1.143.1"
+      "content_hash": "0d3b778d",
+      "version": "1.144.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscodium",
@@ -4731,7 +4731,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodium/assets/vscodium-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscodium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscodium/meta.json",
-      "content_hash": "81bd976f",
+      "content_hash": "8a7466f7",
       "version": "1.143.17232"
     },
     {
@@ -4752,7 +4752,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/assets/vscodium-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/meta.json",
-      "content_hash": "4e4266db",
+      "content_hash": "a07ae080",
       "version": "1.143.17232"
     },
     {
@@ -4773,7 +4773,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebcord/assets/webcord-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebcord/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebcord/meta.json",
-      "content_hash": "2693f3ec",
+      "content_hash": "b272cd5e",
       "version": "4.14.0"
     },
     {
@@ -4794,7 +4794,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/EPG_fading.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/meta.json",
-      "content_hash": "a02665a7",
+      "content_hash": "61e7b830",
       "version": "5.6.1"
     },
     {
@@ -4814,7 +4814,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebstation/assets/webstation-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebstation/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebstation/meta.json",
-      "content_hash": "55bc6183",
+      "content_hash": "2bd0c678",
       "version": "0.15.3-romm"
     },
     {
@@ -4835,7 +4835,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebtop/assets/webtop-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebtop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebtop/meta.json",
-      "content_hash": "bba2618c"
+      "content_hash": "97ab3bf6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverweixin",
@@ -4855,7 +4855,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverweixin/assets/weixin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverweixin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverweixin/meta.json",
-      "content_hash": "53a72447"
+      "content_hash": "0179640e"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwikijs",
@@ -4875,7 +4875,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwikijs/assets/wikijs-full.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwikijs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwikijs/meta.json",
-      "content_hash": "147340c3",
+      "content_hash": "1551fa8a",
       "version": "2.5.317"
     },
     {
@@ -4895,7 +4895,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwinegui/assets/winegui-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwinegui/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwinegui/meta.json",
-      "content_hash": "2d0fa00d",
+      "content_hash": "48d5dc3f",
       "version": "4.5.1"
     },
     {
@@ -4916,7 +4916,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwireguard/assets/wireguard.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwireguard/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwireguard/meta.json",
-      "content_hash": "fe4cbc40",
+      "content_hash": "bf806fd4",
       "version": "1.0.20260223"
     },
     {
@@ -4937,7 +4937,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwireshark/assets/wireshark-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwireshark/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwireshark/meta.json",
-      "content_hash": "7e1d3526",
+      "content_hash": "7aa33bec",
       "version": "4.6.6"
     },
     {
@@ -4957,7 +4957,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/assets/wps-office-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/meta.json",
-      "content_hash": "db29b26a",
+      "content_hash": "98094008",
       "version": "11.1.0"
     },
     {
@@ -4978,7 +4978,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/assets/xbackbone-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/meta.json",
-      "content_hash": "cca6536c",
+      "content_hash": "85857580",
       "version": "3.8.2"
     },
     {
@@ -4999,7 +4999,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverxemu/assets/xemu-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxemu/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxemu/meta.json",
-      "content_hash": "ebf4439e",
+      "content_hash": "78029f2b",
       "version": "0.8.134"
     },
     {
@@ -5020,7 +5020,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxvfb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxvfb/meta.json",
-      "content_hash": "5a7bb393"
+      "content_hash": "5662684d"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryaak",
@@ -5040,7 +5040,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryaak/assets/yaak-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryaak/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryaak/meta.json",
-      "content_hash": "fbff4d46",
+      "content_hash": "d8e540d0",
       "version": "2026.9.1"
     },
     {
@@ -5061,7 +5061,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/assets/your_spotify-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/meta.json",
-      "content_hash": "1daa3ce4",
+      "content_hash": "59f18f42",
       "version": "1.20.0"
     },
     {
@@ -5082,7 +5082,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryq/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryq/meta.json",
-      "content_hash": "c47fc266",
+      "content_hash": "708a9818",
       "version": "3.4.3"
     },
     {
@@ -5103,7 +5103,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverzen/assets/zen-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverzen/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverzen/meta.json",
-      "content_hash": "a41d85c3",
+      "content_hash": "bbb580a7",
       "version": "1.23.4"
     },
     {
@@ -5124,7 +5124,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverznc/assets/znc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverznc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverznc/meta.json",
-      "content_hash": "5d3b46db",
+      "content_hash": "a8e1f748",
       "version": "1.10.3"
     },
     {
@@ -5144,7 +5144,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverzotero/assets/zotero-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverzotero/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverzotero/meta.json",
-      "content_hash": "a4161c37",
+      "content_hash": "13724331",
       "version": "10.0.7"
     }
   ]
