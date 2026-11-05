@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:2.2.1
+    image: linuxserver/planka:2.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -158,4 +158,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverplanka
   port_map: '1337'
-  version: 2.2.1
+  version: 2.3.0
