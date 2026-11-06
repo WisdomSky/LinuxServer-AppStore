@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-194c69a5
+    image: linuxserver/lazylibrarian:version-ec319ee1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -132,4 +132,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-194c69a5
+  version: version-ec319ee1
