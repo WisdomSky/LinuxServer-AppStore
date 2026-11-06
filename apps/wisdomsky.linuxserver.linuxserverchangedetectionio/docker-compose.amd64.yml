@@ -1,7 +1,7 @@
 name: linuxserver-changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io:0.60.10@sha256:70de55daa84b11c7188d29fec55ce727c66bb01a8bcf1fbb0bc4ab73e1438e6c
+    image: linuxserver/changedetection.io:0.70.2@sha256:fac490f8177a861d9932ebfe37ac7e1fc5fe1343eb507840ebd9569c4ef779fd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -50,4 +50,4 @@ x-casaos:
     zh_TW: Changedetection. Io（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverchangedetectionio
   port_map: '5000'
-  version: 0.60.10
+  version: 0.70.2

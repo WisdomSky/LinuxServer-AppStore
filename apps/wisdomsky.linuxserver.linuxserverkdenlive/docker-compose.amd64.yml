@@ -1,7 +1,7 @@
 name: linuxserver-kdenlive
 services:
   app:
-    image: linuxserver/kdenlive:26.08.2@sha256:a5d801c090669e7b44b4ec55365f45ae58930098fdf254a2c055b3d5df568a2a
+    image: linuxserver/kdenlive:26.08.3@sha256:6cfdd6473f33ec6e82c142c0285dde651d3dd46615644598784aef1d7d07468f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Kdenlive（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkdenlive
   port_map: '3000'
-  version: 26.08.2
+  version: 26.08.3

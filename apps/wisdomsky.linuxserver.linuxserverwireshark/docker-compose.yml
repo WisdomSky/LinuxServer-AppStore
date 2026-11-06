@@ -1,7 +1,7 @@
 name: linuxserver-wireshark
 services:
   app:
-    image: linuxserver/wireshark:4.6.6
+    image: linuxserver/wireshark:4.6.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Wireshark（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverwireshark
   port_map: '80'
-  version: 4.6.6
+  version: 4.6.9

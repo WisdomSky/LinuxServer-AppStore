@@ -12,13 +12,13 @@
   "title": "Wireshark (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverwireshark",
-  "version": "4.6.6",
+  "version": "4.6.9",
   "categories": [
     "networking"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 679093495,
-    "arm64": 632207175
+    "amd64": 678554067,
+    "arm64": 631663893
   }
 }

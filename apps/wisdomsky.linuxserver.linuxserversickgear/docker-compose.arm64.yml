@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.36.8@sha256:7ee1ba37f699749123fe8e9aaf467ae9bcc118adbf2212c02e31603fbba22445
+    image: linuxserver/sickgear:3.36.8@sha256:dbcd6f68593ea2a6641650df5cd313f96070fe16c5111022136854c5b03a49a4
     restart: unless-stopped
     environment:
       PUID: $PUID

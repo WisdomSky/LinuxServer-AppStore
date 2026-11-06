@@ -1,7 +1,7 @@
 name: linuxserver-openssh-server
 services:
   app:
-    image: linuxserver/openssh-server:version-10.3_p1-r1@sha256:0abf84b65edd8b2360e7cb1ccd1cc0a537bd841f55a98c8a1c25c063abd2ed6b
+    image: linuxserver/openssh-server:version-10.3_p1-r2@sha256:47eb0dcc7a59ac2d96dcf1ef1c479e7aef1cef658918e2a0c6cfb71a086b3f4c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -58,4 +58,4 @@ x-casaos:
     zh_TW: Openssh server（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveropensshserver
   port_map: '2222'
-  version: version-10.3_p1-r1
+  version: version-10.3_p1-r2

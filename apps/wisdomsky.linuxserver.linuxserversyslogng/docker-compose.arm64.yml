@@ -1,7 +1,7 @@
 name: linuxserver-syslog-ng
 services:
   app:
-    image: linuxserver/syslog-ng:4.11.0@sha256:2884bcf988bfcf7baa9fff37e71d996cbfb876f51de4a454a2c0af78850a3b94
+    image: linuxserver/syslog-ng:4.11.0@sha256:e1259f750bdd01ffeca84b48f543cf1d816b471bec4135a29fc567495ac7e89d
     restart: unless-stopped
     environment:
       PUID: $PUID

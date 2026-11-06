@@ -1,7 +1,7 @@
 name: linuxserver-winegui
 services:
   app:
-    image: linuxserver/winegui:4.5.1@sha256:2a161964d864c4d8d4d5aead7aa57514069f67a7d4145f1710b6b1a3606f2c26
+    image: linuxserver/winegui:4.5.2@sha256:034df95dbbaa96dce380613dfccbd0cba23d2fbf44bdaa794f332a78bed2d5fe
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Winegui（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverwinegui
   port_map: '3000'
-  version: 4.5.1
+  version: 4.5.2

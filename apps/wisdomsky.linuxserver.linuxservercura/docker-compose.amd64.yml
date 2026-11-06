@@ -1,7 +1,7 @@
 name: linuxserver-cura
 services:
   app:
-    image: linuxserver/cura:5.13.0@sha256:fd27e5c57da50c718fe4b34f286cc6645efb2274a940765eb98c49aa1313f92d
+    image: linuxserver/cura:5.14.0@sha256:fe13be205a227668b470dc0822524443417dda83d3b17d216c51aa435311b04d
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Cura（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercura
   port_map: '3000'
-  version: 5.13.0
+  version: 5.14.0

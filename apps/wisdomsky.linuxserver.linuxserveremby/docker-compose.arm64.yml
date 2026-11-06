@@ -1,7 +1,7 @@
 name: linuxserver-emby
 services:
   app:
-    image: linuxserver/emby:4.10.2@sha256:c241cd72f67c8c10856b90efeada136fc5e20283893085889822bedb86cb495d
+    image: linuxserver/emby:4.10.2@sha256:ea82781aa05b63627aa77a812488a2e01d01d9500d305f5b6fc5cefebb429df9
     restart: unless-stopped
     environment:
       PUID: $PUID

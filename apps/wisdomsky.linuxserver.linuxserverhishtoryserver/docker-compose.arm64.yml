@@ -1,7 +1,7 @@
 name: linuxserver-hishtory-server
 services:
   app:
-    image: linuxserver/hishtory-server:0.335.20261030@sha256:b70edd6cde925d8e6d8e116493cb8f19cacbe2a744e7b63c92e60078449b8858
+    image: linuxserver/hishtory-server:0.335.20261106@sha256:9f63155367dc1f388eee89a224c2cdb48825088ee229622fe928d551bab882ff
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -50,4 +50,4 @@ x-casaos:
     zh_TW: Hishtory server（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverhishtoryserver
   port_map: '8080'
-  version: 0.335.20261030
+  version: 0.335.20261106

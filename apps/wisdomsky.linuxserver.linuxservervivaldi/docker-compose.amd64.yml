@@ -1,7 +1,7 @@
 name: linuxserver-vivaldi
 services:
   app:
-    image: linuxserver/vivaldi:8.2.4133@sha256:2a9bacecf8e2aaa7b854bc2307de3c3a9761b48013725799540c40e934af80bd
+    image: linuxserver/vivaldi:8.3.4191@sha256:7ab76538aafc712ab6b6feeadd73db58e84cf9647fa69218c02c8b27d0258749
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Vivaldi（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservervivaldi
   port_map: '3000'
-  version: 8.2.4133
+  version: 8.3.4191

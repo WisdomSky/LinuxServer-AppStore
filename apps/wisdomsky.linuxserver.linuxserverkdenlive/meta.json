@@ -12,13 +12,13 @@
   "title": "Kdenlive (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverkdenlive",
-  "version": "26.08.2",
+  "version": "26.08.3",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1657829154,
-    "arm64": 1689570172
+    "amd64": 1657532046,
+    "arm64": 1689254138
   }
 }
