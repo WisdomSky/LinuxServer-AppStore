@@ -1,7 +1,7 @@
 name: linuxserver-zen
 services:
   app:
-    image: linuxserver/zen:1.23.4@sha256:1f7d71be93335be72a91fc763f6d639c226551ca3c1cc4ded293ab18555bc59f
+    image: linuxserver/zen:1.24.1@sha256:cff97b5c9f8e52e05c0f040ade982284ce666e7e3542275a073428f55349981b
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Zen（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverzen
   port_map: '3000'
-  version: 1.23.4
+  version: 1.24.1

@@ -1,7 +1,7 @@
 name: linuxserver-code-server
 services:
   app:
-    image: linuxserver/code-server:4.145.0@sha256:ab3da5a15bf87b0af08fb9273ea5dde16e8c35d87aeba9407f3e31cd1b4178b9
+    image: linuxserver/code-server:4.145.2@sha256:4ed14f5bb779950d803b8a850a5577bcd0a5c5e2550413b1d7d32ed6a60e3208
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Code server（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercodeserver
   port_map: '8443'
-  version: 4.145.0
+  version: 4.145.2

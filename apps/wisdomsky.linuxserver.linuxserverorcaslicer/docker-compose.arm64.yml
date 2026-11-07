@@ -1,7 +1,7 @@
 name: linuxserver-orcaslicer
 services:
   app:
-    image: linuxserver/orcaslicer:2.4.2@sha256:77571a17da152f9f2fb915aec4c8072942a09dc8080f16c47b74c8e6e53fc167
+    image: linuxserver/orcaslicer:2.5.0@sha256:36eea22520fb24a26eecd1af57713e4d5b39f7b1dc15f8a58b69a8a8367b80ef
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Orcaslicer（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverorcaslicer
   port_map: '3000'
-  version: 2.4.2
+  version: 2.5.0

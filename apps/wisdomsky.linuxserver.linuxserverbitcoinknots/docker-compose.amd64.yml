@@ -1,7 +1,7 @@
 name: linuxserver-bitcoin-knots
 services:
   app:
-    image: linuxserver/bitcoin-knots:version-29.4.knots20260508.3-resolute1@sha256:a05e6f46d225e737b7e95168955cd40e820742cd30a3741929051ae004c97a5f
+    image: linuxserver/bitcoin-knots:version-29.5knots20260508-resolute2@sha256:f57c0a06cc5851bc41f2cf060118a98f4f4915ff9b7dc104e063ed1547cf9a0e
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Bitcoin knots（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbitcoinknots
   port_map: '3000'
-  version: version-29.4.knots20260508.3-resolute1
+  version: version-29.5knots20260508-resolute2
