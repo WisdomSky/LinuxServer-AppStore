@@ -1,7 +1,7 @@
 name: linuxserver-audiosilo
 services:
   app:
-    image: linuxserver/audiosilo:2.5.1@sha256:7b995083dee75a56f2c00e62cd184672c1266252e1bc5212a69583a02426926e
+    image: linuxserver/audiosilo:2.6.0@sha256:9a603b0ddad3485aab2195cd61f782611fb04447a073f625ce59191a195a31bc
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -25,4 +25,4 @@ x-casaos:
     en_US: Audiosilo (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserveraudiosilo
   port_map: '8080'
-  version: 2.5.1
+  version: 2.6.0

@@ -1,7 +1,7 @@
 name: linuxserver-ngircd
 services:
   app:
-    image: linuxserver/ngircd:version-27-r1@sha256:220bfcb5a28e33a1672ebbae65d6b5b927ab3da96daf2441d823e63b4ed7256a
+    image: linuxserver/ngircd:version-27-r1@sha256:9b2a13ac4361c2e528b5a836058346269e3e7095a3d7053369e43cb5b152bb05
     restart: unless-stopped
     environment:
       PUID: $PUID

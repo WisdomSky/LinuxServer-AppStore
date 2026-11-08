@@ -1,7 +1,7 @@
 name: linuxserver-rpcs3
 services:
   app:
-    image: linuxserver/rpcs3:version-build-13a3cd4266158911a8c555dda59005bc20fd2a66@sha256:ec3c89adff5ecc9825a18decb84a611120567f584e2d650def6e87a2e3d60b5f
+    image: linuxserver/rpcs3:version-build-e61d5eaf0f7135e578a5280b2bb2bd5c8a1c439f@sha256:4ddb988e4f8e22921c6c41c9c3f3073f9d3445d8f1a8b9408ae53373fe5f2e37
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Rpcs3（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverrpcs3
   port_map: '3000'
-  version: version-build-13a3cd4266158911a8c555dda59005bc20fd2a66
+  version: version-build-e61d5eaf0f7135e578a5280b2bb2bd5c8a1c439f

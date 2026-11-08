@@ -1,7 +1,7 @@
 name: linuxserver-apprise-api
 services:
   app:
-    image: linuxserver/apprise-api:2.0.2@sha256:6df8e517d5587055caf8e04e83362f53d4c6b3b2ccc298d23d728e2db251d47f
+    image: linuxserver/apprise-api:2.1.0@sha256:723a86c155ccc6e86fa960c2f4179b5419b573271d47294503fdf2d4693b17f0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Apprise api（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverappriseapi
   port_map: '8000'
-  version: 2.0.2
+  version: 2.1.0

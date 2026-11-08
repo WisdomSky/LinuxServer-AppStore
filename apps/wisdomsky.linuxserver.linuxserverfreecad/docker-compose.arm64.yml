@@ -1,7 +1,7 @@
 name: linuxserver-freecad
 services:
   app:
-    image: linuxserver/freecad:1.1.4@sha256:0eec98fe98e33d2e172515afd27c14ebc720ca7f826abf110bae8b4ed37184f3
+    image: linuxserver/freecad:1.1.4@sha256:85c2f265192287e809e128437bdf157a0d3fd423d1692a64848107a4843dfe2f
     restart: unless-stopped
     environment:
       PUID: $PUID
