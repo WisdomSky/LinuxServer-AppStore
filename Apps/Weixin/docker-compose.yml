@@ -1,7 +1,7 @@
 name: linuxserver-weixin
 services:
   app:
-    image: linuxserver/weixin:version-791ee7a4
+    image: linuxserver/weixin:version-2375497e
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -125,4 +125,4 @@ x-casaos:
   category: Social
   id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'
-  version: version-791ee7a4
+  version: version-2375497e
