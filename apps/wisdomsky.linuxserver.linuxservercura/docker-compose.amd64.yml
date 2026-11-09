@@ -1,7 +1,7 @@
 name: linuxserver-cura
 services:
   app:
-    image: linuxserver/cura:5.14.0@sha256:fe13be205a227668b470dc0822524443417dda83d3b17d216c51aa435311b04d
+    image: linuxserver/cura:5.14.0@sha256:28ccc8faec54a787bed38777860af7a418f713662b9cb67340a363ea375d02b4
     restart: unless-stopped
     environment:
       PUID: $PUID
