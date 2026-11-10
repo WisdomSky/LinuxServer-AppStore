@@ -1,7 +1,7 @@
 name: linuxserver-bookstack
 services:
   app:
-    image: linuxserver/bookstack:26.09.2@sha256:04a0776853e8ae87a9005ce334aed98c0006bae68d1206c5e7fbcbe4e7a78247
+    image: linuxserver/bookstack:26.09.2@sha256:a2b1bfd476ad1f8f1f737af7b3c88c9bbc275b791253aae083c9496ecae04044
     restart: unless-stopped
     environment:
       PUID: $PUID

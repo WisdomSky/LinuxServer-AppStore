@@ -1,7 +1,7 @@
 name: linuxserver-pwndrop
 services:
   app:
-    image: linuxserver/pwndrop:1.0.1@sha256:4dc78558749f283e4514e5eb36c4e3dc1aa3db88abf0c0dcd263ac0c641a69e7
+    image: linuxserver/pwndrop:1.0.1@sha256:b46d3cc7f4a3d750e75d9c421c1ea0002beea125b72bd4a2f4316148fd14816e
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -12,13 +12,13 @@
   "title": "Gimp (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservergimp",
-  "version": "version-d736ac1b",
+  "version": "version-cfec26e3",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1043794997,
-    "arm64": 996589593
+    "amd64": 1043496901,
+    "arm64": 996238673
   }
 }

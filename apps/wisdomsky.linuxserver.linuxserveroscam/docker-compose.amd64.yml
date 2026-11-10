@@ -1,7 +1,7 @@
 name: linuxserver-oscam
 services:
   app:
-    image: linuxserver/oscam:version-11968@sha256:e575919bd3bae6d4fe6c8e28bca0c91e9b8995bd9eb0aaf4dba82e11e092a51e
+    image: linuxserver/oscam:version-11971@sha256:1fe02179adee5ed3d29d30b0846996a4838cb832e4849a232df6cc825ef9e2a2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Oscam（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveroscam
   port_map: '8888'
-  version: version-11968
+  version: version-11971

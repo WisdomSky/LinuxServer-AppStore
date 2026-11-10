@@ -1,7 +1,7 @@
 name: linuxserver-piwigo
 services:
   app:
-    image: linuxserver/piwigo:16.4.0@sha256:e527eb59c29eb4e92f97d43527e78cc6895cc37755c9136959c2a3b91c553d27
+    image: linuxserver/piwigo:16.5.0@sha256:779d29bd011a1520cec50222728fbb01f2aa0f37079740894dc3e85e2f8e7d3c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Piwigo（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpiwigo
   port_map: '80'
-  version: 16.4.0
+  version: 16.5.0

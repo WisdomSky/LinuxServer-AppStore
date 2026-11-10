@@ -1,7 +1,7 @@
 name: linuxserver-gimp
 services:
   app:
-    image: linuxserver/gimp:version-d736ac1b@sha256:d9a210bb900e7a317636b1a354eecb415b761c49b1dc7bfe30b5420ad696d46a
+    image: linuxserver/gimp:version-cfec26e3@sha256:69f40d3fc8d1071e9f5752b09f043d1d251078790babbe5d49b91c2cd8748fc2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Gimp（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservergimp
   port_map: '3000'
-  version: version-d736ac1b
+  version: version-cfec26e3

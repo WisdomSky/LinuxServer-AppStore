@@ -1,7 +1,7 @@
 name: linuxserver-deluge
 services:
   app:
-    image: linuxserver/deluge:2.2.0@sha256:a6bc4104afed73306507d0eebf72ea01dc5bcabb95723e263ffb888019b2799f
+    image: linuxserver/deluge:2.2.0@sha256:2a63fea7dae7f5d005937fb5b1bd13a1db4ebd85216c9b6db586602c9854b832
     restart: unless-stopped
     environment:
       PUID: $PUID

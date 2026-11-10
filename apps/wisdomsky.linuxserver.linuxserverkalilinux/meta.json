@@ -12,13 +12,13 @@
   "title": "Kali linux (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverkalilinux",
-  "version": "version-acb09ade",
+  "version": "version-632af9dd",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 4749752625,
-    "arm64": 3970436204
+    "amd64": 4873258005,
+    "arm64": 4079401073
   }
 }
