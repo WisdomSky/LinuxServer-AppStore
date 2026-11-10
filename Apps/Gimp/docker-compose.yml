@@ -1,7 +1,7 @@
 name: linuxserver-gimp
 services:
   app:
-    image: linuxserver/gimp:version-d736ac1b
+    image: linuxserver/gimp:version-cfec26e3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -125,4 +125,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxservergimp
   port_map: '3000'
-  version: version-d736ac1b
+  version: version-cfec26e3

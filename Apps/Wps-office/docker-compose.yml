@@ -1,7 +1,7 @@
 name: linuxserver-wps-office
 services:
   app:
-    image: linuxserver/wps-office:11.1.0
+    image: linuxserver/wps-office:12.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -124,4 +124,4 @@ x-casaos:
   category: Productivity
   id: wisdomsky.linuxserver.linuxserverwpsoffice
   port_map: '3000'
-  version: 11.1.0
+  version: 12.1.2
