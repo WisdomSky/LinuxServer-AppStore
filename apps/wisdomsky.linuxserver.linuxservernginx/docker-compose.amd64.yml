@@ -1,7 +1,7 @@
 name: linuxserver-nginx
 services:
   app:
-    image: linuxserver/nginx:1.30.6@sha256:d856c787681ae4491ccaba986d798dbd55c237028d70d56acd8877d99549d5e7
+    image: linuxserver/nginx:1.30.6@sha256:c6ce436fe5b542be34660e4c69c5356ff0f86baa679c8472238033c30a403b31
     restart: unless-stopped
     environment:
       PUID: $PUID

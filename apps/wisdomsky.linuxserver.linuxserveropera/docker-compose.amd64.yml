@@ -1,7 +1,7 @@
 name: linuxserver-opera
 services:
   app:
-    image: linuxserver/opera:139.0.6053@sha256:ee10e6cffefd70c61d8e7143cf97fc44b8eca1a266c8bfcabe8ff39a24d4b9f6
+    image: linuxserver/opera:140.0.6074@sha256:501e4ac208383f45d5e6cbf2209bc7f93dc78d11894f750b977822b066885e80
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Opera（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveropera
   port_map: '3000'
-  version: 139.0.6053
+  version: 140.0.6074

@@ -11,12 +11,12 @@
   "title": "Intellij idea (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverintellijidea",
-  "version": "2026.3.20261110",
+  "version": "2026.3.20261112",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 2473150301
+    "amd64": 2473152552
   }
 }

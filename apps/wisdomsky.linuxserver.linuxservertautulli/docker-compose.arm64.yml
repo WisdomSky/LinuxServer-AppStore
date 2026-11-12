@@ -1,7 +1,7 @@
 name: linuxserver-tautulli
 services:
   app:
-    image: linuxserver/tautulli:2.18.2@sha256:a0e1a846b238e4d487051a86a44f48eae3780173ccd4e0530075f28eda8dea4c
+    image: linuxserver/tautulli:2.19.1@sha256:7f2fd7998fafda346964a5e76c69a6672394fe84c06c285bfca3e8301712d223
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Tautulli（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservertautulli
   port_map: '8181'
-  version: 2.18.2
+  version: 2.19.1

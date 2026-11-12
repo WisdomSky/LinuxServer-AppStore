@@ -1,7 +1,7 @@
 name: linuxserver-mullvad-browser
 services:
   app:
-    image: linuxserver/mullvad-browser:16.0.20261109@sha256:2c0b49875dd7cf68d9927b094896e4ad82c497d0c21279949be725ec967e4f98
+    image: linuxserver/mullvad-browser:16.0.1@sha256:12126b7eff584cb8b033303a522116c7e7d742a2230ca16531d39ed1adc81927
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -58,4 +58,4 @@ x-casaos:
     zh_TW: Mullvad browser（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermullvadbrowser
   port_map: '3000'
-  version: 16.0.20261109
+  version: 16.0.1

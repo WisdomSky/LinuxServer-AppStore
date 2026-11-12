@@ -1,7 +1,7 @@
 name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/rustdesk:1.5.1@sha256:a68930bfe85d4c39096620a7554832bf913299261e230f0127c8ace9442e4135
+    image: linuxserver/rustdesk:1.5.3@sha256:fa15a500acfac748a9200c14064640da9494390b577f618f2e86745c751344f9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Rustdesk（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverrustdesk
   port_map: '3000'
-  version: 1.5.1
+  version: 1.5.3

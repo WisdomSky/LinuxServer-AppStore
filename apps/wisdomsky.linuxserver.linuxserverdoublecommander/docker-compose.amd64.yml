@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-46bb98fd@sha256:bcca706fef9033a475e3f25a7c014f96460c95d93d9b3d1724679b9e19dd01e8
+    image: linuxserver/doublecommander:version-9d9541b7@sha256:1a1416983e45441f9d6cf4eb6b779133b96bcbedf3eb3e5ffd8f63eccdf3e980
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Doublecommander（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdoublecommander
   port_map: '3000'
-  version: version-46bb98fd
+  version: version-9d9541b7

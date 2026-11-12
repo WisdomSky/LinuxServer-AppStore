@@ -1,7 +1,7 @@
 name: linuxserver-kometa
 services:
   app:
-    image: linuxserver/kometa:2.5.4@sha256:9f64404f464d900b57580db5da695f08c31e0f3e7b112665c8f20e49ce197b84
+    image: linuxserver/kometa:2.5.5@sha256:11424a0c646f5bdb021dc9b8914b06511be8326285b4e937f22dee6e4ec11fb7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Kometa（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkometa
   port_map: '80'
-  version: 2.5.4
+  version: 2.5.5
