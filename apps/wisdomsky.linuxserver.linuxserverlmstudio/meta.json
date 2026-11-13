@@ -11,12 +11,12 @@
   "title": "Lm studio (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlmstudio",
-  "version": "version-2026-11-06",
+  "version": "version-2026-11-12",
   "categories": [
     "ai"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 9413900399
+    "amd64": 9422051424
   }
 }

@@ -1,7 +1,7 @@
 name: linuxserver-nextcloud
 services:
   app:
-    image: linuxserver/nextcloud:35.0.2@sha256:58c9494d025a1980917e27eed185db333eb8c8631349bacbfc36dcbf944ece4a
+    image: linuxserver/nextcloud:35.0.3@sha256:85ad7d94a512c9ba4f21ac9cfe25e2a49946b1c04adba0b61a711cdc7461bf3f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Nextcloud（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernextcloud
   port_map: '80'
-  version: 35.0.2
+  version: 35.0.3

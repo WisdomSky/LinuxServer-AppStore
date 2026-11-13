@@ -1,7 +1,7 @@
 name: linuxserver-znc
 services:
   app:
-    image: linuxserver/znc:1.10.3@sha256:d1bf1a36549d9b5d4619e37641011a52cb9da766c8fc8aa707c4aaa675e286ee
+    image: linuxserver/znc:1.10.3@sha256:fddb0d0aeb1de827c47223a9e0707532942c1d71727b83974f262cca005c1ebb
     restart: unless-stopped
     environment:
       PUID: $PUID
