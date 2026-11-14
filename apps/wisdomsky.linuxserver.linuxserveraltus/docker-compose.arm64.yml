@@ -1,7 +1,7 @@
 name: linuxserver-altus
 services:
   app:
-    image: linuxserver/altus:5.8.2@sha256:3884f878f34f1448a82d30700290bb83ca14f94f8df6234536bd28ec5578d7ff
+    image: linuxserver/altus:5.8.2@sha256:a400e5c397df66386ff6b0abfc72ad3a6aacdf5f91e45d9408d5b8472facd8b4
     restart: unless-stopped
     environment:
       PUID: $PUID

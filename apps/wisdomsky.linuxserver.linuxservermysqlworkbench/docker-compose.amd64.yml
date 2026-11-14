@@ -1,7 +1,7 @@
 name: linuxserver-mysql-workbench
 services:
   app:
-    image: linuxserver/mysql-workbench:8.0.47@sha256:38d47793a8409d65ad0943e7ffd3f326783e108cea8d0f5ac9a98e5f57de4cd6
+    image: linuxserver/mysql-workbench:8.0.47@sha256:1d835c6f6ab24fd39a9f427d9e5ff548884da0885171aae6a43f164ce7d5d403
     restart: unless-stopped
     environment:
       PUID: $PUID

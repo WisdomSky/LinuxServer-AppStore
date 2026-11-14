@@ -1,7 +1,7 @@
 name: linuxserver-kimai
 services:
   app:
-    image: linuxserver/kimai:2.71.0@sha256:72f2060adc87b85ba0f9255061779932fcb3961b62ba9f01adf50d7fb46fddc3
+    image: linuxserver/kimai:2.72.0@sha256:6a0609b946a3cacd2b0b5c4c1f61cbc890d5cbc54d7da6205604708d0727e1ce
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Kimai（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkimai
   port_map: '80'
-  version: 2.71.0
+  version: 2.72.0

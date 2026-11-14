@@ -1,7 +1,7 @@
 name: linuxserver-dosbox-staging
 services:
   app:
-    image: linuxserver/dosbox-staging:0.83.0@sha256:56dd37854427042cd1a537834425fc5656f91249d2441bc7e3e8f989eb03136d
+    image: linuxserver/dosbox-staging:0.83.1@sha256:30151ce367d27c2a05d540178add2c1164048a0229efc579e99b06f13b62488d
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Dosbox staging（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdosboxstaging
   port_map: '3000'
-  version: 0.83.0
+  version: 0.83.1
