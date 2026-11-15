@@ -1,7 +1,7 @@
 name: linuxserver-code-server
 services:
   app:
-    image: linuxserver/code-server:4.145.2@sha256:e4c6baf3c1e51fb3af1e47adafb83f58950902d04697f71d7e380d2d31c77000
+    image: linuxserver/code-server:4.145.2@sha256:12f6eb1f23e5229fd41291fb28ee12b3c0a0619f703de881abe9cad87d3a7d39
     restart: unless-stopped
     environment:
       PUID: $PUID

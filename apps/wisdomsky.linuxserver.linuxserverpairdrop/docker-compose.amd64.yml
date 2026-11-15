@@ -1,7 +1,7 @@
 name: linuxserver-pairdrop
 services:
   app:
-    image: linuxserver/pairdrop:1.11.2@sha256:2108e5bd6295b7a2700f50b88685cf2f4c360d9d4a6cb347e97f463379428a36
+    image: linuxserver/pairdrop:1.11.2@sha256:e250aa3c11903d5f4e8a844e8d5bdb1b12c334bd557083c1a13eb9ca11d20123
     restart: unless-stopped
     environment:
       PUID: $PUID

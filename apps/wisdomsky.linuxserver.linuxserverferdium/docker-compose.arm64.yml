@@ -1,7 +1,7 @@
 name: linuxserver-ferdium
 services:
   app:
-    image: linuxserver/ferdium:7.2.3@sha256:7e14b75dbdd922efced074fdb516e20a751acbb9be994ce652463caa64185688
+    image: linuxserver/ferdium:7.2.3@sha256:e3dc837b64f039d6d2ff25c5be8f07e1c98df0aa70cb5c05de4d29721ca860bb
     restart: unless-stopped
     environment:
       PUID: $PUID

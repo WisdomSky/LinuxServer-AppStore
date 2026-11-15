@@ -1,7 +1,7 @@
 name: linuxserver-davos
 services:
   app:
-    image: linuxserver/davos:2.2.2@sha256:8e65e3a29b312a91587e9649265f305617712ea74a464eaf6d7590ca9b1efac6
+    image: linuxserver/davos:2.2.2@sha256:a233a5bc17816a958add71bc4b1410e9d3c7051cc516fc1603ea22dbfd812833
     restart: unless-stopped
     environment:
       PUID: $PUID
