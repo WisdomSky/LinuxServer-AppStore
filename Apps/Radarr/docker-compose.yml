@@ -1,7 +1,7 @@
 name: linuxserver-radarr
 services:
   app:
-    image: linuxserver/radarr:6.4.4
+    image: linuxserver/radarr:7.0.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -128,4 +128,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxserverradarr
   port_map: '7878'
-  version: 6.4.4
+  version: 7.0.3

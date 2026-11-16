@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     environment:
       KASM_PORT: ''
+      KASM_SETUP: ''
       DOCKER_HUB_USERNAME: ''
       DOCKER_HUB_PASSWORD: ''
       DOCKER_MTU: ''
@@ -13,6 +14,9 @@ services:
         - container: KASM_PORT
           description:
             en_US: Specify the port you bind to the outside for Kasm Workspaces.
+        - container: KASM_SETUP
+          description:
+            en_US: Set to true to enable the Kasm setup page, first-run setup is always enabled.
         - container: DOCKER_HUB_USERNAME
           description:
             en_US: Optionally specify a DockerHub Username to pull private images. [OPTIONAL]
@@ -23,9 +27,6 @@ services:
           description:
             en_US: Optionally specify the mtu options passed to dockerd. [OPTIONAL]
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
       - target: 443
         published: 443
         protocol: tcp
@@ -137,5 +138,5 @@ x-casaos:
     zh_TW: Kasm（LinuxServer.io）
   category: Others
   id: wisdomsky.linuxserver.linuxserverkasm
-  port_map: '3000'
+  port_map: '443'
   version: 1.19.0

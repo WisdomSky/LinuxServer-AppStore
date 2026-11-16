@@ -4,4 +4,4 @@ Workspaces is a docker container streaming platform for delivering browser-based
 
 ---
 
-**WebUI Port:** `3000`
+**WebUI Port:** `443`
