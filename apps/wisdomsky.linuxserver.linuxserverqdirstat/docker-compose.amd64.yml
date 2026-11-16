@@ -1,7 +1,7 @@
 name: linuxserver-qdirstat
 services:
   app:
-    image: linuxserver/qdirstat:2.0.20261108@sha256:9e69679a7718a4fc95cc416087dca110dc9d868f51b0cdee74da3ffe5fcfa04b
+    image: linuxserver/qdirstat:2.0.20261116@sha256:0748de092196dde69bdbd4bdeee93d32945b5914c5c124177e86b2b107c8a0d1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Qdirstat（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverqdirstat
   port_map: '3000'
-  version: 2.0.20261108
+  version: 2.0.20261116

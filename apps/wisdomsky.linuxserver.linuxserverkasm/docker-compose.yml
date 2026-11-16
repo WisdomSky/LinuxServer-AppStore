@@ -5,13 +5,11 @@ services:
     restart: unless-stopped
     environment:
       KASM_PORT: ''
+      KASM_SETUP: ''
       DOCKER_HUB_USERNAME: ''
       DOCKER_HUB_PASSWORD: ''
       DOCKER_MTU: ''
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
       - target: 443
         published: 443
         protocol: tcp
@@ -60,5 +58,5 @@ x-casaos:
     zh_CN: Kasm（LinuxServer.io）
     zh_TW: Kasm（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkasm
-  port_map: '3000'
+  port_map: '443'
   version: 1.19.0

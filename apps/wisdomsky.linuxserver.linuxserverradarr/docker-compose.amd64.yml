@@ -1,7 +1,7 @@
 name: linuxserver-radarr
 services:
   app:
-    image: linuxserver/radarr:6.4.4@sha256:90fc402fd050506460369cf263feb1193888ebd06cbf5fa665e9a247f9c02b83
+    image: linuxserver/radarr:7.0.3@sha256:ff1b1f21a200e19f52017bd1544031143715b1ab262b823a9dcb916a71da0956
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Radarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverradarr
   port_map: '7878'
-  version: 6.4.4
+  version: 7.0.3

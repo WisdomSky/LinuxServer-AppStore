@@ -1,17 +1,15 @@
 name: linuxserver-kasm
 services:
   app:
-    image: linuxserver/kasm:1.19.0@sha256:0bd7907ca01f9d282c140d9945bf6e83954f08d928b9169e6beb23c867cc960e
+    image: linuxserver/kasm:1.19.0@sha256:c925ffb067799cba4fdb074e6d21807bfd51491dc010ecff36c03a1ea5588fd4
     restart: unless-stopped
     environment:
       KASM_PORT: ''
+      KASM_SETUP: ''
       DOCKER_HUB_USERNAME: ''
       DOCKER_HUB_PASSWORD: ''
       DOCKER_MTU: ''
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
       - target: 443
         published: 443
         protocol: tcp
@@ -60,5 +58,5 @@ x-casaos:
     zh_CN: Kasm（LinuxServer.io）
     zh_TW: Kasm（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkasm
-  port_map: '3000'
+  port_map: '443'
   version: 1.19.0
