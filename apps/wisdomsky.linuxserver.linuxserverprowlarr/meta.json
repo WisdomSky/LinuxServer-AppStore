@@ -12,13 +12,13 @@
   "title": "Prowlarr (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverprowlarr",
-  "version": "2.7.0",
+  "version": "3.0.2",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 80862629,
-    "arm64": 80181654
+    "amd64": 85030675,
+    "arm64": 83393487
   }
 }

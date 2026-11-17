@@ -1,7 +1,7 @@
 name: linuxserver-shotcut
 services:
   app:
-    image: linuxserver/shotcut:26.9.27@sha256:b6f17c5c27ed0483bfa9783a94a712b05cce0a5263f936fd8c544136cdc4ccca
+    image: linuxserver/shotcut:26.11.15@sha256:452ef948cd7b6a749faae848baabe4738e4cb190e1b1c53ceb416d9a8b1906b5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Shotcut（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservershotcut
   port_map: '3000'
-  version: 26.9.27
+  version: 26.11.15

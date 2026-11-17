@@ -1,7 +1,7 @@
 name: linuxserver-prowlarr
 services:
   app:
-    image: linuxserver/prowlarr:2.7.0@sha256:697220fbf427eced70569f49000450c65087c701e83d918e807cdb571c06551b
+    image: linuxserver/prowlarr:3.0.2@sha256:f17833641190c24deabfa99c8a59c9ad22a8f6f82968dda793cc802fb9f8fdeb
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Prowlarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverprowlarr
   port_map: '9696'
-  version: 2.7.0
+  version: 3.0.2
