@@ -1,7 +1,7 @@
 name: linuxserver-boinc
 services:
   app:
-    image: linuxserver/boinc:8.2.8@sha256:f7fd096634cfdc686cebf11fe40f98ef8573335be69bede6dbea6eae8ffcfc8d
+    image: linuxserver/boinc:8.2.8@sha256:3e652c40921fa6c1e0117612f577ac62c70ae454ee6a09bcf143492634d7abd7
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-duckstation
 services:
   app:
-    image: linuxserver/duckstation:version-latest@sha256:7efdb15ada293faeba19988532f1d679a5ccfaac551256855711052eb70ef24b
+    image: linuxserver/duckstation:version-latest@sha256:6eefddb00c5b1a68f1f03567b1a0061d46dc594d73c45b020f72221e43253060
     restart: unless-stopped
     environment:
       PUID: $PUID

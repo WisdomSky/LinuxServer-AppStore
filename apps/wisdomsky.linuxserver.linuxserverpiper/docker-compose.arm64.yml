@@ -1,7 +1,7 @@
 name: linuxserver-piper
 services:
   app:
-    image: linuxserver/piper:2.5.3@sha256:82f425ccc80e8ef3d4d8d14600c1faeadca26fed36b85b63540ff2a9e7fdc4f4
+    image: linuxserver/piper:2.5.4@sha256:7144b29e3800454834a7f9a388dfe10e7fb2f7921c30d0d9377a235591f762e9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -55,4 +55,4 @@ x-casaos:
     zh_TW: Piper（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpiper
   port_map: '10200'
-  version: 2.5.3
+  version: 2.5.4

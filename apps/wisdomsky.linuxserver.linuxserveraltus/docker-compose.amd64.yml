@@ -1,7 +1,7 @@
 name: linuxserver-altus
 services:
   app:
-    image: linuxserver/altus:5.8.2@sha256:805381f90b64070a7cff2904be7cdf63072571f6c43448ee0d179cdb5d9ae940
+    image: linuxserver/altus:5.8.3@sha256:da0eee77e84dfc5d0aebda2680dc3b81cb3dba6ea7f1759e472aeed72f76f94b
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Altus（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveraltus
   port_map: '3000'
-  version: 5.8.2
+  version: 5.8.3
