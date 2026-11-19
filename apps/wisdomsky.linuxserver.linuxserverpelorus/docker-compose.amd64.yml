@@ -1,7 +1,7 @@
 name: linuxserver-pelorus
 services:
   app:
-    image: linuxserver/pelorus:0.2.4@sha256:142e6dc27f76a343e84695282fca0aadc62dbb3608c7e65412909e236f3b4f5f
+    image: linuxserver/pelorus:0.2.4@sha256:3aa019fac95b88a3a142bd498ae7d2d283ea2fe8de599a63f75fb8c18c2b80e0
     restart: unless-stopped
     environment:
       PUID: $PUID

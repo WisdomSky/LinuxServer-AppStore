@@ -1,7 +1,7 @@
 name: linuxserver-helium
 services:
   app:
-    image: linuxserver/helium:0.21.3@sha256:fb60177976f404b83ea61e220b480a88445e30626475e106e7d448a3f05b8f00
+    image: linuxserver/helium:0.22.1@sha256:55141d1afeb4180e051b1a82bc29af28f39d78f6c5ea179ddd2517d139212032
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Helium（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverhelium
   port_map: '3000'
-  version: 0.21.3
+  version: 0.22.1

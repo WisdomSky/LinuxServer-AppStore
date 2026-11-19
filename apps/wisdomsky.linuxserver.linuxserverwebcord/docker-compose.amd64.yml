@@ -1,7 +1,7 @@
 name: linuxserver-webcord
 services:
   app:
-    image: linuxserver/webcord:4.14.0@sha256:f14c08c6d7f8f43d5fdd3b1d171a36c6e0cebd50395c3bcb1f2352f4855ccb56
+    image: linuxserver/webcord:4.14.0@sha256:82fcceeddbab014cd27a0320436479a87aeebf62283f4f1c6acdc4a361dcb6c0
     restart: unless-stopped
     environment:
       PUID: $PUID

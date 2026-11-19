@@ -1,7 +1,7 @@
 name: linuxserver-xbackbone
 services:
   app:
-    image: linuxserver/xbackbone:3.8.2@sha256:d4244d6c1fc088c9d704dae9b4877ad55ef14fb447299a5776710bf1b8a46546
+    image: linuxserver/xbackbone:3.8.2@sha256:e4baccb743e95833520471cc6d96a8c60e4b4ce639788eb7fcf822e4081905e4
     restart: unless-stopped
     environment:
       PUID: $PUID

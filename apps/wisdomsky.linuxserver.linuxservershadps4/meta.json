@@ -11,12 +11,12 @@
   "title": "Shadps4 (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservershadps4",
-  "version": "version-shadPS4QtLauncher-2026-11-06-ecc85072dae45c05628934fdb6b3aa036e9f1d4b",
+  "version": "version-shadPS4QtLauncher-2026-11-19-0cf4b97c70815faed8cbdfae77cdd582ce2abbea",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 976602383
+    "amd64": 976603334
   }
 }

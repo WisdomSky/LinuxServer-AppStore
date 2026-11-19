@@ -1,7 +1,7 @@
 name: linuxserver-nginx
 services:
   app:
-    image: linuxserver/nginx:1.30.6@sha256:c6ce436fe5b542be34660e4c69c5356ff0f86baa679c8472238033c30a403b31
+    image: linuxserver/nginx:1.30.7@sha256:1f5aaa29569624e11bfcdf111cebd0edf2a008e6c94c39858f1aec8ae8e7e8e9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Nginx（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernginx
   port_map: '80'
-  version: 1.30.6
+  version: 1.30.7

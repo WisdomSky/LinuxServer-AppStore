@@ -1,7 +1,7 @@
 name: linuxserver-lollypop
 services:
   app:
-    image: linuxserver/lollypop:1.4.45@sha256:dfd065950267f176d4bc45ca7469a8a2f899680b831ccec22f3f72fb9eb02b15
+    image: linuxserver/lollypop:1.4.45@sha256:727dff6bf3e2e8ec570c19780e0fc1efd7a585cf6964fcd24f2e8c513c5fbbd7
     restart: unless-stopped
     environment:
       PUID: $PUID

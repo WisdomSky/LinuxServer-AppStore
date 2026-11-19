@@ -12,13 +12,13 @@
   "title": "Oscam (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserveroscam",
-  "version": "version-11989",
+  "version": "version-11990",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 21427523,
-    "arm64": 22305545
+    "amd64": 24007371,
+    "arm64": 25186292
   }
 }

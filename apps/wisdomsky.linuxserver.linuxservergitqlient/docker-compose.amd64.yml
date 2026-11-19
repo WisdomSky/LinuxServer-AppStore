@@ -1,7 +1,7 @@
 name: linuxserver-gitqlient
 services:
   app:
-    image: linuxserver/gitqlient:1.6.3@sha256:4d29582a44fc4adbe9f90fa65c9863c526f0f531d5f2f2655cc04e3e8b580daf
+    image: linuxserver/gitqlient:1.6.3@sha256:0f90ed73ebca8169a6bbdb979bda8f8c6dda44166374266a4e3453212634e26f
     restart: unless-stopped
     environment:
       PUID: $PUID
