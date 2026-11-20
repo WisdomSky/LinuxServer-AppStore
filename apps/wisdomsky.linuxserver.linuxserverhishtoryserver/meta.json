@@ -12,13 +12,13 @@
   "title": "Hishtory server (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
-  "version": "0.335.20261113",
+  "version": "0.335.20261120",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 50054055,
-    "arm64": 48577854
+    "amd64": 50054431,
+    "arm64": 48578424
   }
 }

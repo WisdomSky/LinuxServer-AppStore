@@ -1,7 +1,7 @@
 name: linuxserver-projectsend
 services:
   app:
-    image: linuxserver/projectsend:version-r2098@sha256:934aec9bf9662d9d3190b57a9e7615ef38652668f9092fa84f48004f3a5d4829
+    image: linuxserver/projectsend:version-r2098@sha256:c563d7b7f6677e15a6eae9f09d9e2415b0865528a25281477c96ca2cc5dfac78
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-grav
 services:
   app:
-    image: linuxserver/grav:2.2.31@sha256:3a3151834ade22335a4a17726647e0926929e69cf7318b82c50ba270ff536f6e
+    image: linuxserver/grav:2.2.31@sha256:bd52306502e551e7224cc477e1794ebc24e654fba99e9e1e10eacadd58636d59
     restart: unless-stopped
     environment:
       PUID: $PUID

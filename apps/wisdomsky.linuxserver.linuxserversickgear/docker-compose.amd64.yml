@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.36.12@sha256:34534e2dc85e640a1c802ac474d6d5c9130982f4f5fd733a1dbd6a6b2b041620
+    image: linuxserver/sickgear:3.36.13@sha256:a9ca1416a823ac02552f6bc46c287770bb4722852c3f811fc92e8ecdd957cd4c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Sickgear（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'
-  version: 3.36.12
+  version: 3.36.13

@@ -1,7 +1,7 @@
 name: linuxserver-mariadb
 services:
   app:
-    image: linuxserver/mariadb:11.8.9@sha256:9107a0bd1bec77c07c9ac90cc4bd7d48a5cc147520bfe9f72851415dfe875805
+    image: linuxserver/mariadb:11.8.10@sha256:f0f6f2e12e76d71113a3ae386cfe9e1fb40d877a7dc8bc6d8dfe9827f7f62390
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -54,4 +54,4 @@ x-casaos:
     zh_TW: Mariadb（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermariadb
   port_map: '3306'
-  version: 11.8.9
+  version: 11.8.10

@@ -1,7 +1,7 @@
 name: linuxserver-faster-whisper
 services:
   app:
-    image: linuxserver/faster-whisper:3.9.0@sha256:ca9d90a2ad8351c40a8055afb4142b224ca0d5ac293e6c96d381adcc2a9ea569
+    image: linuxserver/faster-whisper:3.9.1@sha256:22dd8449abaf8a6043ea972627bee06e9782a23a9beea0219708bd025c290d2a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Faster whisper（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfasterwhisper
   port_map: '10300'
-  version: 3.9.0
+  version: 3.9.1
