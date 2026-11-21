@@ -1,7 +1,7 @@
 name: linuxserver-sealskin
 services:
   app:
-    image: linuxserver/sealskin:0.4.2@sha256:73a50eb0054e231b8a2dc7cbeb107e0202c8b8f4e1c6167bc41bc039ac79822c
+    image: linuxserver/sealskin:0.5.0@sha256:22a1ed89eaa05cf9057a9cb8054f59989056f45474e48dbbe1a6fa111843ec62
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -61,4 +61,4 @@ x-casaos:
     zh_TW: Sealskin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversealskin
   port_map: '8000'
-  version: 0.4.2
+  version: 0.5.0

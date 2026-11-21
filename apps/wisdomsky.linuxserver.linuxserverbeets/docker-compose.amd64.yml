@@ -1,7 +1,7 @@
 name: linuxserver-beets
 services:
   app:
-    image: linuxserver/beets:2.14.1@sha256:903c775c5f70784834438137be285790df3c120fee5b0d2b77ec6e089dba9b76
+    image: linuxserver/beets:2.14.1@sha256:712eb55f34788bfb5f2fd7969bb96f1924dae3fb857ab4189cb7754a86841ec0
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -12,13 +12,13 @@
   "title": "Lazylibrarian (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
-  "version": "version-9ceebf6d",
+  "version": "version-26d3975d",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 237488730,
-    "arm64": 232880621
+    "amd64": 237876728,
+    "arm64": 233290343
   }
 }

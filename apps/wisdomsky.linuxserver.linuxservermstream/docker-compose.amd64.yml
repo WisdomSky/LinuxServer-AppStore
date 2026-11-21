@@ -1,7 +1,7 @@
 name: linuxserver-mstream
 services:
   app:
-    image: linuxserver/mstream:6.34.0@sha256:bb4cb44cb7e0950ee7d40cfc480618ec60dfe250ff7589c6d10a9c65b21075d5
+    image: linuxserver/mstream:6.35.0@sha256:a832df2ab9bf95c6dd15ac2d4ff6f04bf2e320577f2f2a460be97005bc488675
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Mstream（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermstream
   port_map: '3000'
-  version: 6.34.0
+  version: 6.35.0

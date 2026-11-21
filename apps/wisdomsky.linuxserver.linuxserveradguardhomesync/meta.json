@@ -12,13 +12,13 @@
   "title": "Adguardhome sync (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
-  "version": "0.9.6",
+  "version": "0.10.0",
   "categories": [
     "networking"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 27022337,
-    "arm64": 26348308
+    "amd64": 27024859,
+    "arm64": 26349275
   }
 }

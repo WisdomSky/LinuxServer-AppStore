@@ -12,13 +12,13 @@
   "title": "Nzbget (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservernzbget",
-  "version": "26.3.20261113",
+  "version": "26.3.20261120",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 53767320,
-    "arm64": 54356211
+    "amd64": 53917814,
+    "arm64": 54511208
   }
 }

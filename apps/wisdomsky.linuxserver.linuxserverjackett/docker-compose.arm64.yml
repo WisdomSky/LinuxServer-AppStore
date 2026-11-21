@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.25.8@sha256:15de4b5cbc6d36200f70e85e3084cd2476c1bb97fe874b86466158563f11c05b
+    image: linuxserver/jackett:0.25.20@sha256:2ba1a16a74fc420a2513bbe091cab85f9c28bcc9afc254b36579a826c38243de
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,4 +53,4 @@ x-casaos:
     zh_TW: Jackett（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverjackett
   port_map: '9117'
-  version: 0.25.8
+  version: 0.25.20

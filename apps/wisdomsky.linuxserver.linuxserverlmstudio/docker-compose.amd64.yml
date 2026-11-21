@@ -1,7 +1,7 @@
 name: linuxserver-lm-studio
 services:
   app:
-    image: linuxserver/lm-studio:version-2026-11-13@sha256:280d3ed5ab03c3182a76e08d9a31e0976bf88a757241f0ecb9661715a715bd43
+    image: linuxserver/lm-studio:version-2026-11-20@sha256:6abb233a4e5f3302637ca5810efc120f77c65fc904dd3cb17420c5bfd475db8d
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Lm studio（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlmstudio
   port_map: '3000'
-  version: version-2026-11-13
+  version: version-2026-11-20
