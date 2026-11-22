@@ -1,7 +1,7 @@
 name: linuxserver-airsonic-advanced
 services:
   app:
-    image: linuxserver/airsonic-advanced:11.1.4@sha256:62d63635b22df1e91e3c89389860edf463831dd9bfe4fe4b4c76780989fca47c
+    image: linuxserver/airsonic-advanced:11.1.4@sha256:0f528bf5416fe89676f4c012fa5f1b14d3e1421be96fe8314553b25b1d67a931
     restart: unless-stopped
     environment:
       PUID: $PUID
