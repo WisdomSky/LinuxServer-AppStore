@@ -19,6 +19,9 @@ services:
           description:
             en_US: specify a timezone to use, see this list.
     ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
       - target: 3001
         published: 3001
         protocol: tcp
@@ -31,7 +34,7 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_US: Pelorus is an AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.
+    en_US: Pelorus is the AI agent interface built into Selkies. It describes the desktop to an LLM as text, the windows the Selkies window manager places and the controls applications expose over the Linux accessibility tree (AT-SPI), and drives it with mouse, keyboard, window and screenshot actions from a chat. This image runs Pelorus on the Selkies desktop with a split pane web interface.
     ca_ES: Pelorus és un navegador d'IA per a escriptoris Linux basats en Selkies. Pelorus executa un servidor FastAPI que dóna a un agent LLM (Ollama, compatible amb OpenAI o Gemini) control sobre el ratolí, el teclat, les captures de pantalla i la gestió de finestres a través del backend d'ús de l'ordinador Pixelflux, un arbre d'accessibilitat de Linux (AT-SPI) i la integració opcional de KWin D-Bus.
     cs_CZ: Pelorus je navigátor s umělou inteligencí pro desktopy Linuxu s platformou Selkies. Pelorus provozuje server FastAPI, který poskytuje agentovi LLM (kompatibilnímu s Ollama, OpenAI nebo Gemini) kontrolu nad myší, klávesnicí, snímky obrazovky a správou oken prostřednictvím backendu Pixelflux pro použití na počítači, stromu přístupnosti Linuxu (AT-SPI) a volitelné integrace KWin D-Bus.
     da_DK: Pelorus er en AI-navigator til Selkies-drevne Linux-desktops. Pelorus kører en FastAPI-server, der giver en LLM-agent (Ollama, OpenAI-kompatibel eller Gemini) kontrol over mus, tastatur, skærmbillede og vindueshåndtering via Pixelflux computerbrugs-backend, et Linux-tilgængelighedstræ (AT-SPI) og valgfri KWin D-Bus-integration.
@@ -59,7 +62,7 @@ x-casaos:
     zh_CN: Pelorus 是面向 Selkies Linux 桌面的 AI 导航工具。它运行一个 FastAPI 服务器，让使用 Ollama、OpenAI 兼容接口或 Gemini 的大语言模型代理，通过 Pixelflux 计算机操作后端、Linux 无障碍树（AT-SPI）和可选的 KWin D-Bus 集成，控制鼠标、键盘、截图和窗口管理。
     zh_TW: Pelorus 是面向 Selkies Linux 桌面的 AI 導航工具。它執行一個 FastAPI 伺服器，讓使用 Ollama、OpenAI 相容介面或 Gemini 的大語言模型代理，透過 Pixelflux 計算機操作後端、Linux 無障礙樹（AT-SPI）和可選的 KWin D-Bus 整合，控制滑鼠、鍵盤、截圖和視窗管理。
   tagline:
-    en_US: An AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.
+    en_US: Pelorus is the AI agent interface built into Selkies. It describes the desktop to an LLM as text, the windows the Selkies window manager places and the controls applications expose over the Linux accessibility tree (AT-SPI), and drives it with mouse, keyboard, window and screenshot actions from a chat. This image runs Pelorus on the Selkies desktop with a split pane web interface.
     ca_ES: Un navegador d'IA per a escriptoris Linux amb tecnologia Selkies. Pelorus executa un servidor FastAPI que dóna a un agent LLM (Ollama, compatible amb OpenAI o Gemini) control sobre el ratolí, el teclat, les captures de pantalla i la gestió de finestres a través del backend d'ús de l'ordinador Pixelflux, un arbre d'accessibilitat de Linux (AT-SPI) i la integració opcional de KWin D-Bus.
     cs_CZ: Navigátor s umělou inteligencí pro desktopy Linuxu s platformou Selkies. Pelorus provozuje server FastAPI, který poskytuje agentovi LLM (kompatibilnímu s Ollama, OpenAI nebo Gemini) kontrolu nad myší, klávesnicí, snímky obrazovky a správou oken prostřednictvím backendu Pixelflux pro použití na počítači, stromu přístupnosti Linuxu (AT-SPI) a volitelné integrace KWin D-Bus.
     da_DK: En AI-navigator til Selkies-drevne Linux-desktops. Pelorus kører en FastAPI-server, der giver en LLM-agent (Ollama, OpenAI-kompatibel eller Gemini) kontrol over mus, tastatur, skærmbillede og vindueshåndtering via Pixelflux computerbrugs-backend, et Linux-tilgængelighedstræ (AT-SPI) og valgfri KWin D-Bus-integration.
@@ -120,5 +123,5 @@ x-casaos:
     zh_TW: Pelorus（LinuxServer.io）
   category: AI
   id: wisdomsky.linuxserver.linuxserverpelorus
-  port_map: '3001'
+  port_map: '3000'
   version: 0.2.4
