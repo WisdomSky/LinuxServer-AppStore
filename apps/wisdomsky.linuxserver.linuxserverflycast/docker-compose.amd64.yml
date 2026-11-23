@@ -1,7 +1,7 @@
 name: linuxserver-flycast
 services:
   app:
-    image: linuxserver/flycast:2.7.20261115@sha256:6eac9b474fd5ec64ae1e2a8f1f119600ae08ab3955830a266ba4dfb159cc611c
+    image: linuxserver/flycast:2.7.20261122@sha256:3da55bce164f3fef6566790f488a84f01ef9209d66d2d326fc19d8e663832f1b
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Flycast（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverflycast
   port_map: '3000'
-  version: 2.7.20261115
+  version: 2.7.20261122

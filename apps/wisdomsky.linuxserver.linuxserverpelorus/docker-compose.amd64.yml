@@ -8,6 +8,9 @@ services:
       PGID: $PGID
       TZ: $TZ
     ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
       - target: 3001
         published: 3001
         protocol: tcp
@@ -47,5 +50,5 @@ x-casaos:
     zh_CN: Pelorus（LinuxServer.io）
     zh_TW: Pelorus（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpelorus
-  port_map: '3001'
+  port_map: '3000'
   version: 0.2.4

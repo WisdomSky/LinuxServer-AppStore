@@ -1,7 +1,7 @@
 name: linuxserver-librewolf
 services:
   app:
-    image: linuxserver/librewolf:160.0.1@sha256:763bef66faf69673a72c8f1c9568a14c5b044633bfcb3ed2a15aa713cfc34ba2
+    image: linuxserver/librewolf:160.0.1@sha256:9e04ffe8a91239ac3421869958e067b148b5505f2dd836701529979e2391e967
     restart: unless-stopped
     environment:
       PUID: $PUID

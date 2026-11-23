@@ -1,7 +1,7 @@
 name: linuxserver-obsidian
 services:
   app:
-    image: linuxserver/obsidian:1.15.1@sha256:b0f8d21af156cfd46941d1bcb326d569f57f9d49a1ee0aa3b5c7a195acc9b3b0
+    image: linuxserver/obsidian:1.15.1@sha256:07c2b961fd6be4595aec3af84e7c1fc8b739995a654dafb6faa17ebd839fcedb
     restart: unless-stopped
     environment:
       PUID: $PUID

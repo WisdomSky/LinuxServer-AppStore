@@ -2,8 +2,8 @@
   "architectures": [
     "amd64"
   ],
-  "description": "Pelorus is an AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.",
-  "tagline": "An AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.",
+  "description": "Pelorus is the AI agent interface built into Selkies. It describes the desktop to an LLM as text, the windows the Selkies window manager places and the controls applications expose over the Linux accessibility tree (AT-SPI), and drives it with mouse, keyboard, window and screenshot actions from a chat. This image runs Pelorus on the Selkies desktop with a split pane web interface.",
+  "tagline": "Pelorus is the AI agent interface built into Selkies. It describes the desktop to an LLM as text, the windows the Selkies window manager places and the controls applications expose over the Linux accessibility tree (AT-SPI), and drives it with mouse, keyboard, window and screenshot actions from a chat. This image runs Pelorus on the Selkies desktop with a split pane web interface.",
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpelorus/assets/pelorus-logo.webp",
