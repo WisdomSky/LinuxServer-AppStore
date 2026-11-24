@@ -1,7 +1,7 @@
 name: linuxserver-vivaldi
 services:
   app:
-    image: linuxserver/vivaldi:8.3.4191@sha256:688faddf076927432f0fc927bf31c5b70fd3c4910b43be649ba005033a77196c
+    image: linuxserver/vivaldi:8.3.4191@sha256:1485c2ad6a9daf0a05ef189cfac97bca02a2e1295cfeaa92b3d8fae56c4935eb
     restart: unless-stopped
     environment:
       PUID: $PUID

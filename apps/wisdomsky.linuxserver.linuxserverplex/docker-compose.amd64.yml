@@ -1,7 +1,7 @@
 name: linuxserver-plex
 services:
   app:
-    image: linuxserver/plex:1.43.5@sha256:0bb69671f2c1a9b662e8d1284c69ff2a60f3c62ab67547667a7889ee5c30a223
+    image: linuxserver/plex:1.43.5@sha256:6c7c526c69e8380dbfa8f1d407a2c0eb66de31c8773c883ab29d5e667a9f6822
     restart: unless-stopped
     environment:
       PUID: $PUID

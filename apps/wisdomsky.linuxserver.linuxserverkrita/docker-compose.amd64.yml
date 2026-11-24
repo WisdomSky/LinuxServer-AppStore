@@ -1,7 +1,7 @@
 name: linuxserver-krita
 services:
   app:
-    image: linuxserver/krita:5.3.4@sha256:a05128bde5d0e521015b44e59222a197a8701909f805fe2f0f058351de4c83c7
+    image: linuxserver/krita:5.3.5@sha256:a87841fc5470ca21a179fa9771d47895e38204ea5ecfb85af98749d07292e0ab
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Krita（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkrita
   port_map: '3000'
-  version: 5.3.4
+  version: 5.3.5

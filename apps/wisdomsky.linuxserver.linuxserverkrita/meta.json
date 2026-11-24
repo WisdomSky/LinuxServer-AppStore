@@ -11,12 +11,12 @@
   "title": "Krita (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverkrita",
-  "version": "5.3.4",
+  "version": "5.3.5",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1338312571
+    "amd64": 1338540302
   }
 }

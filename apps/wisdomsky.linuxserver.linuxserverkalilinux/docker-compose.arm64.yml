@@ -1,7 +1,7 @@
 name: linuxserver-kali-linux
 services:
   app:
-    image: linuxserver/kali-linux:version-e9bd8cdf@sha256:66d6eafab10306ca81f2e213e51d43197ee0c5de77a7284b9d2d8a1ac3a3e897
+    image: linuxserver/kali-linux:version-69f17fb6@sha256:ff309abe10255d2fb394e0f437536c35b71089eb0eba7686b0cfd20d0d843a06
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Kali linux（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverkalilinux
   port_map: '3000'
-  version: version-e9bd8cdf
+  version: version-69f17fb6

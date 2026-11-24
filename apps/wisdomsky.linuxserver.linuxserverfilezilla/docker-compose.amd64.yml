@@ -1,7 +1,7 @@
 name: linuxserver-filezilla
 services:
   app:
-    image: linuxserver/filezilla:3.69.6@sha256:6a3d87ebce91e201a5cf8e3bb7f01b664573f0fb2c04d607aa4879cde1640b64
+    image: linuxserver/filezilla:3.69.6@sha256:fc2b126b6b3f8f7e8abd7368a3bbdf713bc5453f998dc6fd6873bdb1b1a9bc4c
     restart: unless-stopped
     environment:
       PUID: $PUID

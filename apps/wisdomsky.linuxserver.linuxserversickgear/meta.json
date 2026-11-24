@@ -12,13 +12,13 @@
   "title": "Sickgear (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserversickgear",
-  "version": "3.36.16",
+  "version": "3.36.17",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 72315584,
-    "arm64": 71189374
+    "amd64": 72349557,
+    "arm64": 71221185
   }
 }
