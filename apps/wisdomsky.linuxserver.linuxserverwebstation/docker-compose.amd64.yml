@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.15.3-romm@sha256:90b6a5219f44e649b004f771f26673a8250006193ec504c8d4724e47a1672559
+    image: linuxserver/webstation:0.15.3-romm@sha256:c689bbd98363566890269807078c7cff1e5eefaba3ded0374e357ce989ae12ec
     restart: unless-stopped
     environment:
       PUID: $PUID

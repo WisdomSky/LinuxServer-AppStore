@@ -1,7 +1,7 @@
 name: linuxserver-jellyfin
 services:
   app:
-    image: linuxserver/jellyfin:12.4ubu2604-ls60@sha256:c7c0fcaf0a9b2360211750efbdc9601edb3754d6a6efd2a575e76f8fb19ce778
+    image: linuxserver/jellyfin:12.4ubu2604-ls61@sha256:d3a1e3314fc3bad4fe804ca3ee4b912e0931dd074a065fed826e9f8e62b42b8a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -63,4 +63,4 @@ x-casaos:
     zh_CN: Jellyfin（LinuxServer.io）
     zh_TW: Jellyfin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverjellyfin
-  version: 12.4ubu2604-ls60
+  version: 12.4ubu2604-ls61

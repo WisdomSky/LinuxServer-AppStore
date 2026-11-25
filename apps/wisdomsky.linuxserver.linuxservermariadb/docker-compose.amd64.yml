@@ -1,7 +1,7 @@
 name: linuxserver-mariadb
 services:
   app:
-    image: linuxserver/mariadb:11.8.10@sha256:c66fa2b1bbed31e63ebc8885dd49eef882fe3fbdc9e5a7d0537bf4f3286a942b
+    image: linuxserver/mariadb:11.8.10@sha256:d5fc636d0279edd317de633764b1fc6312e876372081c0caa2ac305392a1c115
     restart: unless-stopped
     environment:
       PUID: $PUID

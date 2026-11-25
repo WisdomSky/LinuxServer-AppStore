@@ -1,6 +1,7 @@
 {
   "architectures": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
   "tagline": "A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
@@ -17,6 +18,7 @@
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1247839426
+    "amd64": 1248064899,
+    "arm64": 1201716432
   }
 }

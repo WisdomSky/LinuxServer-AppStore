@@ -1,7 +1,7 @@
 name: linuxserver-grav
 services:
   app:
-    image: linuxserver/grav:2.2.33@sha256:ebc7fe41b48b6e827554f79bf2f77993c7bc6b7f49f20f840530682d03d77db6
+    image: linuxserver/grav:2.2.35@sha256:5561e2fb41231cb94fee3ee1f264604544851c61402a91ee011e27da4a384b9a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Grav（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservergrav
   port_map: '80'
-  version: 2.2.33
+  version: 2.2.35

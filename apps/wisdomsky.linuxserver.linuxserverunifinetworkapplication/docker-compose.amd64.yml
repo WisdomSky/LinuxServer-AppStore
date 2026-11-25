@@ -1,7 +1,7 @@
 name: linuxserver-unifi-network-application
 services:
   app:
-    image: linuxserver/unifi-network-application:10.6.109@sha256:44993f2f657b8bd06686fe3543e15438070181fe4336122c8f0074c2fb882c49
+    image: linuxserver/unifi-network-application:10.6.109@sha256:90536adfdd0394927c94ac58d35599d671edd969b287ec30f84e6a34632d503b
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-shotcut
 services:
   app:
-    image: linuxserver/shotcut:26.11.15@sha256:452ef948cd7b6a749faae848baabe4738e4cb190e1b1c53ceb416d9a8b1906b5
+    image: linuxserver/shotcut:26.11.15@sha256:acb1612649216a7efe993a2524b0c611fdbceb0338b5d7912705e265e7478377
     restart: unless-stopped
     environment:
       PUID: $PUID
