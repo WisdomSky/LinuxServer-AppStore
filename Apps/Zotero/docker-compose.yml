@@ -32,6 +32,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_US: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
