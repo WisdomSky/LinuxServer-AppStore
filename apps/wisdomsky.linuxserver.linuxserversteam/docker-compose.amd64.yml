@@ -1,7 +1,7 @@
 name: linuxserver-steam
 services:
   app:
-    image: linuxserver/steam:version-3590ed9a@sha256:b7f3e7c3e47cb9bd7bbbe8d3f9e0cd9e9f651f0daa9495d74a4437bd7371254b
+    image: linuxserver/steam:version-0bcb325f@sha256:0aa408fac592ce05030735d92192ae34fccaafce9b362a0a33222c15f82053bf
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Steam（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversteam
   port_map: '3000'
-  version: version-3590ed9a
+  version: version-0bcb325f

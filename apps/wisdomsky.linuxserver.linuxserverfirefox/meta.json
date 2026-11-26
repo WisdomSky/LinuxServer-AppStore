@@ -12,13 +12,13 @@
   "title": "Firefox (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverfirefox",
-  "version": "1160.0.1",
+  "version": "1.2404.1",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1051878622,
-    "arm64": 1009202071
+    "amd64": 1052687089,
+    "arm64": 1009444821
   }
 }

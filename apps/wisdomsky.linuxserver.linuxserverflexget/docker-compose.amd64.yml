@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.22.14@sha256:fc2316c394562eb49c757c15de835d3662a21bb66b7bf3dc3ad37cb6cd818e76
+    image: linuxserver/flexget:3.22.14@sha256:655cf4cd18cc881c2dd1ad3be42ffd3f05ae240a87d253acb2181407df9b95bf
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-doplarr_rs
 services:
   app:
-    image: linuxserver/doplarr_rs:4.6.0@sha256:c4c3c6cd37c0ccd5d3d93b9aa0655924999a2f70af023bf3d2fca9dfdc5c264b
+    image: linuxserver/doplarr_rs:4.7.0@sha256:c31caad3dbb479260471a6cda0c65f38d8ed42a670855fc4b30f94a4d88cca00
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Doplarr_rs（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdoplarrrs
   port_map: '80'
-  version: 4.6.0
+  version: 4.7.0

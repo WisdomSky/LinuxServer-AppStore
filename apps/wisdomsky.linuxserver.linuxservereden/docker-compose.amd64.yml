@@ -1,7 +1,7 @@
 name: linuxserver-eden
 services:
   app:
-    image: linuxserver/eden:0.2.1@sha256:6ebad68a3fb8c1eac8927b9fb3d01034700f7ce8d3a35cb1b605da0b6c2cea22
+    image: linuxserver/eden:0.2.1@sha256:9678102a7a5b6d8a421c2d5f8bda838aa54f7899369cebb19d19231622e18212
     restart: unless-stopped
     environment:
       PUID: $PUID

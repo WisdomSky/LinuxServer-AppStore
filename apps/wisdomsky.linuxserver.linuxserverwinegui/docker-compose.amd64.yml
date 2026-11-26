@@ -1,7 +1,7 @@
 name: linuxserver-winegui
 services:
   app:
-    image: linuxserver/winegui:4.5.2@sha256:b4e436f6a86b504873e14711b0f28dee635ca196155c74bb3c6243bd4b08c493
+    image: linuxserver/winegui:4.5.2@sha256:9bf1b94a08261c2a9fd85bf853bea3c3d7e8fb1aa24c0e6eb27f2ac0fc7a32b0
     restart: unless-stopped
     environment:
       PUID: $PUID
