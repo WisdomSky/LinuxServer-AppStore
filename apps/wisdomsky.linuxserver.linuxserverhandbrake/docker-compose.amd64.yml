@@ -1,7 +1,7 @@
 name: linuxserver-handbrake
 services:
   app:
-    image: linuxserver/handbrake:1.11.2@sha256:a2d499e4f944e400263fb5242aed37c7bf8ce7fed3d0db82571b684b1ba6a748
+    image: linuxserver/handbrake:1.11.2@sha256:2faaaccd779f4c72c3115f68473e8e37ef44f82368d5229fcb7903358dd43959
     restart: unless-stopped
     environment:
       PUID: $PUID

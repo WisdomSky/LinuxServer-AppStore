@@ -11,12 +11,12 @@
   "title": "Opera (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserveropera",
-  "version": "140.0.6074",
+  "version": "141.0.6089",
   "categories": [
     "others"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1131795256
+    "amd64": 1137987935
   }
 }

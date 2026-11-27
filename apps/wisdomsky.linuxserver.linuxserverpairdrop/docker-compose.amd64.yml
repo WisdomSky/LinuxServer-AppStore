@@ -1,7 +1,7 @@
 name: linuxserver-pairdrop
 services:
   app:
-    image: linuxserver/pairdrop:1.11.2@sha256:e250aa3c11903d5f4e8a844e8d5bdb1b12c334bd557083c1a13eb9ca11d20123
+    image: linuxserver/pairdrop:1.11.3@sha256:8781c0cc10995b5ab5223f9fa8524274079e37d9ce58b8a61caf5147b2da80c0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -52,4 +52,4 @@ x-casaos:
     zh_TW: Pairdrop（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverpairdrop
   port_map: '3000'
-  version: 1.11.2
+  version: 1.11.3

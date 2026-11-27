@@ -1,7 +1,7 @@
 name: linuxserver-digikam
 services:
   app:
-    image: linuxserver/digikam:9.1.0
+    image: linuxserver/digikam:9.2.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Digikam（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverdigikam
   port_map: '3000'
-  version: 9.1.0
+  version: 9.2.0
